@@ -45,8 +45,8 @@ FLOWS = [
     (headShoulderPrefect.headAndShoulderFlow, "head-and-shoulders-qqq", "5 16 * * *"),
     (finnhub_recommendations.finnhubRecomm, "finnhub-recommendations", "0 16 * * 3"),
     (msftDecisionTree.msftDecisionTree, "msft-decisiontree", "5 4 * * 3"),
-    (pairtrade_glri_vstm.pairTradeGLRIVSTM, "pairtrade-glri-vstm", "0 17 * * *"),
-    (pairtrade_uboh_glri.pairTradeUBOHGLRI, "pairtrade-uboh-glri", "5 17 * * *"),
+    # (pairtrade_glri_vstm.pairTradeGLRIVSTM, "pairtrade-glri-vstm", "0 17 * * *"), # deactivated, shorting not implemented
+    # (pairtrade_uboh_glri.pairTradeUBOHGLRI, "pairtrade-uboh-glri", "5 17 * * *"), # deactivated, shorting not implemented
 ]
 
 for flow, name, cron in tqdm(FLOWS):

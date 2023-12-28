@@ -50,7 +50,6 @@ def get10DayMaxDrawdown(ticker, bot):
     return crntMaxDailyDrawdown
 
 
-@task
 def calculateCurrent45dVolatility(df):
     df["daily_returns"] = df["Adj Close"].pct_change()
     df["daily_volatility"] = df["daily_returns"].rolling(45).std()

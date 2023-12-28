@@ -1,7 +1,4 @@
 FROM prefecthq/prefect:2-python3.11
-ARG PREFECT_API_URL
-ARG PREFECT_API_KEY
-
 RUN pip install poetry
 WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/

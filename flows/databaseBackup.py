@@ -11,7 +11,8 @@ from prefect import flow, task
 def dumpall(PG_PASSWORD, PG_URI, name="pg-export"):
     cmd = f"PGPASSWORD={PG_PASSWORD} pg_dumpall -d postgres://{PG_URI} > {name}.sql"
     result = subprocess.run(cmd, shell=True, check=True)
-    result.check_returncode()
+    if result.returncode != 0:
+        raise Exception("Error while dumping database: " + name + result.stderr)
 
 
 @task
@@ -42,7 +43,7 @@ def deleteOldFiles(miniclient, keep_for_days: int = 30):
         # split filename only at the first -
         _, date = filename.split("-", 1)
         # parse from isoformat
-        date = datetime.fromisoformat(date)
+        date = datetime.fromisoformat(date[:-7])
         fileByAge[date] = filename
     for createdDate, filename in fileByAge.items():
         if createdDate < datetime.utcnow() - timedelta(days=keep_for_days):

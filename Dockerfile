@@ -6,6 +6,5 @@ RUN poetry config virtualenvs.create false \
     && poetry install --no-dev --no-interaction --no-ansi
 COPY ./flows/ /app/
 # deploy all flows
-WORKDIR /app/flows/
 RUN python addAllFlows.py
 CMD ["prefect", "worker", "start", "--pool", "caprover-docker-container" ]

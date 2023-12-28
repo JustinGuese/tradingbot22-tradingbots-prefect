@@ -6,7 +6,7 @@ authors = ["Justin Guese <guese.justin@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.15"
 requests = "^2.31.0"
 prefect = "^2.14.12"
 pandas = "^2.1.4"
@@ -15,6 +15,9 @@ tradingpattern = "^0.0.5"
 yfinance = "^0.2.33"
 prefect-docker = "^0.4.1"
 tqdm = "^4.66.1"
+finnhub-python = "^2.4.19"
+ta = "^0.11.0"
+pyportfolioopt = "^1.5.5"
 
 
 [build-system]

@@ -13,7 +13,7 @@ def setup():
     print("connecting to backend...")
     bot = BaseBot(
         "head-and-shoulders-qqq",
-        backendurl="https://trading:#kCCmPkKFY99*#WT%8@tradingbot-backend.ai.datafortress.cloud",  # variables.get("backend_url"),
+        backendurl=variables.get("backend_url"),
     )
     print("get portfolio")
     portfolio = bot.getPortfolio()

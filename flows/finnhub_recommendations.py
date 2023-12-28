@@ -61,7 +61,7 @@ def finnhubRecomm():
 
     bot = BaseBot(
         f"finnhub-recommendations",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
     portfolio = bot.getPortfolio()
     usd = portfolio["USD"]

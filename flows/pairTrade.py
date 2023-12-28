@@ -4,7 +4,7 @@ from os import environ
 import pandas as pd
 import yfinance as yf
 from basebot22.basebot import BaseBot
-from prefect import task
+from prefect import flow, task, variables
 from ta.volatility import BollingerBands
 
 
@@ -13,7 +13,7 @@ def pairTrade(TICKER1, TICKER2, WINDOW=20, Z=0.5, MIDDLE_Z=0.1):
     # ('GLRI', 'VSTM', 20, 0.5, 0.1)
     BOTNAME = "pairTrade-" + TICKER1 + "-" + TICKER2
 
-    bot = BaseBot(BOTNAME, backendurl=environ["BACKEND_URL"])
+    bot = BaseBot(BOTNAME, backendurl=variables.get("backend_url"))
 
     df = yf.download([TICKER1, TICKER2], period="2mo", progress=False)["Close"]
     df = df.fillna(method="ffill")

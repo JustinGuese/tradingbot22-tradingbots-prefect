@@ -36,7 +36,7 @@ def switchPair(tickerWanted, bot):
 def buydipsExplored():
     bot = BaseBot(
         "composer-buydipsqqq-shorting-explored",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
     qqq = yf.download("QQQ", start=datetime.now() - timedelta(days=100))
 

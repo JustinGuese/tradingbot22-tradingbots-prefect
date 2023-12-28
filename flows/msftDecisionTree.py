@@ -14,7 +14,7 @@ from ta import add_all_ta_features
 def msftDecisionTree():
     bot = BaseBot(
         "msft-decisiontree",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
 
     msft = yf.download("MSFT", period="2mo", progress=False)

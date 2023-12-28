@@ -15,7 +15,7 @@ def basicSetup():
     global logger
     bot = BaseBot(
         "composer-boring-v1",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
     # create folder persistent if not exists
     Path("persistent").mkdir(parents=True, exist_ok=True)

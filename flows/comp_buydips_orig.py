@@ -36,7 +36,7 @@ def buydipsOriginal():
     # basic setup
     bot = BaseBot(
         "composer-buydipsqqq-original",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
 
     # calculate 5 day cumulative return of qqq

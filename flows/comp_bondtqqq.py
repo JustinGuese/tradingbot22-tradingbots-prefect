@@ -24,7 +24,7 @@ def calculateCumRet(stocks: list, days: int = 20):
 def compBondTQQQ():
     bot = BaseBot(
         "composer-bondtqqq-v1",
-        backendurl=environ["BACKEND_URL"],
+        backendurl=variables.get("backend_url"),
     )
     # calculate cumret
     cum60 = calculateCumRet(["BND", "BIL"], 60)

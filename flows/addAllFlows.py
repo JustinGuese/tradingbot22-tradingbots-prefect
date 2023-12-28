@@ -1,11 +1,16 @@
-from prefect import flow
+import headShoulderPrefect
+from prefect.client.schemas.schedules import CronSchedule
+from prefect.deployments import Deployment
+from tqdm import tqdm
 
-if __name__ == "__main__":
-    flow.from_source(
-        "https://github.com/JustinGuese/tradingbot22-tradingbots-prefect.git",
-        entrypoint="flows/headAndShoulders/headShoulderPrefect.py:headAndShoulderPrefect",
-    ).deploy(
-        name="headAndShoulderPrefect",
-        work_pool_name="local-process",
-        image="guestros/tradingbot-prefect-agent:latest",
+# all flows
+FLOWS = [
+    (headShoulderPrefect.mainflow, "head-and-shoulders-qqq", "0 9 * * *"),
+]
+
+for flow, name, cron in tqdm(FLOWS):
+    print("building flow: ", name)
+    deployment = Deployment.build_from_flow(
+        flow, name=name, schedule=CronSchedule(cron=cron)
     )
+    deployment.apply()

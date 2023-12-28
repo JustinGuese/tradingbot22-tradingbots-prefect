@@ -3,7 +3,6 @@ from os import environ
 import yfinance as yf
 from basebot22.basebot import BaseBot
 from prefect import flow, task, variables
-from prefect.deployments import Deployment
 from tradingpatterns.tradingpatterns import detect_head_shoulder
 
 LOOKBACK = 3
@@ -82,7 +81,7 @@ def act(signal, bot: BaseBot, portfolio):
 
 
 @flow(log_prints=True)
-def headAndShoulderPrefect():
+def mainflow():
     print("ich starte digga")
     bot, df, portfolio = setup()
     signal = get_signal(df)
@@ -91,16 +90,17 @@ def headAndShoulderPrefect():
     print(portfolio)
 
 
-if __name__ == "__main__":
-    # headAndShoulderPrefect.deploy(
-    #     name="head-and-shoulders-qqq",
-    #     work_pool_name="caprover-prefect-docker-worker",
-    #     cron="0 9 * * *",
-    #     image="guestros/tradingbot-prefect-agent:latest",
-    #     # job_variables={"env": {"EXAMPLE": "boto3"}},
-    #     push=False,
-    # )
-    deployment = Deployment.build_from_flow(
-        headAndShoulderPrefect, name="head-and-shoulders-qqq"
-    )
-    deployment.apply()
+# if __name__ == "__main__":
+# headAndShoulderPrefect.deploy(
+#     name="head-and-shoulders-qqq",
+#     work_pool_name="caprover-prefect-docker-worker",
+#     cron="0 9 * * *",
+#     image="guestros/tradingbot-prefect-agent:latest",
+#     # job_variables={"env": {"EXAMPLE": "boto3"}},
+#     push=False,
+# )
+# deployment = Deployment.build_from_flow(
+#     headAndShoulderPrefect, name="head-and-shoulders-qqq"
+# )
+# deployment.location = ""  # override
+# deployment.apply()

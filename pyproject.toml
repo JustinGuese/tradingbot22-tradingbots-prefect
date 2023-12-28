@@ -14,6 +14,7 @@ basebot22-basebot-justinguese = "^0.3.39"
 tradingpattern = "^0.0.5"
 yfinance = "^0.2.33"
 prefect-docker = "^0.4.1"
+tqdm = "^4.66.1"
 
 
 [build-system]

@@ -5,6 +5,7 @@ COPY poetry.lock pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
     && poetry install --no-dev --no-interaction --no-ansi
 COPY ./flows/ /app/
-# CMD ["prefect", "worker", "start", "--pool", "caprover-prefect-docker-worker" ]
-# prefect worker start --pool "caprover-docker-container"
+# deploy all flows
+WORKDIR /app/flows/
+RUN python addAllFlows.py
 CMD ["prefect", "worker", "start", "--pool", "caprover-docker-container" ]

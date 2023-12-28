@@ -8,7 +8,7 @@ from prefect import flow, task
 from tqdm import tqdm
 
 
-# @task
+@task
 def dumpall(PG_PASSWORD, PG_URI, name="pg-export"):
     cmd = f"PGPASSWORD={PG_PASSWORD} pg_dumpall -d postgres://{PG_URI} > {name}.sql"
     print(f"Backing up {name} with command {cmd}")
@@ -21,7 +21,7 @@ def dumpall(PG_PASSWORD, PG_URI, name="pg-export"):
             raise Exception("Dumped file is too small, something went wrong")
 
 
-# @task
+@task
 def tar(name="pg-export"):
     with tarfile.open(f"{name}.sql.tar.gz", "w:gz") as tar:
         tar.add(f"{name}.sql")
@@ -29,7 +29,7 @@ def tar(name="pg-export"):
     subprocess.run(f"rm {name}.sql", shell=True)
 
 
-# @task
+@task
 def uploadToS3(minioclient, name="pg-export"):
     minioclient.fput_object(
         environ["MINIO_BUCKET"],
@@ -40,7 +40,7 @@ def uploadToS3(minioclient, name="pg-export"):
     subprocess.run(f"rm {name}.sql.tar.gz", shell=True)
 
 
-# @task
+@task
 def deleteOldFiles(miniclient, keep_for_days: int = 30):
     fileByAge = dict()
     allFiles = miniclient.list_objects(environ["MINIO_BUCKET"])
@@ -57,7 +57,7 @@ def deleteOldFiles(miniclient, keep_for_days: int = 30):
             miniclient.remove_object(environ["MINIO_BUCKET"], filename)
 
 
-# @flow(log_prints=True)
+@flow(log_prints=True)
 def backupAllDatabases():
     client = Minio(
         environ["MINIO_HOST"],

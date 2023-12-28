@@ -3,6 +3,6 @@ RUN pip install poetry
 WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
-    && poetry install --no-dev --no-interaction --no-ansi
+    && poetry install --only main --no-interaction --no-ansi --no-root
 COPY ./flows/ /app/
 CMD ["./deployAndRun.sh" ]

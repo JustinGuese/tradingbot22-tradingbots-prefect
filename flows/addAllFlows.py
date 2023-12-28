@@ -6,6 +6,7 @@ import comp_buydips_explored
 import comp_buydips_orig
 import comp_buydips_shorting
 import comp_notboring
+import databaseBackup
 import finnhub_recommendations
 import headShoulderPrefect
 import msftDecisionTree
@@ -47,6 +48,8 @@ FLOWS = [
     (msftDecisionTree.msftDecisionTree, "msft-decisiontree", "5 4 * * 3"),
     # (pairtrade_glri_vstm.pairTradeGLRIVSTM, "pairtrade-glri-vstm", "0 17 * * *"), # deactivated, shorting not implemented
     # (pairtrade_uboh_glri.pairTradeUBOHGLRI, "pairtrade-uboh-glri", "5 17 * * *"), # deactivated, shorting not implemented
+    # database backup
+    (databaseBackup.backupAllDatabases, "0_database-backup", "0 3 * * *"),
 ]
 
 for flow, name, cron in tqdm(FLOWS):

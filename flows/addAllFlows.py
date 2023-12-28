@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 # all flows
 FLOWS = [
-    (headShoulderPrefect.mainflow, "head-and-shoulders-qqq", "0 9 * * *"),
+    (headShoulderPrefect.headAndShoulderFlow, "head-and-shoulders-qqq", "0 9 * * *"),
 ]
 
 for flow, name, cron in tqdm(FLOWS):

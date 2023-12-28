@@ -81,7 +81,7 @@ def act(signal, bot: BaseBot, portfolio):
 
 
 @flow(log_prints=True)
-def mainflow():
+def headAndShoulderFlow():
     print("ich starte digga")
     bot, df, portfolio = setup()
     signal = get_signal(df)

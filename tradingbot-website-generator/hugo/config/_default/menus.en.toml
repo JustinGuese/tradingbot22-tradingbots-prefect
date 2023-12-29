@@ -17,7 +17,7 @@ weight = 4
 
 [[main]]
 name = "Strategies"
-url = "strategies/"
+url = "blog/"
 weight = 5
 
 [[main]]
@@ -26,19 +26,19 @@ name = "Legal"
 hasChildren = true
 
   [[main]]
-  parent = "Pages"
+  parent = "Legal"
   name = "Terms & Conditions"
   url = "terms-and-conditions/"
   weight = 7
 
   [[main]]
-  parent = "Pages"
+  parent = "Legal"
   name = "Privacy Policy"
   url = "privacy-policy/"
   weight = 11
 
   [[main]]
-  parent = "Pages"
+  parent = "Legal"
   name = "Imprint"
   url = "imprint/"
   weight = 13

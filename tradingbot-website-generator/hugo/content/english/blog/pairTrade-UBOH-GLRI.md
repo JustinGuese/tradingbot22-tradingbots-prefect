@@ -18,9 +18,9 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 3 |
+| Days active | 39 |
 | Starting capital | 9992.5 |
-| Current capital | 9992.5€ |
+| Current capital | 10000.0€ |
 
 ## Current portfolio
     
@@ -36,15 +36,9 @@ created in basebot
   <tbody>
     <tr>
       <td>USD</td>
-      <td>5000.000000</td>
+      <td>10000</td>
       <td>1</td>
-      <td>5000.0</td>
-    </tr>
-    <tr>
-      <td>UBOH</td>
-      <td>290.430474</td>
-      <td>0</td>
-      <td>0.0</td>
+      <td>10000</td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2023-11-22</td>
+      <td>2023-12-28</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -73,7 +67,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.67</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -85,23 +79,23 @@ created in basebot
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>0</td>
+      <td>1.71</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>-</td>
+      <td>0.72</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>0.01</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>0</td>
+      <td>2.12</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.0</td>
+      <td>2.0</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -109,11 +103,11 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>2</td>
+      <td>38</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
@@ -125,27 +119,27 @@ created in basebot
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.0</td>
+      <td>2.0</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>1.0</td>
+      <td>-</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.5</td>
+      <td>1.34</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.0</td>
+      <td>-</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>1.96</td>
+      <td>13.5</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>0.98</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -189,11 +183,11 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>2</td>
+      <td>38</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -201,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>0</td>
+      <td>2.43</td>
     </tr>
   </tbody>
 </table>
@@ -257,6 +251,106 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>28.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>28.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>27.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>26.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>25.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>24.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>23.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>22.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>21.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>20.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>19.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>18.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>17.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>16.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>15.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>14.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>13.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>12.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>11.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>10.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>09.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>08.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>07.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>06.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>06.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>22.11.2023</td>
       <td>9992.5€</td>

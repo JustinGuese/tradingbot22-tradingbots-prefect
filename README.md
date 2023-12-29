@@ -16,3 +16,8 @@ restore is possible with
 tar -xvf pg_tradingbot-2023-12-28T14_04_58.128214.sql.tar.gz
 psql -h 10.1x.x.x -p 5432 -U postgres < pg_tradingbot.sql
 ```
+
+## ai investing bots website
+
+builds html files into /app/tradingbot-website-generator/hugo/public
+path on server: /mnt/hdd/nginx-aiinvest/

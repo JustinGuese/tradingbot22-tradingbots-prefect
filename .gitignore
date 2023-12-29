@@ -3,3 +3,4 @@ tradingbot-website-generator/.venv/
 .env
 flows/__pycache__/
 **__pycache__**
+tradingbot-website-generator/hugo/public/

@@ -11,6 +11,11 @@ url = "about/"
 weight = 2
 
 [[main]]
+name = "Top Strategies"
+url = "top/"
+weight = 2
+
+[[main]]
 name = "How It Works"
 url = "how-it-works/"
 weight = 4

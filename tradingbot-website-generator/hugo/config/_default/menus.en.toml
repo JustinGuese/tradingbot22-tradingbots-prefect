@@ -11,7 +11,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Top Strategies"
+name = "Top 10"
 url = "top/"
 weight = 2
 

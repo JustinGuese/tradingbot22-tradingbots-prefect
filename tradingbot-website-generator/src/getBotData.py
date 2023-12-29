@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
-from hugofy import IMGPATH, createHugoPost, hugoBuild
+from hugofy import IMGPATH, createHugoPost
 from quantstats.reports import metrics as qs_metrics
 from top import createTopHugo
 

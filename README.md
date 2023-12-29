@@ -19,5 +19,5 @@ psql -h 10.1x.x.x -p 5432 -U postgres < pg_tradingbot.sql
 
 ## ai investing bots website
 
-builds html files into /app/tradingbot-website-generator/hugo/public
+builds html files into /app/flows/tradingbot-website-generator/hugo/public
 path on server: /mnt/hdd/nginx-aiinvest/

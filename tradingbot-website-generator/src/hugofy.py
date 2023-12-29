@@ -2,7 +2,6 @@ import subprocess
 from datetime import datetime
 
 import pandas as pd
-from prefect import task
 
 IMGPATH = "../hugo/assets/images/plots/"
 BLOGPATH = "../hugo/content/english/blog/"
@@ -12,7 +11,6 @@ with open("blogTemplate.md", "r") as file:
     blogTemplate = file.read()
 
 
-@task
 def createHugoPost(
     botname: str,
     portfolioWorths: pd.DataFrame,
@@ -52,12 +50,11 @@ def createHugoPost(
         file.write(temp)
 
 
-@task
-def hugoBuild():
-    # execute the command "hugo --minify -d public" in the folder "../hugo"
-    subprocess.run(["hugo", "--minify", "-d", "public"], cwd="../hugo")
-    # check result
-    result = subprocess.run(["ls", "public"], cwd="../hugo")
-    if result.returncode != 0:
-        raise Exception("hugo build failed")
-    print("hugo build successful")
+# def hugoBuild():
+#     # execute the command "hugo --minify -d public" in the folder "../hugo"
+#     subprocess.run(["hugo", "--minify", "-d", "public"], cwd="../hugo")
+#     # check result
+#     result = subprocess.run(["ls", "public"], cwd="../hugo")
+#     if result.returncode != 0:
+#         raise Exception("hugo build failed")
+#     print("hugo build successful")

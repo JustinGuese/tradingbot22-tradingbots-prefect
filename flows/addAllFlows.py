@@ -1,3 +1,4 @@
+import ai_investing_website
 import alphavantageUpdate
 import comp_bigtechmom
 import comp_bondtqqq
@@ -53,6 +54,12 @@ FLOWS = [
     # (pairtrade_glri_vstm.pairTradeGLRIVSTM, "pairtrade-glri-vstm", "0 17 * * *"), # deactivated, shorting not implemented
     # (pairtrade_uboh_glri.pairTradeUBOHGLRI, "pairtrade-uboh-glri", "5 17 * * *"), # deactivated, shorting not implemented
     (randombot.randomBot, "randombot", "0 20 * * *"),
+    # ai investing website
+    (
+        ai_investing_website.runAiInvestWebsiteUpdate,
+        "0_ai-investing-website",
+        "0 10 * * *",
+    ),
 ]
 
 for flow, name, cron in tqdm(FLOWS):

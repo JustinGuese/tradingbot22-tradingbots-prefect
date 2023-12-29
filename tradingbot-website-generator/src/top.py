@@ -1,7 +1,6 @@
 from datetime import datetime
 
 import pandas as pd
-from prefect import flow, task, variables
 
 CONTENTPATH = "../hugo/content/english/"
 
@@ -19,7 +18,6 @@ def linkify(botname: str):
     return f"<a target='_blank' href='/blog/{botname}'>{botname}</a>"
 
 
-@task
 def createTopHugo(summaryDf: pd.DataFrame):
     #   return               sharpe         riskFreeRate
     # static-composer-hedgefundies-excellent-v1  414.52                 6.16                  0.0

@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
 from hugofy import IMGPATH, createHugoPost, hugoBuild
-from prefect import flow, task, variables
 from quantstats.reports import metrics as qs_metrics
 from top import createTopHugo
 
@@ -58,7 +57,6 @@ def getPrice(ticker: str) -> float:
         return price
 
 
-@flow(log_prints=True)
 def getBotData():
     db = SessionLocal()
     allBots = db.query(Bot).all()
@@ -189,8 +187,6 @@ def getBotData():
     # then finally create the summary
     allBotStats = pd.DataFrame(allBotStats).T
     createTopHugo(allBotStats)
-
-    hugoBuild()
 
 
 if __name__ == "__main__":

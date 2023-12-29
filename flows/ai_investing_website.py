@@ -11,7 +11,7 @@ def runPythonScripts():
     result = subprocess.run(
         ["python", "getBotData.py"],
         capture_output=True,
-        cwd="../tradingbot-website-generator/src/",
+        cwd="tradingbot-website-generator/src/",
     )
     if result.returncode != 0:
         print(result.stderr.decode("utf-8"))
@@ -23,7 +23,7 @@ def runPythonScripts():
 def hugoBuild():
     result = subprocess.run(
         ["hugo", "--minify", "-d", "public"],
-        cwd="../tradingbot-website-generator/hugo/",
+        cwd="tradingbot-website-generator/hugo/",
     )
     if result.returncode != 0:
         print(result.stderr.decode("utf-8"))

@@ -1,3 +1,4 @@
+import os
 import subprocess
 
 from prefect import flow, task, variables
@@ -6,7 +7,7 @@ from prefect import flow, task, variables
 @task
 def runPythonScripts():
     # print current working directory
-    print("current working directory: ", variables.context.cwd)
+    print("current working directory: ", os.getcwd())
     result = subprocess.run(
         ["python", "getBotData.py"],
         capture_output=True,

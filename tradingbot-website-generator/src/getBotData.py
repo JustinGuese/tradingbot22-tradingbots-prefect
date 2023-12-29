@@ -29,7 +29,6 @@ def plt2Base64(fig):
     return plot_base64
 
 
-@task
 def getBotDescription(botname: str, allBots: list):
     descr = None
     for bot in allBots:
@@ -42,7 +41,6 @@ def getBotDescription(botname: str, allBots: list):
 PRICESTORE = dict()
 
 
-@task
 def getPrice(ticker: str) -> float:
     if ticker == "USD":
         return 1

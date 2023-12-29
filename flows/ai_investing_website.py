@@ -5,6 +5,8 @@ from prefect import flow, task, variables
 
 @task
 def runPythonScripts():
+    # print current working directory
+    print("current working directory: ", variables.context.cwd)
     result = subprocess.run(
         ["python", "getBotData.py"],
         capture_output=True,
@@ -18,9 +20,6 @@ def runPythonScripts():
 
 @task
 def hugoBuild():
-    # print current working directory
-    print("current working directory: ", variables.context.cwd)
-
     result = subprocess.run(
         ["hugo", "--minify", "-d", "public"],
         cwd="../tradingbot-website-generator/hugo/",

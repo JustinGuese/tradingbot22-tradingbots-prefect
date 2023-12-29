@@ -1,0 +1,134 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo.png"
+logo_dark = "images/logo-light.png"
+# use `x` with logo_width, example: "100x"
+# Note: logo_width is not work with .svg file
+logo_width = "147x"
+# logo text will only show when logo is missing.
+logo_text = "delta"
+# purgeCSS
+purge_css = false
+# content-gallery
+content_gallery = true
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= "" 
+
+# Main Sections
+mainSections= ["blog"]
+
+# copyright
+theme_copyright = false
+
+# career form action
+career_form_action = "#!" # career form works with https://formspree.io or any formspree-alternatives
+
+# OpenGraph / Twitter Card metadata
+description = "AI Investing Tradingbots and finance news"
+author = "DataFortress.cloud UG"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+# Preloader
+[preloader]
+enable = true
+preloader = "images/logo.png" # use jpg, png, svg or gif format.
+
+# contact info
+[contact_info]
+address = "DataFortress.cloud UG, Augsburg, Germany"
+mobile = "+49 1601136770"
+email = "info@datafortress.cloud"
+# contact form action
+contact_form_action = "https://formspree.io/mknvkdpr" # contact form works with https://formspree.io or any formspree-alternatives
+
+# Navigation buttons
+[navigation_button]
+enable = true
+label = "Log In"
+link = "/contact"
+icon = "far fa-user"
+
+[navigation_button_two]
+enable = true
+label = "Sign Up Now"
+link = "/contact"
+
+# Call to action
+[call_to_action]
+enable = true
+title = "Trading Strategies, Trading Signal APIs, Managed Investing, Quant consultation"
+subtitle = "You can leverage our strategies starting by manually copying trades, by using our trading signal API, or even by subscribing to our fully managed service using your own brokerage account."
+button_label = "Contact Us now"
+button_link = "contact/"
+image = "images/cta.png"
+
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = [ "Hugo", "Themefisher", "GetHugoThemes"]
+description = "This is meta description"
+author = "Themefisher"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+# matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = "" # your matomo url
+id = "" # your matomo id
+
+# baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = "" # Your ID
+
+# plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = "" # yourdomain.com
+
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = "" # your username
+
+# site verifications
+[site_verification]
+google = "" # Your verification code
+bing = "" # Your verification code
+baidu = "" # Your verification code
+facebook = "" # Your verification code
+
+# cookies
+[cookies]
+enable = true
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"

@@ -1,0 +1,11 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "../../../../../../../../var/folders/79/tjjg_z293pzbrksn0vg7ddhr0000gn/T/hugo_cache_mehedisharif/modules/filecache/modules/pkg/mod/github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2@v2.21100.20000/package/dist/cjs/popper.js/*",
+    "../../../../../../../../var/folders/79/tjjg_z293pzbrksn0vg7ddhr0000gn/T/hugo_cache_mehedisharif/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.3.0+incompatible/js/*"
+   ]
+  }
+ }
+}

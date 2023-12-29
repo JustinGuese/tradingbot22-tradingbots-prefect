@@ -1,0 +1,139 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+weight = 1
+name = "Home"
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "How It Works"
+url = "how-it-works/"
+weight = 4
+
+[[main]]
+name = "Strategies"
+url = "strategies/"
+weight = 5
+
+[[main]]
+weight = 7
+name = "Legal"
+hasChildren = true
+
+  [[main]]
+  parent = "Pages"
+  name = "Terms & Conditions"
+  url = "terms-and-conditions/"
+  weight = 7
+
+  [[main]]
+  parent = "Pages"
+  name = "Privacy Policy"
+  url = "privacy-policy/"
+  weight = 11
+
+  [[main]]
+  parent = "Pages"
+  name = "Imprint"
+  url = "imprint/"
+  weight = 13
+
+  
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 8
+
+
+
+### footer menus
+# footer_menu_1
+[[footer_menu_1]]
+name = "Product 01"
+url = "#!"
+weight = 1
+
+[[footer_menu_1]]
+name = "Example Product 02"
+url = "#!"
+weight = 2
+
+[[footer_menu_1]]
+name = "Example Product 03"
+url = "#!"
+weight = 3
+
+[[footer_menu_1]]
+name = "Example Product 04"
+url = "#!"
+weight = 4
+
+
+# footer_menu_2
+[[footer_menu_2]]
+name = "Logo & Branding"
+url = "#!"
+weight = 1
+
+[[footer_menu_2]]
+name = "Pay-Per-Click"
+url = "#!"
+weight = 2
+
+[[footer_menu_2]]
+name = "Website Design"
+url = "#!"
+weight = 3
+
+[[footer_menu_2]]
+name = "App Design"
+url = "#!"
+weight = 4
+
+[[footer_menu_2]]
+name = "SEO Optimization"
+url = "#!"
+weight = 5
+
+
+# footer_menu_3
+[[footer_menu_3]]
+name = "Contact"
+url = "contact/"
+weight = 1
+
+[[footer_menu_3]]
+name = "Privacy Policy"
+url = "#!"
+weight = 2
+
+[[footer_menu_3]]
+name = "Terms & Conditions"
+url = "#!"
+weight = 3
+
+
+# footer_menu_4
+[[footer_menu_4]]
+name = "How It Works"
+url = "#!"
+weight = 1
+
+[[footer_menu_4]]
+name = "Pricing"
+url = "pricing/"
+weight = 3
+
+
+
+# footer_menu_
+
+[[footer_menu_5]]
+name = "Strategies"
+url = "strategies/"
+weight = 2

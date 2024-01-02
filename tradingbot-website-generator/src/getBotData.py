@@ -96,7 +96,7 @@ def getBotData():
         ax.tick_params(axis="x", rotation=45)
         plt.tight_layout()
 
-        plt.savefig(IMGPATH + botname + ".png")
+        plt.savefig(IMGPATH + nicename if nicename else botname + ".png")
         # b64plot = plt2Base64(fig)
         plt.close(fig)
 

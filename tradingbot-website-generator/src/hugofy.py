@@ -13,6 +13,7 @@ with open("blogTemplate.md", "r") as file:
 
 def createHugoPost(
     botname: str,
+    nicename: str,
     portfolioWorths: pd.DataFrame,
     description: str,
     metrics: dict,
@@ -21,7 +22,9 @@ def createHugoPost(
     portfolio: pd.DataFrame,
 ):
     temp = blogTemplate.replace("{{crntDate}}", datetime.utcnow().strftime("%Y-%m-%d"))
-    temp = temp.replace("{{title}}", botname)  # TODO: nice title
+    temp = temp.replace(
+        "{{title}}", nicename if nicename else botname
+    )  # TODO: nice title
     temp = temp.replace("{{titleSlag}}", botname)
     temp = temp.replace("{{description}}", description)
 

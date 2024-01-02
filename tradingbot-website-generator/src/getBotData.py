@@ -59,9 +59,9 @@ def getBotData():
     db = SessionLocal()
     allBots = db.query(Bot).all()
     # for each bot get the portfolioworths
-    allBotNames = [bot.name for bot in allBots]
+    allBotNames = [(bot.name, bot.nicename) for bot in allBots]
     allBotStats = dict()
-    for botname in allBotNames:
+    for botname, nicename in allBotNames:
         portfolioWorths = (
             db.query(PortfolioWorths.timestamp, PortfolioWorths.worth)
             .filter(PortfolioWorths.bot == botname)
@@ -175,6 +175,7 @@ def getBotData():
 
         createHugoPost(
             botname,
+            nicename,
             df,
             getBotDescription(botname, allBots),
             metrics,

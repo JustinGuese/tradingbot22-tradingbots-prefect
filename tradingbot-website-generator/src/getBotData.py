@@ -63,6 +63,8 @@ def getBotData():
 
     allBotStats = dict()
     for botname in allBotNames:
+        nicename = allBots[allBotNames.index(botname)].nicename
+
         portfolioWorths = (
             db.query(PortfolioWorths.timestamp, PortfolioWorths.worth)
             .filter(PortfolioWorths.bot == botname)
@@ -90,7 +92,7 @@ def getBotData():
         ax.plot(df["Date"], df["Portfolio Worth"], color=color)
         ax.set_xlabel("Date")
         ax.set_ylabel("Portfolio Worth in EUR")
-        ax.set_title(botname)
+        ax.set_title(nicename)
         ax.tick_params(axis="x", rotation=45)
         plt.tight_layout()
 
@@ -169,7 +171,6 @@ def getBotData():
 
         # portfolioTable
         portfolio = allBots[allBotNames.index(botname)].portfolio
-        nicename = allBots[allBotNames.index(botname)].nicename
         portfolio = pd.DataFrame(portfolio.items(), columns=["Ticker", "Qty"])
         portfolio["Crnt Price"] = portfolio["Ticker"].apply(getPrice)
         portfolio["Worth (USD)"] = round(portfolio["Crnt Price"] * portfolio["Qty"], 2)

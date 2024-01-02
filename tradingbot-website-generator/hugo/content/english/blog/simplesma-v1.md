@@ -1,5 +1,5 @@
 ---
-date: "2023-12-29" # 2021-07-14
+date: "2024-01-02" # 2021-07-14
 title: "simplesma-v1"
 image: "images/plots/simplesma-v1.png"
 author: "justin-guese"
@@ -18,7 +18,7 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 43 |
+| Days active | 47 |
 | Starting capital | 10000.0 |
 | Current capital | 10000.0€ |
 
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2023-12-28</td>
+      <td>2024-01-01</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -223,6 +223,22 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>01.01.2024</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>31.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>30.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>29.12.2023</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>28.12.2023</td>
       <td>10000.0€</td>

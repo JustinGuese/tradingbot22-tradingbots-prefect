@@ -143,7 +143,7 @@ def getBotData():
         except:
             riskFreeRate = "not enough data yet"
 
-        allBotStats[botname] = {
+        allBotStats[nicename if nicename else botname] = {
             "return % per year": returnPA,
             "sharpe ratio": sharpe,
             "risk free rate": riskFreeRate,

@@ -21,10 +21,13 @@ def createHugoPost(
     trades: pd.DataFrame,
     portfolio: pd.DataFrame,
 ):
+    if nicename:
+        botname = nicename
+    # safety
+    botname = botname.replace(" ", "-").lower()
+
     temp = blogTemplate.replace("{{crntDate}}", datetime.utcnow().strftime("%Y-%m-%d"))
-    temp = temp.replace(
-        "{{title}}", nicename if nicename else botname
-    )  # TODO: nice title
+    temp = temp.replace("{{title}}", botname)  # TODO: nice title
     temp = temp.replace("{{titleSlag}}", botname)
     temp = temp.replace("{{description}}", description)
 

@@ -25,7 +25,7 @@ def hugoBuild():
     global HUGO_WORKDIR
     # delete everything in "public" folder recursively
     try:
-        subprocess.run(["rm", "-rf", "public/*"], cwd=HUGO_WORKDIR)
+        subprocess.run(["rm", "-rf", "public/*"], cwd=HUGO_WORKDIR + "/hugo/")
     except Exception as e:
         print(
             "could not delete contents of public folder, should be alright... " + str(e)
@@ -33,10 +33,10 @@ def hugoBuild():
 
     subprocess.run(
         ["hugo", "--minify", "-d", "public"],
-        cwd=HUGO_WORKDIR,
+        cwd=HUGO_WORKDIR + "/hugo/",
     )
 
-    with open(HUGO_WORKDIR + "/public/lastUpdate.txt", "w") as file:
+    with open(HUGO_WORKDIR + "/hugo/public/lastUpdate.txt", "w") as file:
         file.write(str(datetime.utcnow()))
 
 

@@ -23,177 +23,189 @@ n today's fast-paced trading environment, staying ahead of the curve is essentia
   </thead>
   <tbody>
     <tr>
-      <td><a target='_blank' href='/blog/static-composer-hedgefundies-excellent-v1'>static-composer-hedgefundies-excellent-v1</a></td>
-      <td>4760</td>
-      <td>2.85</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-manual_scalable_megatrends'>static-manual_scalable_megatrends</a></td>
-      <td>125</td>
-      <td>6.06</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-chatgpt-googled1023'>static-chatgpt-googled1023</a></td>
-      <td>107</td>
-      <td>5.87</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting'>composer-buydipsqqq-shorting</a></td>
-      <td>102</td>
-      <td>1.87</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-explored'>composer-buydipsqqq-shorting-explored</a></td>
-      <td>102</td>
-      <td>1.88</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-etoro-semiconductors'>static-etoro-semiconductors</a></td>
-      <td>101</td>
-      <td>4.28</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-adapted'>composer-buydipsqqq-shorting-adapted</a></td>
-      <td>96</td>
-      <td>1.7</td>
+      <td><a target='_blank' href='/blog/static-c-hfe'>static-c-hfe</a></td>
+      <td>4094</td>
+      <td>2.63</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/head-and-shoulders-qqq'>head-and-shoulders-qqq</a></td>
-      <td>83</td>
-      <td>not enough data yet</td>
-      <td>not enough data yet</td>
+      <td>413</td>
+      <td>7.97</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-explored'>c-nsdq-explored</a></td>
+      <td>143</td>
+      <td>2.47</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-shorting'>c-nsdq-shorting</a></td>
+      <td>143</td>
+      <td>2.45</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-manual_scalable_megatrends'>static-manual_scalable_megatrends</a></td>
+      <td>102</td>
+      <td>4.92</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-chatgpt-googled1023'>static-chatgpt-googled1023</a></td>
+      <td>68</td>
+      <td>3.49</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-et-semiconductors'>static-et-semiconductors</a></td>
+      <td>55</td>
+      <td>2.27</td>
+      <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2'>static-manual-sharpeopt-l2</a></td>
-      <td>50</td>
-      <td>2.76</td>
+      <td>46</td>
+      <td>2.53</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-msci-world'>static-msci-world</a></td>
-      <td>48</td>
-      <td>6.82</td>
+      <td>45</td>
+      <td>6.42</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-largecap-volume'>c-largecap-volume</a></td>
+      <td>41</td>
+      <td>3.23</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-70-30-etfs'>static-70-30-etfs</a></td>
+      <td>39</td>
+      <td>6.27</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-adapted'>c-nsdq-adapted</a></td>
+      <td>38</td>
+      <td>0.86</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-vti-top50-replication'>static-vti-top50-replication</a></td>
-      <td>47</td>
-      <td>5.33</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-finanzfluss-etf'>static-finanzfluss-etf</a></td>
-      <td>45</td>
-      <td>7.11</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-etoro-airevolution'>static-etoro-airevolution</a></td>
-      <td>44</td>
-      <td>3.4</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-largecapval-v1'>composer-oppy-largecapval-v1</a></td>
-      <td>44</td>
-      <td>3.41</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-effcore-v1'>composer-oppy-effcore-v1</a></td>
-      <td>35</td>
-      <td>2.18</td>
+      <td>34</td>
+      <td>3.66</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2-renewed'>static-manual-sharpeopt-l2-renewed</a></td>
-      <td>29</td>
-      <td>2.39</td>
+      <td>27</td>
+      <td>2.25</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-et-ai-stocks'>static-et-ai-stocks</a></td>
+      <td>20</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-sharpe-manual-0922'>static-sharpe-manual-0922</a></td>
-      <td>25</td>
-      <td>1.91</td>
+      <td>19</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/head-and-shoulders-aapl'>head-and-shoulders-aapl</a></td>
-      <td>16</td>
+      <td><a target='_blank' href='/blog/c-solid-core'>c-solid-core</a></td>
+      <td>19</td>
       <td>1.21</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-sectormom-v1'>composer-oppy-sectormom-v1</a></td>
-      <td>8</td>
-      <td>0.56</td>
+      <td><a target='_blank' href='/blog/c-nsdq-original'>c-nsdq-original</a></td>
+      <td>-1</td>
+      <td>-0.4</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-bondtqqq-v1'>composer-bondtqqq-v1</a></td>
-      <td>1</td>
-      <td>0.34</td>
+      <td><a target='_blank' href='/blog/c-commodium-momentum'>c-commodium-momentum</a></td>
+      <td>-2</td>
+      <td>-1.94</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-commodmom-v1'>composer-oppy-commodmom-v1</a></td>
-      <td>-3</td>
-      <td>-2.17</td>
+      <td><a target='_blank' href='/blog/c-merged'>c-merged</a></td>
+      <td>-8</td>
+      <td>-1.48</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-opus-v1'>composer-oppy-opus-v1</a></td>
-      <td>-9</td>
-      <td>-1.58</td>
+      <td><a target='_blank' href='/blog/c-sector-momentum'>c-sector-momentum</a></td>
+      <td>-8</td>
+      <td>-0.34</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-bigtechmomentum-v1'>composer-bigtechmomentum-v1</a></td>
-      <td>-26</td>
-      <td>-1.03</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-volhedge-v1'>composer-oppy-volhedge-v1</a></td>
-      <td>-28</td>
-      <td>-2.7</td>
+      <td><a target='_blank' href='/blog/c-volume-hedged'>c-volume-hedged</a></td>
+      <td>-23</td>
+      <td>-2.25</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/msft-decisiontree'>msft-decisiontree</a></td>
-      <td>-31</td>
-      <td>-1.54</td>
+      <td>-36</td>
+      <td>-1.83</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-bonds-and-nsdq'>c-bonds-and-nsdq</a></td>
+      <td>-42</td>
+      <td>-2.88</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/head-and-shoulders-aapl'>head-and-shoulders-aapl</a></td>
+      <td>-42</td>
+      <td>-2.01</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-bigtech-momentum'>c-bigtech-momentum</a></td>
+      <td>-44</td>
+      <td>-1.8</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/finnhub-recommendations'>finnhub-recommendations</a></td>
-      <td>-44</td>
-      <td>-1.59</td>
+      <td>-49</td>
+      <td>-1.85</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/swingtradeqqq23day'>swingtradeqqq23day</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
+      <td>-125</td>
+      <td>-3.8</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/pairtradeqqq23dayfullframe'>pairtradeqqq23dayfullframe</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
+      <td>-125</td>
+      <td>-3.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/randombot'>randombot</a></td>
+      <td>-138</td>
+      <td>-7.29</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/pairtrade-glri-vstm'>pairtrade-glri-vstm</a></td>
-      <td>-467</td>
-      <td>-3.0</td>
+      <td>-414</td>
+      <td>0.0</td>
       <td>0.0</td>
     </tr>
   </tbody>
@@ -213,176 +225,188 @@ n today's fast-paced trading environment, staying ahead of the curve is essentia
   <tbody>
     <tr>
       <td><a target='_blank' href='/blog/head-and-shoulders-qqq'>head-and-shoulders-qqq</a></td>
-      <td>83</td>
-      <td>not enough data yet</td>
-      <td>not enough data yet</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-finanzfluss-etf'>static-finanzfluss-etf</a></td>
-      <td>45</td>
-      <td>7.11</td>
+      <td>413</td>
+      <td>7.97</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-msci-world'>static-msci-world</a></td>
-      <td>48</td>
-      <td>6.82</td>
+      <td>45</td>
+      <td>6.42</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-70-30-etfs'>static-70-30-etfs</a></td>
+      <td>39</td>
+      <td>6.27</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual_scalable_megatrends'>static-manual_scalable_megatrends</a></td>
-      <td>125</td>
-      <td>6.06</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-chatgpt-googled1023'>static-chatgpt-googled1023</a></td>
-      <td>107</td>
-      <td>5.87</td>
+      <td>102</td>
+      <td>4.92</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-vti-top50-replication'>static-vti-top50-replication</a></td>
-      <td>47</td>
-      <td>5.33</td>
+      <td>34</td>
+      <td>3.66</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/static-etoro-semiconductors'>static-etoro-semiconductors</a></td>
-      <td>101</td>
-      <td>4.28</td>
+      <td><a target='_blank' href='/blog/static-chatgpt-googled1023'>static-chatgpt-googled1023</a></td>
+      <td>68</td>
+      <td>3.49</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-largecapval-v1'>composer-oppy-largecapval-v1</a></td>
-      <td>44</td>
-      <td>3.41</td>
+      <td><a target='_blank' href='/blog/c-largecap-volume'>c-largecap-volume</a></td>
+      <td>41</td>
+      <td>3.23</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/static-etoro-airevolution'>static-etoro-airevolution</a></td>
-      <td>44</td>
-      <td>3.4</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-composer-hedgefundies-excellent-v1'>static-composer-hedgefundies-excellent-v1</a></td>
-      <td>4760</td>
-      <td>2.85</td>
+      <td><a target='_blank' href='/blog/static-c-hfe'>static-c-hfe</a></td>
+      <td>4094</td>
+      <td>2.63</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2'>static-manual-sharpeopt-l2</a></td>
-      <td>50</td>
-      <td>2.76</td>
+      <td>46</td>
+      <td>2.53</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-explored'>c-nsdq-explored</a></td>
+      <td>143</td>
+      <td>2.47</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-shorting'>c-nsdq-shorting</a></td>
+      <td>143</td>
+      <td>2.45</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-et-semiconductors'>static-et-semiconductors</a></td>
+      <td>55</td>
+      <td>2.27</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2-renewed'>static-manual-sharpeopt-l2-renewed</a></td>
-      <td>29</td>
-      <td>2.39</td>
+      <td>27</td>
+      <td>2.25</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-effcore-v1'>composer-oppy-effcore-v1</a></td>
-      <td>35</td>
-      <td>2.18</td>
+      <td><a target='_blank' href='/blog/static-et-ai-stocks'>static-et-ai-stocks</a></td>
+      <td>20</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-sharpe-manual-0922'>static-sharpe-manual-0922</a></td>
-      <td>25</td>
-      <td>1.91</td>
+      <td>19</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-explored'>composer-buydipsqqq-shorting-explored</a></td>
-      <td>102</td>
-      <td>1.88</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting'>composer-buydipsqqq-shorting</a></td>
-      <td>102</td>
-      <td>1.87</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-adapted'>composer-buydipsqqq-shorting-adapted</a></td>
-      <td>96</td>
-      <td>1.7</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/head-and-shoulders-aapl'>head-and-shoulders-aapl</a></td>
-      <td>16</td>
+      <td><a target='_blank' href='/blog/c-solid-core'>c-solid-core</a></td>
+      <td>19</td>
       <td>1.21</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-sectormom-v1'>composer-oppy-sectormom-v1</a></td>
-      <td>8</td>
-      <td>0.56</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-bondtqqq-v1'>composer-bondtqqq-v1</a></td>
-      <td>1</td>
-      <td>0.34</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/swingtradeqqq23day'>swingtradeqqq23day</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/pairtradeqqq23dayfullframe'>pairtradeqqq23dayfullframe</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
+      <td><a target='_blank' href='/blog/c-nsdq-adapted'>c-nsdq-adapted</a></td>
+      <td>38</td>
+      <td>0.86</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/pairtrade-glri-vstm'>pairtrade-glri-vstm</a></td>
-      <td>-467</td>
-      <td>-3.0</td>
+      <td>-414</td>
+      <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-volhedge-v1'>composer-oppy-volhedge-v1</a></td>
-      <td>-28</td>
-      <td>-2.7</td>
+      <td><a target='_blank' href='/blog/randombot'>randombot</a></td>
+      <td>-138</td>
+      <td>-7.29</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-commodmom-v1'>composer-oppy-commodmom-v1</a></td>
-      <td>-3</td>
-      <td>-2.17</td>
+      <td><a target='_blank' href='/blog/swingtradeqqq23day'>swingtradeqqq23day</a></td>
+      <td>-125</td>
+      <td>-3.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/pairtradeqqq23dayfullframe'>pairtradeqqq23dayfullframe</a></td>
+      <td>-125</td>
+      <td>-3.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-bonds-and-nsdq'>c-bonds-and-nsdq</a></td>
+      <td>-42</td>
+      <td>-2.88</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-volume-hedged'>c-volume-hedged</a></td>
+      <td>-23</td>
+      <td>-2.25</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/head-and-shoulders-aapl'>head-and-shoulders-aapl</a></td>
+      <td>-42</td>
+      <td>-2.01</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-commodium-momentum'>c-commodium-momentum</a></td>
+      <td>-2</td>
+      <td>-1.94</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/finnhub-recommendations'>finnhub-recommendations</a></td>
-      <td>-44</td>
-      <td>-1.59</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-opus-v1'>composer-oppy-opus-v1</a></td>
-      <td>-9</td>
-      <td>-1.58</td>
+      <td>-49</td>
+      <td>-1.85</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/msft-decisiontree'>msft-decisiontree</a></td>
-      <td>-31</td>
-      <td>-1.54</td>
+      <td>-36</td>
+      <td>-1.83</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-bigtechmomentum-v1'>composer-bigtechmomentum-v1</a></td>
-      <td>-26</td>
-      <td>-1.03</td>
+      <td><a target='_blank' href='/blog/c-bigtech-momentum'>c-bigtech-momentum</a></td>
+      <td>-44</td>
+      <td>-1.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-merged'>c-merged</a></td>
+      <td>-8</td>
+      <td>-1.48</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-original'>c-nsdq-original</a></td>
+      <td>-1</td>
+      <td>-0.4</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-sector-momentum'>c-sector-momentum</a></td>
+      <td>-8</td>
+      <td>-0.34</td>
       <td>0.0</td>
     </tr>
   </tbody>
@@ -402,176 +426,188 @@ n today's fast-paced trading environment, staying ahead of the curve is essentia
   <tbody>
     <tr>
       <td><a target='_blank' href='/blog/head-and-shoulders-qqq'>head-and-shoulders-qqq</a></td>
-      <td>83</td>
-      <td>not enough data yet</td>
-      <td>not enough data yet</td>
+      <td>413</td>
+      <td>7.97</td>
+      <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting'>composer-buydipsqqq-shorting</a></td>
-      <td>102</td>
-      <td>1.87</td>
+      <td><a target='_blank' href='/blog/c-nsdq-adapted'>c-nsdq-adapted</a></td>
+      <td>38</td>
+      <td>0.86</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-original'>c-nsdq-original</a></td>
+      <td>-1</td>
+      <td>-0.4</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-merged'>c-merged</a></td>
+      <td>-8</td>
+      <td>-1.48</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-bigtech-momentum'>c-bigtech-momentum</a></td>
+      <td>-44</td>
+      <td>-1.8</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/msft-decisiontree'>msft-decisiontree</a></td>
-      <td>-31</td>
-      <td>-1.54</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-opus-v1'>composer-oppy-opus-v1</a></td>
-      <td>-9</td>
-      <td>-1.58</td>
+      <td>-36</td>
+      <td>-1.83</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/finnhub-recommendations'>finnhub-recommendations</a></td>
-      <td>-44</td>
-      <td>-1.59</td>
+      <td>-49</td>
+      <td>-1.85</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-commodmom-v1'>composer-oppy-commodmom-v1</a></td>
-      <td>-3</td>
-      <td>-2.17</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-volhedge-v1'>composer-oppy-volhedge-v1</a></td>
-      <td>-28</td>
-      <td>-2.7</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/pairtrade-glri-vstm'>pairtrade-glri-vstm</a></td>
-      <td>-467</td>
-      <td>-3.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/pairtradeqqq23dayfullframe'>pairtradeqqq23dayfullframe</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/swingtradeqqq23day'>swingtradeqqq23day</a></td>
-      <td>-176</td>
-      <td>-6.21</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-bondtqqq-v1'>composer-bondtqqq-v1</a></td>
-      <td>1</td>
-      <td>0.34</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-sectormom-v1'>composer-oppy-sectormom-v1</a></td>
-      <td>8</td>
-      <td>0.56</td>
+      <td><a target='_blank' href='/blog/c-commodium-momentum'>c-commodium-momentum</a></td>
+      <td>-2</td>
+      <td>-1.94</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/head-and-shoulders-aapl'>head-and-shoulders-aapl</a></td>
-      <td>16</td>
+      <td>-42</td>
+      <td>-2.01</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-volume-hedged'>c-volume-hedged</a></td>
+      <td>-23</td>
+      <td>-2.25</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-bonds-and-nsdq'>c-bonds-and-nsdq</a></td>
+      <td>-42</td>
+      <td>-2.88</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/pairtradeqqq23dayfullframe'>pairtradeqqq23dayfullframe</a></td>
+      <td>-125</td>
+      <td>-3.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/swingtradeqqq23day'>swingtradeqqq23day</a></td>
+      <td>-125</td>
+      <td>-3.8</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/randombot'>randombot</a></td>
+      <td>-138</td>
+      <td>-7.29</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/pairtrade-glri-vstm'>pairtrade-glri-vstm</a></td>
+      <td>-414</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-solid-core'>c-solid-core</a></td>
+      <td>19</td>
       <td>1.21</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-adapted'>composer-buydipsqqq-shorting-adapted</a></td>
-      <td>96</td>
-      <td>1.7</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-buydipsqqq-shorting-explored'>composer-buydipsqqq-shorting-explored</a></td>
-      <td>102</td>
-      <td>1.88</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-finanzfluss-etf'>static-finanzfluss-etf</a></td>
+      <td><a target='_blank' href='/blog/static-msci-world'>static-msci-world</a></td>
       <td>45</td>
-      <td>7.11</td>
+      <td>6.42</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-sharpe-manual-0922'>static-sharpe-manual-0922</a></td>
-      <td>25</td>
-      <td>1.91</td>
+      <td>19</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-effcore-v1'>composer-oppy-effcore-v1</a></td>
-      <td>35</td>
-      <td>2.18</td>
+      <td><a target='_blank' href='/blog/static-et-ai-stocks'>static-et-ai-stocks</a></td>
+      <td>20</td>
+      <td>1.5</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2-renewed'>static-manual-sharpeopt-l2-renewed</a></td>
-      <td>29</td>
-      <td>2.39</td>
+      <td>27</td>
+      <td>2.25</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-et-semiconductors'>static-et-semiconductors</a></td>
+      <td>55</td>
+      <td>2.27</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-shorting'>c-nsdq-shorting</a></td>
+      <td>143</td>
+      <td>2.45</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/c-nsdq-explored'>c-nsdq-explored</a></td>
+      <td>143</td>
+      <td>2.47</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual-sharpeopt-l2'>static-manual-sharpeopt-l2</a></td>
-      <td>50</td>
-      <td>2.76</td>
+      <td>46</td>
+      <td>2.53</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/static-composer-hedgefundies-excellent-v1'>static-composer-hedgefundies-excellent-v1</a></td>
-      <td>4760</td>
-      <td>2.85</td>
+      <td><a target='_blank' href='/blog/static-c-hfe'>static-c-hfe</a></td>
+      <td>4094</td>
+      <td>2.63</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/static-etoro-airevolution'>static-etoro-airevolution</a></td>
-      <td>44</td>
-      <td>3.4</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/composer-oppy-largecapval-v1'>composer-oppy-largecapval-v1</a></td>
-      <td>44</td>
-      <td>3.41</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-etoro-semiconductors'>static-etoro-semiconductors</a></td>
-      <td>101</td>
-      <td>4.28</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='/blog/static-vti-top50-replication'>static-vti-top50-replication</a></td>
-      <td>47</td>
-      <td>5.33</td>
+      <td><a target='_blank' href='/blog/c-largecap-volume'>c-largecap-volume</a></td>
+      <td>41</td>
+      <td>3.23</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-chatgpt-googled1023'>static-chatgpt-googled1023</a></td>
-      <td>107</td>
-      <td>5.87</td>
+      <td>68</td>
+      <td>3.49</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='/blog/static-vti-top50-replication'>static-vti-top50-replication</a></td>
+      <td>34</td>
+      <td>3.66</td>
       <td>0.0</td>
     </tr>
     <tr>
       <td><a target='_blank' href='/blog/static-manual_scalable_megatrends'>static-manual_scalable_megatrends</a></td>
-      <td>125</td>
-      <td>6.06</td>
+      <td>102</td>
+      <td>4.92</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/static-msci-world'>static-msci-world</a></td>
-      <td>48</td>
-      <td>6.82</td>
+      <td><a target='_blank' href='/blog/static-70-30-etfs'>static-70-30-etfs</a></td>
+      <td>39</td>
+      <td>6.27</td>
       <td>0.0</td>
     </tr>
     <tr>
-      <td><a target='_blank' href='/blog/composer-bigtechmomentum-v1'>composer-bigtechmomentum-v1</a></td>
-      <td>-26</td>
-      <td>-1.03</td>
+      <td><a target='_blank' href='/blog/c-sector-momentum'>c-sector-momentum</a></td>
+      <td>-8</td>
+      <td>-0.34</td>
       <td>0.0</td>
     </tr>
   </tbody>

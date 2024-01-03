@@ -1,10 +1,10 @@
 ---
-date: "2023-12-29" # 2021-07-14
-title: "head-and-shoulders-AAPL"
-image: "images/plots/head-and-shoulders-AAPL.png"
+date: "2024-01-03" # 2021-07-14
+title: "head-and-shoulders-aapl"
+image: "images/plots/head-and-shoulders-aapl.png"
 author: "justin-guese"
 draft: false
-pctgain: 16
+pctgain: -42
 ---
 
 ## Introduction to our strategy
@@ -13,14 +13,14 @@ created in basebot
 
 ## Quick Summary
 
-<img src="/images/plots/head-and-shoulders-AAPL.png" alt = "returns chart for head-and-shoulders-AAPL" width="100%">
+<img src="/images/plots/head-and-shoulders-aapl.png" alt = "returns chart for head-and-shoulders-aapl" width="100%">
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 16 |
-| Days active | 22 |
+| Return % p.a. | -42 |
+| Days active | 27 |
 | Starting capital | 9985.0 |
-| Current capital | 10083.98€ |
+| Current capital | 9670.36€ |
 
 ## Current portfolio
     
@@ -35,10 +35,10 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>52.09203</td>
-      <td>192.26</td>
-      <td>10015.21</td>
+      <td>185.12</td>
+      <td>9643.28</td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2023-12-28</td>
+      <td>2024-01-02</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -67,39 +67,39 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.8</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.01</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.12</td>
+      <td>-0.26</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.21</td>
+      <td>-2.01</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.64</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>1.71</td>
+      <td>-2.22</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.21</td>
+      <td>-1.57</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.26</td>
+      <td>0.61</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.02</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -107,79 +107,79 @@ created in basebot
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.26</td>
+      <td>-0.39</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-</td>
+      <td>-0.87</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.92</td>
+      <td>0.56</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.26</td>
+      <td>0.61</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.91</td>
+      <td>0.34</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.67</td>
+      <td>0.18</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>0.72</td>
+      <td>0.55</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>3.73</td>
+      <td>4.34</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.76</td>
+      <td>3.71</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>0.01</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.01</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.01</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>0.01</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.01</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.12</td>
+      <td>-0.26</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.12</td>
+      <td>-0.26</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.12</td>
+      <td>-0.26</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.12</td>
+      <td>-0.26</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
-      <td>-0.01</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
@@ -187,7 +187,7 @@ created in basebot
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.48</td>
+      <td>0.76</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>0.53</td>
+      <td>-1.23</td>
     </tr>
   </tbody>
 </table>
@@ -217,7 +217,7 @@ created in basebot
     <tr>
       <td>2023-12-27 16:05:08.761467</td>
       <td>Buy</td>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>191.679993</td>
       <td>10000.0</td>
       <td>1916799.93</td>
@@ -225,7 +225,7 @@ created in basebot
     <tr>
       <td>2023-12-26 16:05:04.584278</td>
       <td>Buy</td>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>193.091202</td>
       <td>10000.0</td>
       <td>1930912.02</td>
@@ -233,7 +233,7 @@ created in basebot
     <tr>
       <td>2023-12-25 16:05:04.841613</td>
       <td>Buy</td>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>193.600006</td>
       <td>10000.0</td>
       <td>1936000.06</td>
@@ -241,7 +241,7 @@ created in basebot
     <tr>
       <td>2023-12-24 16:05:03.942793</td>
       <td>Buy</td>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>193.600006</td>
       <td>10000.0</td>
       <td>1936000.06</td>
@@ -249,7 +249,7 @@ created in basebot
     <tr>
       <td>2023-12-23 16:05:04.500829</td>
       <td>Buy</td>
-      <td>AAPL</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AAPL'>AAPL</a></td>
       <td>193.600006</td>
       <td>10000.0</td>
       <td>1936000.06</td>
@@ -268,103 +268,123 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>28.12.2023</td>
+      <td>2024-01-02</td>
+      <td>9670.36€</td>
+    </tr>
+    <tr>
+      <td>2024-01-01</td>
+      <td>10029.28€</td>
+    </tr>
+    <tr>
+      <td>2023-12-31</td>
+      <td>10029.28€</td>
+    </tr>
+    <tr>
+      <td>2023-12-30</td>
+      <td>10029.28€</td>
+    </tr>
+    <tr>
+      <td>2023-12-29</td>
+      <td>10029.28€</td>
+    </tr>
+    <tr>
+      <td>2023-12-28</td>
       <td>10083.98€</td>
     </tr>
     <tr>
-      <td>28.12.2023</td>
+      <td>2023-12-28</td>
       <td>10061.58€</td>
     </tr>
     <tr>
-      <td>27.12.2023</td>
+      <td>2023-12-27</td>
       <td>10061.58€</td>
     </tr>
     <tr>
-      <td>26.12.2023</td>
+      <td>2023-12-26</td>
       <td>9982.87€</td>
     </tr>
     <tr>
-      <td>25.12.2023</td>
+      <td>2023-12-25</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>24.12.2023</td>
+      <td>2023-12-24</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>23.12.2023</td>
+      <td>2023-12-23</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>22.12.2023</td>
+      <td>2023-12-22</td>
       <td>9955.69€</td>
     </tr>
     <tr>
-      <td>21.12.2023</td>
+      <td>2023-12-21</td>
       <td>9978.08€</td>
     </tr>
     <tr>
-      <td>20.12.2023</td>
+      <td>2023-12-20</td>
       <td>9855.0€</td>
     </tr>
     <tr>
-      <td>19.12.2023</td>
+      <td>2023-12-19</td>
       <td>9994.64€</td>
     </tr>
     <tr>
-      <td>18.12.2023</td>
+      <td>2023-12-18</td>
       <td>10044.48€</td>
     </tr>
     <tr>
-      <td>17.12.2023</td>
+      <td>2023-12-17</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>16.12.2023</td>
+      <td>2023-12-16</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>15.12.2023</td>
+      <td>2023-12-15</td>
       <td>9979.7€</td>
     </tr>
     <tr>
-      <td>14.12.2023</td>
+      <td>2023-12-14</td>
       <td>9951.85€</td>
     </tr>
     <tr>
-      <td>13.12.2023</td>
+      <td>2023-12-13</td>
       <td>10067.39€</td>
     </tr>
     <tr>
-      <td>12.12.2023</td>
+      <td>2023-12-12</td>
       <td>10056.79€</td>
     </tr>
     <tr>
-      <td>11.12.2023</td>
+      <td>2023-12-11</td>
       <td>10036.96€</td>
     </tr>
     <tr>
-      <td>10.12.2023</td>
+      <td>2023-12-10</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>09.12.2023</td>
+      <td>2023-12-09</td>
       <td>9985.0€</td>
     </tr>
     <tr>
-      <td>08.12.2023</td>
+      <td>2023-12-08</td>
       <td>10025.4€</td>
     </tr>
     <tr>
-      <td>07.12.2023</td>
+      <td>2023-12-07</td>
       <td>9966.02€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-06</td>
       <td>9967.9€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-06</td>
       <td>9985.0€</td>
     </tr>
   </tbody>

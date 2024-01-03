@@ -150,7 +150,8 @@ def getBotData():
         }
 
         # make nice readable
-        df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%d.%m.%Y")
+        # date conversion is done in datatable
+        # df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%d.%m.%Y")
         df["Portfolio Worth"] = df["Portfolio Worth"].apply(worthStringify)
 
         ## last trades

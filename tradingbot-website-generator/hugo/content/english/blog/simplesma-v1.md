@@ -1,5 +1,5 @@
 ---
-date: "2024-01-02" # 2021-07-14
+date: "2024-01-03" # 2021-07-14
 title: "simplesma-v1"
 image: "images/plots/simplesma-v1.png"
 author: "justin-guese"
@@ -18,7 +18,7 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 47 |
+| Days active | 48 |
 | Starting capital | 10000.0 |
 | Current capital | 10000.0€ |
 
@@ -35,7 +35,7 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>USD</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
       <td>10000</td>
       <td>1</td>
       <td>10000</td>
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-01</td>
+      <td>2024-01-02</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -224,143 +224,147 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>01.01.2024</td>
+      <td>2024-01-02</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>31.12.2023</td>
+      <td>2024-01-01</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>30.12.2023</td>
+      <td>2023-12-31</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>29.12.2023</td>
+      <td>2023-12-30</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>28.12.2023</td>
+      <td>2023-12-29</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>28.12.2023</td>
+      <td>2023-12-28</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>27.12.2023</td>
+      <td>2023-12-28</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>26.12.2023</td>
+      <td>2023-12-27</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>25.12.2023</td>
+      <td>2023-12-26</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>24.12.2023</td>
+      <td>2023-12-25</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>23.12.2023</td>
+      <td>2023-12-24</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>22.12.2023</td>
+      <td>2023-12-23</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>21.12.2023</td>
+      <td>2023-12-22</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>20.12.2023</td>
+      <td>2023-12-21</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>19.12.2023</td>
+      <td>2023-12-20</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>18.12.2023</td>
+      <td>2023-12-19</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>17.12.2023</td>
+      <td>2023-12-18</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>16.12.2023</td>
+      <td>2023-12-17</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>15.12.2023</td>
+      <td>2023-12-16</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>14.12.2023</td>
+      <td>2023-12-15</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>13.12.2023</td>
+      <td>2023-12-14</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>12.12.2023</td>
+      <td>2023-12-13</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>11.12.2023</td>
+      <td>2023-12-12</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>10.12.2023</td>
+      <td>2023-12-11</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>09.12.2023</td>
+      <td>2023-12-10</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>08.12.2023</td>
+      <td>2023-12-09</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>07.12.2023</td>
+      <td>2023-12-08</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-07</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-06</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>22.11.2023</td>
+      <td>2023-12-06</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>21.11.2023</td>
+      <td>2023-11-22</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>20.11.2023</td>
+      <td>2023-11-21</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>19.11.2023</td>
+      <td>2023-11-20</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>16.11.2023</td>
+      <td>2023-11-19</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>15.11.2023</td>
+      <td>2023-11-16</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-11-15</td>
       <td>10000.0€</td>
     </tr>
   </tbody>

@@ -1,7 +1,7 @@
 ---
-date: "2023-12-29" # 2021-07-14
-title: "pairTrade-UBOH-GLRI"
-image: "images/plots/pairTrade-UBOH-GLRI.png"
+date: "2024-01-03" # 2021-07-14
+title: "pairtrade-uboh-glri"
+image: "images/plots/pairtrade-uboh-glri.png"
 author: "justin-guese"
 draft: false
 pctgain: 0
@@ -13,12 +13,12 @@ created in basebot
 
 ## Quick Summary
 
-<img src="/images/plots/pairTrade-UBOH-GLRI.png" alt = "returns chart for pairTrade-UBOH-GLRI" width="100%">
+<img src="/images/plots/pairtrade-uboh-glri.png" alt = "returns chart for pairtrade-uboh-glri" width="100%">
 
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 39 |
+| Days active | 44 |
 | Starting capital | 9992.5 |
 | Current capital | 10000.0€ |
 
@@ -35,7 +35,7 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>USD</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
       <td>10000</td>
       <td>1</td>
       <td>10000</td>
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2023-12-28</td>
+      <td>2024-01-02</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -67,7 +67,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.11</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -79,7 +79,7 @@ created in basebot
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.71</td>
+      <td>1.58</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -87,11 +87,11 @@ created in basebot
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>3.0</td>
+      <td>2.77</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>2.12</td>
+      <td>1.96</td>
     </tr>
     <tr>
       <th>Omega</th>
@@ -103,7 +103,7 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>38</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
@@ -135,11 +135,11 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>13.5</td>
+      <td>16.0</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>0.73</td>
+      <td>0.68</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -183,7 +183,7 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>38</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>2.43</td>
+      <td>2.66</td>
     </tr>
   </tbody>
 </table>
@@ -217,7 +217,7 @@ created in basebot
     <tr>
       <td>2023-11-22 17:05:02.117768</td>
       <td>Buy</td>
-      <td>UBOH</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/UBOH'>UBOH</a></td>
       <td>17.190001</td>
       <td>5000.0</td>
       <td>85950.0</td>
@@ -225,7 +225,7 @@ created in basebot
     <tr>
       <td>2023-11-21 17:05:02.031638</td>
       <td>Buy</td>
-      <td>UBOH</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/UBOH'>UBOH</a></td>
       <td>17.160000</td>
       <td>5000.0</td>
       <td>85800.0</td>
@@ -233,7 +233,7 @@ created in basebot
     <tr>
       <td>2023-11-19 17:05:02.710391</td>
       <td>Buy</td>
-      <td>UBOH</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/UBOH'>UBOH</a></td>
       <td>17.270000</td>
       <td>5000.0</td>
       <td>86350.0</td>
@@ -252,119 +252,139 @@ created in basebot
   </thead>
   <tbody>
     <tr>
-      <td>28.12.2023</td>
+      <td>2024-01-02</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>28.12.2023</td>
+      <td>2024-01-01</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>27.12.2023</td>
+      <td>2023-12-31</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>26.12.2023</td>
+      <td>2023-12-30</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>25.12.2023</td>
+      <td>2023-12-29</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>24.12.2023</td>
+      <td>2023-12-28</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>23.12.2023</td>
+      <td>2023-12-28</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>22.12.2023</td>
+      <td>2023-12-27</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>21.12.2023</td>
+      <td>2023-12-26</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>20.12.2023</td>
+      <td>2023-12-25</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>19.12.2023</td>
+      <td>2023-12-24</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>18.12.2023</td>
+      <td>2023-12-23</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>17.12.2023</td>
+      <td>2023-12-22</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>16.12.2023</td>
+      <td>2023-12-21</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>15.12.2023</td>
+      <td>2023-12-20</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>14.12.2023</td>
+      <td>2023-12-19</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>13.12.2023</td>
+      <td>2023-12-18</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>12.12.2023</td>
+      <td>2023-12-17</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>11.12.2023</td>
+      <td>2023-12-16</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>10.12.2023</td>
+      <td>2023-12-15</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>09.12.2023</td>
+      <td>2023-12-14</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>08.12.2023</td>
+      <td>2023-12-13</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>07.12.2023</td>
+      <td>2023-12-12</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-11</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>06.12.2023</td>
+      <td>2023-12-10</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>22.11.2023</td>
+      <td>2023-12-09</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-12-08</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-12-07</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-12-06</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-12-06</td>
+      <td>10000.0€</td>
+    </tr>
+    <tr>
+      <td>2023-11-22</td>
       <td>9992.5€</td>
     </tr>
     <tr>
-      <td>21.11.2023</td>
+      <td>2023-11-21</td>
       <td>9992.5€</td>
     </tr>
     <tr>
-      <td>20.11.2023</td>
+      <td>2023-11-20</td>
       <td>10000.0€</td>
     </tr>
     <tr>
-      <td>19.11.2023</td>
+      <td>2023-11-19</td>
       <td>9992.5€</td>
     </tr>
   </tbody>

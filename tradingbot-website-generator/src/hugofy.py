@@ -49,12 +49,12 @@ def createHugoPost(
 
     # trades
     trades["Ticker"] = trades["Ticker"].apply(linkYHFinance)
-    trades = trades.to_html(index=False, table_id="trades")
+    trades = trades.to_html(index=False, table_id="trades", escape=False)
     temp = temp.replace("{{tradesTable}}", trades)
 
     # portfolio
     portfolio["Ticker"] = portfolio["Ticker"].apply(linkYHFinance)
-    portfolio = portfolio.to_html(index=False, table_id="portfolio")
+    portfolio = portfolio.to_html(index=False, table_id="portfolio", escape=False)
     temp = temp.replace("{{portfolioTable}}", portfolio)
 
     # finally save

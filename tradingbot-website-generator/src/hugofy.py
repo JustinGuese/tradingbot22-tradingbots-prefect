@@ -11,6 +11,10 @@ with open("blogTemplate.md", "r") as file:
     blogTemplate = file.read()
 
 
+def linkYHFinance(ticker: str):
+    return f"<a target='_blank' href='https://finance.yahoo.com/quote/{ticker}'>{ticker}</a>"
+
+
 def createHugoPost(
     botname: str,
     nicename: str,
@@ -44,10 +48,12 @@ def createHugoPost(
         temp = temp.replace("{{" + key + "}}", str(value))
 
     # trades
+    trades["Ticker"] = trades["Ticker"].apply(linkYHFinance)
     trades = trades.to_html(index=False, table_id="trades")
     temp = temp.replace("{{tradesTable}}", trades)
 
     # portfolio
+    portfolio["Ticker"] = portfolio["Ticker"].apply(linkYHFinance)
     portfolio = portfolio.to_html(index=False, table_id="portfolio")
     temp = temp.replace("{{portfolioTable}}", portfolio)
 

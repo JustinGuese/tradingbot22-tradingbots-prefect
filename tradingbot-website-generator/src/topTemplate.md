@@ -18,7 +18,7 @@ n today's fast-paced trading environment, staying ahead of the curve is essentia
 
 {{topSharpeTable}}
 
-## best low volatility/risk strategies
+## best middle ground (high sharpe, high return)
 
 {{topLowRiskTable}}
 

@@ -2,13 +2,13 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
-logo_dark = "images/logo-light.png"
+logo = "images/ai-investing-bright-transp.png"
+logo_dark = "images/ai-investing-bright-transp.png"
 # use `x` with logo_width, example: "100x"
 # Note: logo_width is not work with .svg file
 logo_width = "147x"
 # logo text will only show when logo is missing.
-logo_text = "delta"
+logo_text = "ai-investing-bots.com"
 # purgeCSS
 purge_css = false
 # content-gallery
@@ -28,7 +28,7 @@ career_form_action = "#!" # career form works with https://formspree.io or any f
 # OpenGraph / Twitter Card metadata
 description = "AI Investing Tradingbots and finance news"
 author = "DataFortress.cloud UG"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/ai-investing-bright-transp.png" # this image will be used as fallback if a page has no image of its own
 
 # Preloader
 [preloader]

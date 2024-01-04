@@ -139,14 +139,14 @@ def getBotData():
         except:
             sharpe = "not enough data yet"
         try:
-            riskFreeRate = str(float(qsmetrics.T["Risk-Free Rate"].iloc[0]))
+            riskFreeRate = str(float(qsmetrics.T["Max Drawdown"].iloc[0]))
         except:
             riskFreeRate = "not enough data yet"
 
         allBotStats[nicename if nicename else botname] = {
             "return % per year": returnPA,
             "sharpe ratio": sharpe,
-            "risk free rate": riskFreeRate,
+            "max drawdown": riskFreeRate,
         }
 
         # make nice readable

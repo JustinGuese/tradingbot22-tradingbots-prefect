@@ -58,7 +58,7 @@ def createTopHugo(summaryDf: pd.DataFrame):
     )
 
     # topLowRiskTable
-    summaryDf = summaryDf.sort_values(by="risk free rate", ascending=False)
+    summaryDf = summaryDf.sort_values(by="max drawdown", ascending=True)
     temp = temp.replace(
         "{{topLowRiskTable}}",
         summaryDf.to_html(

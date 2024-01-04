@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-70-30-etfs"
 image: "images/plots/static-70-30-etfs.png"
 author: "justin-guese"
 draft: false
-pctgain: 39
+pctgain: 35
 ---
 
 ## Introduction to our strategy
@@ -21,10 +21,10 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 39 |
-| Days active | 53 |
+| Return % p.a. | 35 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 10753.7€ |
+| Current capital | 10700.74€ |
 
 ## Current portfolio
     
@@ -41,14 +41,14 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/IWDA.AS'>IWDA.AS</a></td>
       <td>93.636240</td>
-      <td>81.90</td>
-      <td>7668.81</td>
+      <td>81.63</td>
+      <td>7643.53</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/EEM'>EEM</a></td>
       <td>76.884615</td>
-      <td>39.41</td>
-      <td>3030.02</td>
+      <td>39.55</td>
+      <td>3040.79</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
@@ -75,7 +75,7 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -83,19 +83,19 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.72</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.06</td>
+      <td>0.05</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.32</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>6.27</td>
+      <td>5.44</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -103,15 +103,15 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>12.87</td>
+      <td>10.6</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>9.1</td>
+      <td>7.5</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>3.62</td>
+      <td>2.94</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -119,79 +119,79 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>14</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>2.84</td>
+      <td>2.08</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>157.9</td>
+      <td>9.71</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.72</td>
+      <td>1.55</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>3.62</td>
+      <td>2.94</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>9.26</td>
+      <td>3.29</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>4.21</td>
+      <td>2.99</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>2.56</td>
+      <td>1.12</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.28</td>
+      <td>4.27</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>3.23</td>
+      <td>2.91</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>0</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.06</td>
+      <td>0.05</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.06</td>
+      <td>0.05</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>0</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.06</td>
+      <td>0.05</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.32</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.32</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.32</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.32</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -203,7 +203,7 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>6.71</td>
+      <td>6.13</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -211,7 +211,7 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>7.82</td>
+      <td>6.73</td>
     </tr>
   </tbody>
 </table>
@@ -243,6 +243,10 @@ The 70/30 portfolio is suitable for investors who are looking for a long-term an
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10700.74€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10753.7€</td>

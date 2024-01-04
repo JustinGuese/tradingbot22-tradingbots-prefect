@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-bigtech-momentum"
 image: "images/plots/c-bigtech-momentum.png"
 author: "justin-guese"
 draft: false
-pctgain: -44
+pctgain: -59
 ---
 
 ## Introduction to our strategy
@@ -21,10 +21,10 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -44 |
-| Days active | 53 |
+| Return % p.a. | -59 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 9726.82€ |
+| Current capital | 9476.01€ |
 
 ## Current portfolio
     
@@ -41,14 +41,14 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/META'>META</a></td>
       <td>13.952157</td>
-      <td>345.31</td>
-      <td>4817.82</td>
+      <td>344.56</td>
+      <td>4807.36</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/PYPL'>PYPL</a></td>
       <td>79.650606</td>
-      <td>59.40</td>
-      <td>4731.25</td>
+      <td>58.80</td>
+      <td>4683.46</td>
     </tr>
   </tbody>
 </table>
@@ -69,7 +69,7 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -81,35 +81,35 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>-0.06</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.28</td>
+      <td>-0.36</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-1.8</td>
+      <td>-2.43</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.24</td>
+      <td>0.16</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-2.27</td>
+      <td>-2.97</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-1.61</td>
+      <td>-2.1</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.73</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.04</td>
+      <td>-0.07</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -117,7 +117,7 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.28</td>
+      <td>-0.35</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
@@ -125,19 +125,19 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.94</td>
+      <td>0.89</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.73</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.65</td>
+      <td>0.59</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.3</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
@@ -149,43 +149,43 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.67</td>
+      <td>2.52</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.01</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>-0.06</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>-0.06</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.01</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>-0.06</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>-0.28</td>
+      <td>-0.36</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>-0.28</td>
+      <td>-0.36</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>-0.28</td>
+      <td>-0.36</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>-0.28</td>
+      <td>-0.36</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -193,11 +193,11 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>16</td>
+      <td>17</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>1.49</td>
+      <td>1.32</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -205,7 +205,7 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-1.38</td>
+      <td>-1.51</td>
     </tr>
   </tbody>
 </table>
@@ -277,6 +277,10 @@ The bigtech-momentum strategy is suitable for traders who are looking for a long
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>9476.01€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9726.82€</td>

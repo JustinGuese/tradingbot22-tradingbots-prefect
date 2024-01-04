@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-sharpe-manual-0922"
 image: "images/plots/static-sharpe-manual-0922.png"
 author: "justin-guese"
@@ -18,9 +18,9 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 19 |
-| Days active | 53 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 16053.24€ |
+| Current capital | 16047.12€ |
 
 ## Current portfolio
     
@@ -37,74 +37,74 @@ created in basebot
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NVDA'>NVDA</a></td>
       <td>9.715289</td>
-      <td>478.99</td>
-      <td>4653.53</td>
+      <td>480.04</td>
+      <td>4663.73</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/PGR'>PGR</a></td>
       <td>22.859741</td>
-      <td>163.04</td>
-      <td>3727.05</td>
+      <td>164.55</td>
+      <td>3761.57</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/LLY'>LLY</a></td>
       <td>4.513932</td>
-      <td>606.41</td>
-      <td>2737.29</td>
+      <td>628.37</td>
+      <td>2836.42</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/KDP'>KDP</a></td>
       <td>39.845779</td>
-      <td>32.47</td>
-      <td>1293.79</td>
+      <td>32.49</td>
+      <td>1294.59</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/WM'>WM</a></td>
       <td>5.710737</td>
-      <td>180.60</td>
-      <td>1031.36</td>
+      <td>180.17</td>
+      <td>1028.90</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AMD'>AMD</a></td>
       <td>5.243304</td>
-      <td>136.05</td>
-      <td>713.35</td>
+      <td>136.50</td>
+      <td>715.71</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/TSLA'>TSLA</a></td>
       <td>2.408310</td>
-      <td>241.99</td>
-      <td>582.79</td>
+      <td>241.78</td>
+      <td>582.28</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/TEAM'>TEAM</a></td>
       <td>2.098381</td>
-      <td>221.89</td>
-      <td>465.61</td>
+      <td>220.51</td>
+      <td>462.71</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/UNH'>UNH</a></td>
       <td>0.697072</td>
-      <td>546.00</td>
-      <td>380.60</td>
+      <td>545.63</td>
+      <td>380.34</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AMZN'>AMZN</a></td>
       <td>2.152063</td>
-      <td>150.07</td>
-      <td>322.96</td>
+      <td>146.38</td>
+      <td>315.02</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/DG'>DG</a></td>
       <td>0.591310</td>
-      <td>138.81</td>
-      <td>82.08</td>
+      <td>134.82</td>
+      <td>79.72</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NOC'>NOC</a></td>
       <td>0.142868</td>
-      <td>473.68</td>
-      <td>67.67</td>
+      <td>481.37</td>
+      <td>68.77</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
@@ -131,7 +131,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -147,11 +147,11 @@ created in basebot
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.15</td>
+      <td>0.14</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.5</td>
+      <td>1.46</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -159,15 +159,15 @@ created in basebot
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>2.1</td>
+      <td>2.05</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.49</td>
+      <td>1.45</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.33</td>
+      <td>1.32</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -179,19 +179,19 @@ created in basebot
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.33</td>
+      <td>0.32</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>5.09</td>
+      <td>4.71</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.78</td>
+      <td>0.86</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.33</td>
+      <td>1.32</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
@@ -199,7 +199,7 @@ created in basebot
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.65</td>
+      <td>0.69</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
@@ -207,11 +207,11 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>3.47</td>
+      <td>3.46</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.09</td>
+      <td>2.28</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -235,19 +235,19 @@ created in basebot
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.15</td>
+      <td>0.14</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.15</td>
+      <td>0.14</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.15</td>
+      <td>0.14</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.15</td>
+      <td>0.14</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -259,7 +259,7 @@ created in basebot
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>1.09</td>
+      <td>1.08</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -267,7 +267,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>1.28</td>
+      <td>1.27</td>
     </tr>
   </tbody>
 </table>
@@ -299,6 +299,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>16047.12€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>16053.24€</td>

@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-nsdq-adapted"
 image: "images/plots/c-nsdq-adapted.png"
 author: "justin-guese"
 draft: false
-pctgain: 38
+pctgain: 14
 ---
 
 ## Introduction to our strategy
@@ -21,10 +21,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 38 |
-| Days active | 53 |
+| Return % p.a. | 14 |
+| Days active | 54 |
 | Starting capital | 8834.7 |
-| Current capital | 9324.37€ |
+| Current capital | 9026.02€ |
 
 ## Current portfolio
     
@@ -41,8 +41,8 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/TQQQ'>TQQQ</a></td>
       <td>193.733019</td>
-      <td>47.26</td>
-      <td>9155.82</td>
+      <td>46.47</td>
+      <td>9002.77</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +63,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -75,131 +75,131 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.06</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.31</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>0.86</td>
+      <td>0.51</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.63</td>
+      <td>0.58</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>1.49</td>
+      <td>0.87</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.05</td>
+      <td>0.61</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.18</td>
+      <td>1.1</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.12</td>
+      <td>-0.15</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.19</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>1.21</td>
+      <td>0.5</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.73</td>
+      <td>1.7</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.18</td>
+      <td>1.1</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>1.54</td>
+      <td>1.43</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.83</td>
+      <td>0.74</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.3</td>
+      <td>1.29</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.33</td>
+      <td>4.31</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.63</td>
+      <td>2.58</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.05</td>
+      <td>-0.08</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.06</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.06</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.05</td>
+      <td>-0.08</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.06</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.31</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.31</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.31</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.31</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
-      <td>-0.07</td>
+      <td>-0.08</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>25</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.67</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
-      <td>0.06</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>0.52</td>
+      <td>0.27</td>
     </tr>
   </tbody>
 </table>
@@ -271,6 +271,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>9026.02€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9324.37€</td>

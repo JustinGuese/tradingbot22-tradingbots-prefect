@@ -4,3 +4,4 @@ tradingbot-website-generator/.venv/
 flows/__pycache__/
 **__pycache__**
 tradingbot-website-generator/hugo/public/
+tradingbot-website-generator/src/*.png

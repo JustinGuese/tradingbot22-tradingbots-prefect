@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-manual_scalable_megatrends"
 image: "images/plots/static-manual_scalable_megatrends.png"
 author: "justin-guese"
 draft: false
-pctgain: 102
+pctgain: 87
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 102 |
-| Days active | 53 |
+| Return % p.a. | 87 |
+| Days active | 54 |
 | Starting capital | 9922.48 |
-| Current capital | 11405.79€ |
+| Current capital | 11207.09€ |
 
 ## Current portfolio
     
@@ -37,44 +37,44 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/XAIX.DE'>XAIX.DE</a></td>
       <td>21.246855</td>
-      <td>98.20</td>
-      <td>2086.44</td>
+      <td>97.70</td>
+      <td>2075.82</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/BNXG.DE'>BNXG.DE</a></td>
       <td>25.563580</td>
-      <td>73.35</td>
-      <td>1875.09</td>
+      <td>76.53</td>
+      <td>1956.38</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/2B76.DE'>2B76.DE</a></td>
       <td>150.667727</td>
-      <td>11.52</td>
-      <td>1735.69</td>
+      <td>11.38</td>
+      <td>1714.60</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/L0CK.DE'>L0CK.DE</a></td>
       <td>242.075733</td>
-      <td>6.88</td>
-      <td>1665.48</td>
+      <td>6.79</td>
+      <td>1643.69</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/BTEC.L'>BTEC.L</a></td>
       <td>231.910135</td>
-      <td>6.41</td>
-      <td>1486.54</td>
+      <td>6.39</td>
+      <td>1481.91</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/W1TA.DE'>W1TA.DE</a></td>
       <td>37.847733</td>
-      <td>30.17</td>
-      <td>1141.87</td>
+      <td>29.80</td>
+      <td>1127.86</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/RENW.DE'>RENW.DE</a></td>
       <td>123.416522</td>
-      <td>9.22</td>
-      <td>1137.90</td>
+      <td>9.11</td>
+      <td>1124.32</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
@@ -101,7 +101,7 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -113,35 +113,35 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.15</td>
+      <td>0.13</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.99</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>4.92</td>
+      <td>4.09</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>1.0</td>
+      <td>0.98</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>12.95</td>
+      <td>9.52</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>9.16</td>
+      <td>6.73</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>2.97</td>
+      <td>2.39</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.02</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -149,75 +149,75 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>2.1</td>
+      <td>1.46</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>7.93</td>
+      <td>3.53</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.49</td>
+      <td>1.33</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>2.97</td>
+      <td>2.39</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>6.5</td>
+      <td>3.16</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>2.95</td>
+      <td>2.05</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>2.19</td>
+      <td>1.32</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.88</td>
+      <td>5.83</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.07</td>
+      <td>1.98</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.02</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.15</td>
+      <td>0.13</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.15</td>
+      <td>0.13</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.02</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.15</td>
+      <td>0.13</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.99</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.99</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.99</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.99</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -229,15 +229,15 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>7.93</td>
+      <td>3.56</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
-      <td>0</td>
+      <td>0.01</td>
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>37.08</td>
+      <td>14.52</td>
     </tr>
   </tbody>
 </table>
@@ -269,6 +269,10 @@ a mix of megatrends, AI, blcokchain, battery taken from scalable. see onenote fo
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>11207.09€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>11405.79€</td>

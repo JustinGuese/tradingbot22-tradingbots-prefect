@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-bonds-and-nsdq"
 image: "images/plots/c-bonds-and-nsdq.png"
 author: "justin-guese"
 draft: false
-pctgain: -42
+pctgain: -62
 ---
 
 ## Introduction to our strategy
@@ -28,10 +28,10 @@ By comparing the cumulative return of these stocks, our trading bot can determin
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -42 |
-| Days active | 53 |
+| Return % p.a. | -62 |
+| Days active | 54 |
 | Starting capital | 9939.86 |
-| Current capital | 9324.37€ |
+| Current capital | 9026.02€ |
 
 ## Current portfolio
     
@@ -48,8 +48,8 @@ By comparing the cumulative return of these stocks, our trading bot can determin
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/TQQQ'>TQQQ</a></td>
       <td>193.733019</td>
-      <td>47.26</td>
-      <td>9155.82</td>
+      <td>46.47</td>
+      <td>9002.77</td>
     </tr>
   </tbody>
 </table>
@@ -70,7 +70,7 @@ By comparing the cumulative return of these stocks, our trading bot can determin
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -78,127 +78,127 @@ By comparing the cumulative return of these stocks, our trading bot can determin
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.34</td>
+      <td>0.35</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>-0.06</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.27</td>
+      <td>-0.37</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-2.88</td>
+      <td>-3.77</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.03</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-2.94</td>
+      <td>-3.78</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-2.08</td>
+      <td>-2.67</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.29</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.08</td>
+      <td>-0.11</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.71</td>
+      <td>-0.79</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-0.95</td>
+      <td>-0.97</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.34</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.29</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.16</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.04</td>
+      <td>0.03</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>0.56</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>9.24</td>
+      <td>9.22</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.93</td>
+      <td>2.91</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.05</td>
-    </tr>
-    <tr>
-      <th>3M</th>
-      <td>-0.06</td>
-    </tr>
-    <tr>
-      <th>6M</th>
-      <td>-0.06</td>
-    </tr>
-    <tr>
-      <th>YTD</th>
-      <td>-0.05</td>
-    </tr>
-    <tr>
-      <th>1Y</th>
-      <td>-0.06</td>
-    </tr>
-    <tr>
-      <th>3Y (ann.)</th>
-      <td>-0.27</td>
-    </tr>
-    <tr>
-      <th>5Y (ann.)</th>
-      <td>-0.27</td>
-    </tr>
-    <tr>
-      <th>10Y (ann.)</th>
-      <td>-0.27</td>
-    </tr>
-    <tr>
-      <th>All-time (ann.)</th>
-      <td>-0.27</td>
-    </tr>
-    <tr>
-      <th>Avg. Drawdown</th>
       <td>-0.08</td>
     </tr>
     <tr>
+      <th>3M</th>
+      <td>-0.09</td>
+    </tr>
+    <tr>
+      <th>6M</th>
+      <td>-0.09</td>
+    </tr>
+    <tr>
+      <th>YTD</th>
+      <td>-0.08</td>
+    </tr>
+    <tr>
+      <th>1Y</th>
+      <td>-0.09</td>
+    </tr>
+    <tr>
+      <th>3Y (ann.)</th>
+      <td>-0.37</td>
+    </tr>
+    <tr>
+      <th>5Y (ann.)</th>
+      <td>-0.37</td>
+    </tr>
+    <tr>
+      <th>10Y (ann.)</th>
+      <td>-0.37</td>
+    </tr>
+    <tr>
+      <th>All-time (ann.)</th>
+      <td>-0.37</td>
+    </tr>
+    <tr>
+      <th>Avg. Drawdown</th>
+      <td>-0.11</td>
+    </tr>
+    <tr>
       <th>Avg. Drawdown Days</th>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.82</td>
+      <td>0.89</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -206,7 +206,7 @@ By comparing the cumulative return of these stocks, our trading bot can determin
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-1.0</td>
+      <td>-0.86</td>
     </tr>
   </tbody>
 </table>
@@ -278,6 +278,10 @@ By comparing the cumulative return of these stocks, our trading bot can determin
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>9026.02€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9324.37€</td>

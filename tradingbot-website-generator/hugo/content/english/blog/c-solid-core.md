@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-solid-core"
 image: "images/plots/c-solid-core.png"
 author: "justin-guese"
 draft: false
-pctgain: 19
+pctgain: 18
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ created in basebot
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 19 |
-| Days active | 53 |
+| Return % p.a. | 18 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 10519.04€ |
+| Current capital | 10510.95€ |
 
 ## Current portfolio
     
@@ -37,8 +37,8 @@ created in basebot
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NTSX'>NTSX</a></td>
       <td>269.719067</td>
-      <td>38.99</td>
-      <td>10516.35</td>
+      <td>38.98</td>
+      <td>10513.65</td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -67,7 +67,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.72</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -79,7 +79,7 @@ created in basebot
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.21</td>
+      <td>1.17</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -87,15 +87,15 @@ created in basebot
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>1.75</td>
+      <td>1.68</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.24</td>
+      <td>1.19</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.28</td>
+      <td>1.27</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -107,39 +107,39 @@ created in basebot
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.28</td>
+      <td>0.27</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>1.12</td>
+      <td>1.05</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.83</td>
+      <td>0.89</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.28</td>
+      <td>1.27</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>1.18</td>
+      <td>1.19</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.64</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>0.92</td>
+      <td>0.94</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.23</td>
+      <td>5.21</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.66</td>
+      <td>2.88</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -183,11 +183,11 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>8</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>1.03</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>1.19</td>
+      <td>1.1</td>
     </tr>
   </tbody>
 </table>
@@ -267,6 +267,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10510.95€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10519.04€</td>

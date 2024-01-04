@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-et-ai-stocks"
 image: "images/plots/static-et-ai-stocks.png"
 author: "justin-guese"
 draft: false
-pctgain: 20
+pctgain: 13
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ static ai stocks portfolio
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 20 |
-| Days active | 53 |
+| Return % p.a. | 13 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 10738.78€ |
+| Current capital | 10629.03€ |
 
 ## Current portfolio
     
@@ -37,122 +37,122 @@ static ai stocks portfolio
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/MU'>MU</a></td>
       <td>8.550295</td>
-      <td>81.51</td>
-      <td>696.93</td>
+      <td>83.69</td>
+      <td>715.57</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/IBM'>IBM</a></td>
       <td>4.042435</td>
-      <td>161.40</td>
-      <td>652.45</td>
+      <td>161.66</td>
+      <td>653.50</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/CRM'>CRM</a></td>
       <td>2.547450</td>
-      <td>253.48</td>
-      <td>645.73</td>
+      <td>251.78</td>
+      <td>641.40</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AVGO'>AVGO</a></td>
       <td>0.602038</td>
-      <td>1069.45</td>
-      <td>643.85</td>
+      <td>1063.93</td>
+      <td>640.53</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NOW'>NOW</a></td>
       <td>0.941255</td>
-      <td>684.00</td>
-      <td>643.82</td>
-    </tr>
-    <tr>
-      <td><a target='_blank' href='https://finance.yahoo.com/quote/AMZN'>AMZN</a></td>
-      <td>4.153984</td>
-      <td>150.07</td>
-      <td>623.39</td>
+      <td>675.77</td>
+      <td>636.07</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/GOOGL'>GOOGL</a></td>
       <td>4.412343</td>
-      <td>138.21</td>
-      <td>609.83</td>
+      <td>138.50</td>
+      <td>611.11</td>
+    </tr>
+    <tr>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/AMZN'>AMZN</a></td>
+      <td>4.153984</td>
+      <td>146.38</td>
+      <td>608.06</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/INFY'>INFY</a></td>
       <td>33.563774</td>
-      <td>17.74</td>
-      <td>595.42</td>
+      <td>18.07</td>
+      <td>606.50</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/MSFT'>MSFT</a></td>
       <td>1.596914</td>
-      <td>371.70</td>
-      <td>593.57</td>
+      <td>371.83</td>
+      <td>593.78</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SNPS'>SNPS</a></td>
       <td>1.177003</td>
-      <td>496.12</td>
-      <td>583.93</td>
+      <td>493.39</td>
+      <td>580.72</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NVDA'>NVDA</a></td>
       <td>1.201312</td>
-      <td>478.99</td>
-      <td>575.42</td>
+      <td>480.04</td>
+      <td>576.68</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/PLTR'>PLTR</a></td>
       <td>33.223457</td>
-      <td>16.29</td>
-      <td>541.21</td>
+      <td>16.33</td>
+      <td>542.54</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/DT'>DT</a></td>
       <td>10.180084</td>
-      <td>52.23</td>
-      <td>531.71</td>
+      <td>51.68</td>
+      <td>526.11</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/CSCO'>CSCO</a></td>
       <td>10.398561</td>
-      <td>50.07</td>
-      <td>520.66</td>
+      <td>50.08</td>
+      <td>520.76</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ORCL'>ORCL</a></td>
       <td>4.595984</td>
-      <td>103.11</td>
-      <td>473.89</td>
+      <td>103.00</td>
+      <td>473.39</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/BABA'>BABA</a></td>
       <td>5.823449</td>
-      <td>74.57</td>
-      <td>434.25</td>
+      <td>75.38</td>
+      <td>438.97</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AI'>AI</a></td>
       <td>12.791709</td>
-      <td>27.96</td>
-      <td>357.66</td>
+      <td>27.74</td>
+      <td>354.84</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SPLK'>SPLK</a></td>
       <td>2.202139</td>
-      <td>152.23</td>
-      <td>335.23</td>
+      <td>152.20</td>
+      <td>335.17</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AKAM'>AKAM</a></td>
       <td>2.675947</td>
-      <td>116.72</td>
-      <td>312.34</td>
+      <td>115.58</td>
+      <td>309.29</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/GE'>GE</a></td>
       <td>2.289946</td>
-      <td>124.29</td>
-      <td>284.62</td>
+      <td>125.30</td>
+      <td>286.93</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
@@ -179,7 +179,7 @@ static ai stocks portfolio
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -191,35 +191,35 @@ static ai stocks portfolio
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.03</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.16</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.5</td>
+      <td>0.97</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.72</td>
+      <td>0.65</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>2.24</td>
+      <td>1.41</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.58</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.35</td>
+      <td>1.21</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.03</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -227,87 +227,87 @@ static ai stocks portfolio
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.35</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>1.49</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.79</td>
+      <td>0.78</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.35</td>
+      <td>1.21</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>1.37</td>
+      <td>1.25</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.67</td>
+      <td>0.57</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.02</td>
+      <td>1.04</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.98</td>
+      <td>4.96</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.29</td>
+      <td>2.26</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.02</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.03</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.03</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.02</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.03</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.16</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.16</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.16</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.16</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
-      <td>-0.02</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>13</td>
+      <td>14</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>1.03</td>
+      <td>0.52</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -315,7 +315,7 @@ static ai stocks portfolio
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>1.33</td>
+      <td>0.65</td>
     </tr>
   </tbody>
 </table>
@@ -347,6 +347,10 @@ static ai stocks portfolio
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10629.03€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10738.78€</td>

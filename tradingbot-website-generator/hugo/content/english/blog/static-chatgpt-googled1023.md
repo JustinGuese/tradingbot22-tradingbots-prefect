@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-chatgpt-googled1023"
 image: "images/plots/static-chatgpt-googled1023.png"
 author: "justin-guese"
 draft: false
-pctgain: 68
+pctgain: 45
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 68 |
-| Days active | 53 |
+| Return % p.a. | 45 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 11135.94€ |
+| Current capital | 10813.0€ |
 
 ## Current portfolio
     
@@ -37,32 +37,32 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ENTG'>ENTG</a></td>
       <td>22.330314</td>
-      <td>111.44</td>
-      <td>2488.49</td>
+      <td>110.25</td>
+      <td>2461.92</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/TSLA'>TSLA</a></td>
       <td>9.416258</td>
-      <td>241.99</td>
-      <td>2278.64</td>
+      <td>241.78</td>
+      <td>2276.66</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/^IXIC'>^IXIC</a></td>
       <td>0.153399</td>
-      <td>14672.98</td>
-      <td>2250.82</td>
+      <td>14581.07</td>
+      <td>2236.72</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/META'>META</a></td>
       <td>6.359670</td>
-      <td>345.31</td>
-      <td>2196.06</td>
+      <td>344.56</td>
+      <td>2191.29</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/MICR'>MICR</a></td>
       <td>1447.101454</td>
-      <td>1.23</td>
-      <td>1779.93</td>
+      <td>1.22</td>
+      <td>1765.46</td>
     </tr>
   </tbody>
 </table>
@@ -83,7 +83,7 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -91,39 +91,39 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.72</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.1</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.59</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>3.49</td>
+      <td>2.21</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.94</td>
+      <td>0.82</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>6.98</td>
+      <td>3.72</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>4.93</td>
+      <td>2.63</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>2.12</td>
+      <td>1.59</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.05</td>
+      <td>-0.07</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -131,79 +131,79 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>1.13</td>
+      <td>0.59</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>4.3</td>
+      <td>1.31</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.0</td>
+      <td>0.84</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>2.12</td>
+      <td>1.59</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>2.43</td>
+      <td>1.59</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>1.44</td>
+      <td>0.87</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.15</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.95</td>
+      <td>5.9</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.15</td>
+      <td>2.29</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.02</td>
+      <td>-0.05</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.1</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.1</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.02</td>
+      <td>-0.05</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.1</td>
+      <td>0.07</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.59</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.59</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.59</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.59</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
-      <td>-0.02</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
@@ -211,15 +211,15 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>2.08</td>
+      <td>0.91</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
-      <td>0.01</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>3.6</td>
+      <td>1.46</td>
     </tr>
   </tbody>
 </table>
@@ -251,6 +251,10 @@ https://chat.openai.com/c/3f670c23-5008-4e0e-97f2-86d781a44168
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10813.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>11135.94€</td>

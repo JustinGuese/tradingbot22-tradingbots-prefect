@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-nsdq-trend"
 image: "images/plots/c-nsdq-trend.png"
 author: "justin-guese"
@@ -22,7 +22,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 51 |
+| Days active | 52 |
 | Starting capital | 10000.0 |
 | Current capital | 10000.0€ |
 
@@ -63,7 +63,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -227,6 +227,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10000.0€</td>

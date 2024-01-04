@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-sector-momentum"
 image: "images/plots/c-sector-momentum.png"
 author: "justin-guese"
 draft: false
-pctgain: -8
+pctgain: -14
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ created in basebot
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -8 |
-| Days active | 53 |
+| Return % p.a. | -14 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 10290.97€ |
+| Current capital | 10195.74€ |
 
 ## Current portfolio
     
@@ -37,14 +37,14 @@ created in basebot
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/VOX'>VOX</a></td>
       <td>44.220549</td>
-      <td>116.26</td>
-      <td>5141.08</td>
+      <td>115.96</td>
+      <td>5127.81</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/VGT'>VGT</a></td>
       <td>10.886868</td>
-      <td>468.00</td>
-      <td>5095.05</td>
+      <td>464.06</td>
+      <td>5052.16</td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +65,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -77,31 +77,31 @@ created in basebot
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>-0.01</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.06</td>
+      <td>-0.1</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-0.34</td>
+      <td>-0.66</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.45</td>
+      <td>0.4</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-0.43</td>
+      <td>-0.84</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-0.31</td>
+      <td>-0.59</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.93</td>
+      <td>0.87</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -113,11 +113,11 @@ created in basebot
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.07</td>
+      <td>-0.13</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-0.18</td>
+      <td>-0.3</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
@@ -125,15 +125,15 @@ created in basebot
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.93</td>
+      <td>0.87</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.66</td>
+      <td>0.62</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.42</td>
+      <td>0.38</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
@@ -141,7 +141,7 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.37</td>
+      <td>4.34</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
@@ -149,43 +149,43 @@ created in basebot
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.02</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>-0.01</td>
-    </tr>
-    <tr>
-      <th>6M</th>
-      <td>-0.01</td>
-    </tr>
-    <tr>
-      <th>YTD</th>
       <td>-0.02</td>
     </tr>
     <tr>
+      <th>6M</th>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th>YTD</th>
+      <td>-0.03</td>
+    </tr>
+    <tr>
       <th>1Y</th>
-      <td>-0.01</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>-0.06</td>
+      <td>-0.1</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>-0.06</td>
+      <td>-0.1</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>-0.06</td>
+      <td>-0.1</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>-0.06</td>
+      <td>-0.1</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
-      <td>-0.01</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
@@ -193,7 +193,7 @@ created in basebot
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.29</td>
+      <td>0.57</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -201,7 +201,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.36</td>
+      <td>-0.63</td>
     </tr>
   </tbody>
 </table>
@@ -273,6 +273,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10195.74€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10290.97€</td>

@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-et-semiconductors"
 image: "images/plots/static-et-semiconductors.png"
 author: "justin-guese"
 draft: false
-pctgain: 55
+pctgain: 38
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ static semiconductors portfolio
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 55 |
-| Days active | 53 |
+| Return % p.a. | 38 |
+| Days active | 54 |
 | Starting capital | 9495.08 |
-| Current capital | 10264.5€ |
+| Current capital | 10039.39€ |
 
 ## Current portfolio
     
@@ -37,62 +37,62 @@ static semiconductors portfolio
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/AMD'>AMD</a></td>
       <td>11.460534</td>
-      <td>136.05</td>
-      <td>1559.21</td>
+      <td>136.50</td>
+      <td>1564.36</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/NVDA'>NVDA</a></td>
       <td>2.843177</td>
-      <td>478.99</td>
-      <td>1361.85</td>
+      <td>480.04</td>
+      <td>1364.84</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/MPWR'>MPWR</a></td>
       <td>1.765845</td>
-      <td>591.35</td>
-      <td>1044.23</td>
+      <td>569.87</td>
+      <td>1006.30</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SITM'>SITM</a></td>
       <td>7.327282</td>
-      <td>113.84</td>
-      <td>834.14</td>
+      <td>113.54</td>
+      <td>831.94</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ADI'>ADI</a></td>
       <td>3.741629</td>
-      <td>189.88</td>
-      <td>710.46</td>
+      <td>185.91</td>
+      <td>695.61</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SNPS'>SNPS</a></td>
       <td>1.360518</td>
-      <td>496.12</td>
-      <td>674.98</td>
+      <td>493.39</td>
+      <td>671.27</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/CDNS'>CDNS</a></td>
       <td>2.510171</td>
-      <td>261.52</td>
-      <td>656.46</td>
+      <td>257.38</td>
+      <td>646.07</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ONTO'>ONTO</a></td>
       <td>4.341711</td>
-      <td>140.11</td>
-      <td>608.32</td>
+      <td>138.15</td>
+      <td>599.81</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/KLAC'>KLAC</a></td>
       <td>1.069800</td>
-      <td>554.83</td>
-      <td>593.56</td>
+      <td>551.10</td>
+      <td>589.57</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ON'>ON</a></td>
       <td>6.170908</td>
-      <td>79.05</td>
-      <td>487.81</td>
+      <td>77.40</td>
+      <td>477.63</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
@@ -103,20 +103,20 @@ static semiconductors portfolio
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ACLS'>ACLS</a></td>
       <td>3.237045</td>
-      <td>122.07</td>
-      <td>395.15</td>
+      <td>117.35</td>
+      <td>379.87</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/LSCC'>LSCC</a></td>
       <td>5.649284</td>
-      <td>66.77</td>
-      <td>377.20</td>
+      <td>65.36</td>
+      <td>369.24</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/ALGM'>ALGM</a></td>
       <td>12.816993</td>
-      <td>28.62</td>
-      <td>366.82</td>
+      <td>26.92</td>
+      <td>345.03</td>
     </tr>
   </tbody>
 </table>
@@ -137,7 +137,7 @@ static semiconductors portfolio
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -149,35 +149,35 @@ static semiconductors portfolio
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.08</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.47</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>2.27</td>
+      <td>1.59</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.81</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>3.72</td>
+      <td>2.51</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>2.63</td>
+      <td>1.77</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.58</td>
+      <td>1.37</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
-      <td>-0.05</td>
+      <td>-0.07</td>
     </tr>
     <tr>
       <th>Longest DD Days</th>
@@ -185,75 +185,75 @@ static semiconductors portfolio
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.58</td>
+      <td>0.37</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>2.27</td>
+      <td>1.03</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.27</td>
+      <td>1.19</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.58</td>
+      <td>1.37</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>2.24</td>
+      <td>1.69</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>1.11</td>
+      <td>0.87</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.42</td>
+      <td>1.23</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.24</td>
+      <td>4.23</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.86</td>
+      <td>2.68</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.04</td>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.08</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.08</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.04</td>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.08</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.47</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.47</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.47</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.47</td>
+      <td>0.31</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -265,15 +265,15 @@ static semiconductors portfolio
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>1.75</td>
+      <td>0.89</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
-      <td>0.01</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>3.14</td>
+      <td>1.51</td>
     </tr>
   </tbody>
 </table>
@@ -305,6 +305,10 @@ static semiconductors portfolio
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10039.39€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10264.5€</td>

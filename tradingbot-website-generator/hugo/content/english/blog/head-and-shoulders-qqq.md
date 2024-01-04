@@ -1,21 +1,15 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "head-and-shoulders-qqq"
 image: "images/plots/head-and-shoulders-qqq.png"
 author: "justin-guese"
 draft: false
-pctgain: 413
+pctgain: 0
 ---
 
 ## Introduction to our strategy
 
-Do you want to trade the Nasdaq 100 Index with a proven technical indicator? Do you want to spot the reversal points in the market and capture the trend changes? If yes, then you might be interested in our trading bot that detects a head and shoulders pattern in QQQ.
-
-QQQ is an ETF that tracks the performance of the Nasdaq 100 Index, which consists of the 100 largest and most innovative companies in the technology sector. QQQ is one of the most popular and liquid ETFs in the world, with an average daily volume of over 40 million shares.
-
-Our trading bot uses a head and shoulders pattern to identify the potential reversal points in QQQ. A head and shoulders pattern is a technical indicator that appears on a chart as a set of three peaks or troughs, with the center peak or trough representing the head. A head and shoulders pattern describes a specific chart formation that predicts a bullish-to-bearish trend reversal, while an inverse head and shoulders indicates the reverse. The head and shoulders pattern is believed to be one of the most reliable trend reversal patterns, but does have its limitations.
-
-Our trading bot scans the QQQ chart for the formation of the head and shoulders pattern and alerts you when a potential reversal is detected.
+created in basebot
 
 ## Quick Summary
 
@@ -23,10 +17,10 @@ Our trading bot scans the QQQ chart for the formation of the head and shoulders 
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 413 |
-| Days active | 6 |
+| Return % p.a. | 0 |
+| Days active | 7 |
 | Starting capital | 10000.0 |
-| Current capital | 10679.87€ |
+| Current capital | 10000.0€ |
 
 ## Current portfolio
     
@@ -41,10 +35,10 @@ Our trading bot scans the QQQ chart for the formation of the head and shoulders 
   </thead>
   <tbody>
     <tr>
-      <td><a target='_blank' href='https://finance.yahoo.com/quote/SQQQ'>SQQQ</a></td>
-      <td>755.294992</td>
-      <td>14.41</td>
-      <td>10883.8</td>
+      <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
+      <td>10000</td>
+      <td>1</td>
+      <td>10000</td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +59,7 @@ Our trading bot scans the QQQ chart for the formation of the head and shoulders 
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -73,131 +67,135 @@ Our trading bot scans the QQQ chart for the formation of the head and shoulders 
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.58</td>
+      <td>0.63</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.07</td>
-    </tr>
-    <tr>
-      <th>CAGR﹪</th>
-      <td>26.52</td>
-    </tr>
-    <tr>
-      <th>Sharpe</th>
-      <td>7.97</td>
-    </tr>
-    <tr>
-      <th>Prob. Sharpe Ratio</th>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>Sortino</th>
-      <td>268.59</td>
-    </tr>
-    <tr>
-      <th>Sortino/√2</th>
-      <td>189.92</td>
-    </tr>
-    <tr>
-      <th>Omega</th>
-      <td>45.77</td>
-    </tr>
-    <tr>
-      <th>Max Drawdown</th>
-      <td></td>
-    </tr>
-    <tr>
-      <th>Longest DD Days</th>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>Gain/Pain Ratio</th>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>Gain/Pain (1M)</th>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>Payoff Ratio</th>
-      <td>15.26</td>
-    </tr>
-    <tr>
-      <th>Profit Factor</th>
-      <td>45.77</td>
-    </tr>
-    <tr>
-      <th>Common Sense Ratio</th>
-      <td>1742.56</td>
-    </tr>
-    <tr>
-      <th>CPC Index</th>
-      <td>523.61</td>
-    </tr>
-    <tr>
-      <th>Tail Ratio</th>
-      <td>38.08</td>
-    </tr>
-    <tr>
-      <th>Outlier Win Ratio</th>
-      <td>4.29</td>
-    </tr>
-    <tr>
-      <th>Outlier Loss Ratio</th>
-      <td>0.94</td>
-    </tr>
-    <tr>
-      <th>MTD</th>
-      <td>0.05</td>
-    </tr>
-    <tr>
-      <th>3M</th>
-      <td>0.07</td>
-    </tr>
-    <tr>
-      <th>6M</th>
-      <td>0.07</td>
-    </tr>
-    <tr>
-      <th>YTD</th>
-      <td>0.05</td>
-    </tr>
-    <tr>
-      <th>1Y</th>
-      <td>0.07</td>
-    </tr>
-    <tr>
-      <th>3Y (ann.)</th>
-      <td>26.52</td>
-    </tr>
-    <tr>
-      <th>5Y (ann.)</th>
-      <td>26.52</td>
-    </tr>
-    <tr>
-      <th>10Y (ann.)</th>
-      <td>26.52</td>
-    </tr>
-    <tr>
-      <th>All-time (ann.)</th>
-      <td>26.52</td>
-    </tr>
-    <tr>
-      <th>Recovery Factor</th>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>Ulcer Index</th>
       <td>0</td>
     </tr>
     <tr>
-      <th>Serenity Index</th>
-      <td>-</td>
+      <th>CAGR﹪</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Sharpe</th>
+      <td>0.22</td>
+    </tr>
+    <tr>
+      <th>Prob. Sharpe Ratio</th>
+      <td>0.51</td>
+    </tr>
+    <tr>
+      <th>Sortino</th>
+      <td>0.31</td>
+    </tr>
+    <tr>
+      <th>Sortino/√2</th>
+      <td>0.22</td>
+    </tr>
+    <tr>
+      <th>Omega</th>
+      <td>1.05</td>
+    </tr>
+    <tr>
+      <th>Max Drawdown</th>
+      <td>-0.06</td>
+    </tr>
+    <tr>
+      <th>Longest DD Days</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Gain/Pain Ratio</th>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <th>Gain/Pain (1M)</th>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <th>Payoff Ratio</th>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <th>Profit Factor</th>
+      <td>1.05</td>
+    </tr>
+    <tr>
+      <th>Common Sense Ratio</th>
+      <td>0.96</td>
+    </tr>
+    <tr>
+      <th>CPC Index</th>
+      <td>0.44</td>
+    </tr>
+    <tr>
+      <th>Tail Ratio</th>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <th>Outlier Win Ratio</th>
+      <td>4.25</td>
+    </tr>
+    <tr>
+      <th>Outlier Loss Ratio</th>
+      <td>1.82</td>
+    </tr>
+    <tr>
+      <th>MTD</th>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th>3M</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6M</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>YTD</th>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th>1Y</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3Y (ann.)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5Y (ann.)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>10Y (ann.)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>All-time (ann.)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Avg. Drawdown</th>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>-</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Recovery Factor</th>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <th>Ulcer Index</th>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <th>Serenity Index</th>
+      <td>0.1</td>
     </tr>
   </tbody>
 </table>
@@ -237,6 +235,10 @@ Our trading bot scans the QQQ chart for the formation of the head and shoulders 
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10679.87€</td>

@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "msft-decisiontree"
 image: "images/plots/msft-decisiontree.png"
 author: "justin-guese"
 draft: false
-pctgain: -36
+pctgain: -28
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ created in basebot
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -36 |
-| Days active | 53 |
+| Return % p.a. | -28 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 9883.99€ |
+| Current capital | 10000.0€ |
 
 ## Current portfolio
     
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -71,31 +71,31 @@ created in basebot
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>-0.05</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.24</td>
+      <td>-0.19</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-1.83</td>
+      <td>-1.37</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.22</td>
+      <td>0.28</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-2.13</td>
+      <td>-1.63</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-1.51</td>
+      <td>-1.15</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.68</td>
+      <td>0.76</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -103,11 +103,11 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.32</td>
+      <td>-0.24</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
@@ -115,19 +115,19 @@ created in basebot
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.55</td>
+      <td>0.57</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.68</td>
+      <td>0.76</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.53</td>
+      <td>0.58</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.21</td>
+      <td>0.24</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
@@ -135,47 +135,47 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>4.67</td>
+      <td>4.38</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.73</td>
+      <td>2.72</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>-0.01</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>-0.05</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>-0.05</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>-0.01</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>-0.05</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>-0.24</td>
+      <td>-0.19</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>-0.24</td>
+      <td>-0.19</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>-0.24</td>
+      <td>-0.19</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>-0.24</td>
+      <td>-0.19</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -183,11 +183,11 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>25</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.78</td>
+      <td>0.6</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.22</td>
+      <td>-0.17</td>
     </tr>
   </tbody>
 </table>
@@ -267,6 +267,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9883.99€</td>

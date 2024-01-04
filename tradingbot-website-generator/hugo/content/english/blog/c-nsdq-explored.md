@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-nsdq-explored"
 image: "images/plots/c-nsdq-explored.png"
 author: "justin-guese"
 draft: false
-pctgain: 143
+pctgain: 167
 ---
 
 ## Introduction to our strategy
@@ -21,10 +21,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 143 |
-| Days active | 53 |
+| Return % p.a. | 167 |
+| Days active | 54 |
 | Starting capital | 8834.7 |
-| Current capital | 10679.87€ |
+| Current capital | 11019.75€ |
 
 ## Current portfolio
     
@@ -41,8 +41,8 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SQQQ'>SQQQ</a></td>
       <td>755.294992</td>
-      <td>14.41</td>
-      <td>10883.8</td>
+      <td>14.65</td>
+      <td>11065.07</td>
     </tr>
   </tbody>
 </table>
@@ -63,7 +63,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -75,31 +75,31 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.21</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>1.55</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>2.47</td>
+      <td>2.78</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.85</td>
+      <td>0.88</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>4.43</td>
+      <td>5.02</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>3.13</td>
+      <td>3.55</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>1.63</td>
+      <td>1.72</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -111,7 +111,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>0.63</td>
+      <td>0.72</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
@@ -119,67 +119,67 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.74</td>
+      <td>0.75</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>1.63</td>
+      <td>1.72</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>1.75</td>
+      <td>1.84</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.83</td>
+      <td>0.9</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.08</td>
+      <td>1.07</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.52</td>
+      <td>5.37</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>1.92</td>
+      <td>1.91</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>0.05</td>
+      <td>0.08</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.21</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.21</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>0.05</td>
+      <td>0.08</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.21</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>1.55</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>1.55</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>1.55</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>1.55</td>
+      <td>1.92</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -191,7 +191,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>2.97</td>
+      <td>3.42</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -199,7 +199,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>4.79</td>
+      <td>5.59</td>
     </tr>
   </tbody>
 </table>
@@ -271,6 +271,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>11019.75€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10679.87€</td>

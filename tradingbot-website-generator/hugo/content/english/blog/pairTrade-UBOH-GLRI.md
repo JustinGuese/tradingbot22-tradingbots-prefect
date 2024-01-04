@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "pairtrade-uboh-glri"
 image: "images/plots/pairtrade-uboh-glri.png"
 author: "justin-guese"
@@ -18,7 +18,7 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | 0 |
-| Days active | 44 |
+| Days active | 45 |
 | Starting capital | 9992.5 |
 | Current capital | 10000.0€ |
 
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -67,7 +67,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.1</td>
+      <td>0.09</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -79,7 +79,7 @@ created in basebot
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>1.58</td>
+      <td>1.56</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -87,11 +87,11 @@ created in basebot
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>2.77</td>
+      <td>2.73</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>1.96</td>
+      <td>1.93</td>
     </tr>
     <tr>
       <th>Omega</th>
@@ -103,7 +103,7 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>43</td>
+      <td>44</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
@@ -135,11 +135,11 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>16.0</td>
+      <td>16.5</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>0.68</td>
+      <td>0.67</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -183,7 +183,7 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>43</td>
+      <td>44</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>2.66</td>
+      <td>2.7</td>
     </tr>
   </tbody>
 </table>
@@ -251,6 +251,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10000.0€</td>

@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "pairtrade-glri-vstm"
 image: "images/plots/pairtrade-glri-vstm.png"
 author: "justin-guese"
 draft: false
-pctgain: -414
+pctgain: -405
 ---
 
 ## Introduction to our strategy
@@ -17,8 +17,8 @@ created in basebot
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -414 |
-| Days active | 44 |
+| Return % p.a. | -405 |
+| Days active | 45 |
 | Starting capital | 10000.0 |
 | Current capital | 5000.0€ |
 
@@ -65,7 +65,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -73,7 +73,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.22</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -109,7 +109,7 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>20</td>
+      <td>21</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
@@ -141,7 +141,7 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>19.7</td>
+      <td>20.08</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
@@ -189,7 +189,7 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>20</td>
+      <td>21</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
@@ -197,11 +197,11 @@ created in basebot
     </tr>
     <tr>
       <th>Ulcer Index</th>
-      <td>0.15</td>
+      <td>0.17</td>
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.01</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
@@ -273,6 +273,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>5000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>5000.0€</td>

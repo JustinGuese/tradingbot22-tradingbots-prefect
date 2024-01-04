@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-merged"
 image: "images/plots/c-merged.png"
 author: "justin-guese"
@@ -18,7 +18,7 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | -8 |
-| Days active | 53 |
+| Days active | 54 |
 | Starting capital | 10000 |
 | Current capital | 10000.0€ |
 
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -67,7 +67,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.26</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -79,7 +79,7 @@ created in basebot
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-1.48</td>
+      <td>-1.46</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -87,11 +87,11 @@ created in basebot
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-1.87</td>
+      <td>-1.84</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-1.32</td>
+      <td>-1.3</td>
     </tr>
     <tr>
       <th>Omega</th>
@@ -103,7 +103,7 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
@@ -135,11 +135,11 @@ created in basebot
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>13.96</td>
+      <td>14.3</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.44</td>
+      <td>2.43</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -183,7 +183,7 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>25</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.51</td>
+      <td>-0.5</td>
     </tr>
   </tbody>
 </table>
@@ -267,6 +267,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10000.0€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>10000.0€</td>

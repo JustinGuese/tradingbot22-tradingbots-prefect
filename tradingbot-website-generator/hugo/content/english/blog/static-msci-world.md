@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "static-msci-world"
 image: "images/plots/static-msci-world.png"
 author: "justin-guese"
 draft: false
-pctgain: 45
+pctgain: 41
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ pctgain: 45
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | 45 |
-| Days active | 53 |
+| Return % p.a. | 41 |
+| Days active | 54 |
 | Starting capital | 10000 |
-| Current capital | 11000.52€ |
+| Current capital | 10949.01€ |
 
 ## Current portfolio
     
@@ -37,13 +37,13 @@ pctgain: 45
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/IWDA.AS'>IWDA.AS</a></td>
       <td>133.80188</td>
-      <td>81.9</td>
-      <td>10958.37</td>
+      <td>81.63</td>
+      <td>10922.25</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/USD'>USD</a></td>
       <td>0.00250</td>
-      <td>1.0</td>
+      <td>1.00</td>
       <td>0.00</td>
     </tr>
   </tbody>
@@ -65,7 +65,7 @@ pctgain: 45
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -77,15 +77,15 @@ pctgain: 45
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>0.07</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>0.37</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>6.42</td>
+      <td>5.71</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -93,15 +93,15 @@ pctgain: 45
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>15.83</td>
+      <td>13.21</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>11.19</td>
+      <td>9.34</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>4.17</td>
+      <td>3.39</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -109,43 +109,43 @@ pctgain: 45
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>13</td>
+      <td>14</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>3.3</td>
+      <td>2.47</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-</td>
+      <td>127.58</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>1.46</td>
+      <td>1.36</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>4.17</td>
+      <td>3.39</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>8.16</td>
+      <td>5.06</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>4.5</td>
+      <td>3.28</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.96</td>
+      <td>1.49</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.09</td>
+      <td>5.06</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.35</td>
+      <td>2.18</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -153,11 +153,11 @@ pctgain: 45
     </tr>
     <tr>
       <th>3M</th>
-      <td>0.07</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>0.07</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>YTD</th>
@@ -165,23 +165,23 @@ pctgain: 45
     </tr>
     <tr>
       <th>1Y</th>
-      <td>0.07</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>0.37</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>0.37</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>0.37</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>0.37</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -189,11 +189,11 @@ pctgain: 45
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>8.56</td>
+      <td>7.94</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -201,7 +201,7 @@ pctgain: 45
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>12.61</td>
+      <td>11.17</td>
     </tr>
   </tbody>
 </table>
@@ -233,6 +233,10 @@ pctgain: 45
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>10949.01€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>11000.52€</td>

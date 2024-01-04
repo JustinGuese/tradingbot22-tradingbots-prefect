@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-nsdq-original"
 image: "images/plots/c-nsdq-original.png"
 author: "justin-guese"
@@ -22,9 +22,9 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | -1 |
-| Days active | 53 |
+| Days active | 54 |
 | Starting capital | 9986.99 |
-| Current capital | 9960.37€ |
+| Current capital | 9962.96€ |
 
 ## Current portfolio
     
@@ -63,7 +63,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -83,7 +83,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-0.4</td>
+      <td>-0.35</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
@@ -91,11 +91,11 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-0.55</td>
+      <td>-0.48</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-0.39</td>
+      <td>-0.34</td>
     </tr>
     <tr>
       <th>Omega</th>
@@ -119,7 +119,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.99</td>
+      <td>0.93</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
@@ -135,15 +135,15 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>1.16</td>
+      <td>1.15</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>3.98</td>
+      <td>4.11</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>3.02</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -191,7 +191,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.28</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -199,7 +199,7 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.11</td>
+      <td>-0.1</td>
     </tr>
   </tbody>
 </table>
@@ -271,6 +271,10 @@ The c-nsdq strategy is suitable for traders who are looking for a short-term and
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>9962.96€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9960.37€</td>

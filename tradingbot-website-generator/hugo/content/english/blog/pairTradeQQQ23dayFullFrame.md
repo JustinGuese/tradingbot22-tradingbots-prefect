@@ -1,10 +1,10 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "pairtradeqqq23dayfullframe"
 image: "images/plots/pairtradeqqq23dayfullframe.png"
 author: "justin-guese"
 draft: false
-pctgain: -125
+pctgain: -105
 ---
 
 ## Introduction to our strategy
@@ -17,10 +17,10 @@ created in basebot
 
 | Metric | Value |
 | --- | --- |
-| Return % p.a. | -125 |
-| Days active | 53 |
+| Return % p.a. | -105 |
+| Days active | 54 |
 | Starting capital | 8255.54 |
-| Current capital | 6755.4€ |
+| Current capital | 6970.39€ |
 
 ## Current portfolio
     
@@ -37,8 +37,8 @@ created in basebot
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/SQQQ'>SQQQ</a></td>
       <td>477.751205</td>
-      <td>14.41</td>
-      <td>6884.39</td>
+      <td>14.65</td>
+      <td>6999.06</td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -71,31 +71,31 @@ created in basebot
     </tr>
     <tr>
       <th>Cumulative Return</th>
-      <td>-0.18</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.63</td>
+      <td>-0.56</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-3.8</td>
+      <td>-3.01</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.07</td>
+      <td>0.11</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-4.44</td>
+      <td>-3.66</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-3.14</td>
+      <td>-2.59</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.47</td>
+      <td>0.56</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -103,79 +103,79 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>50</td>
+      <td>51</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.53</td>
+      <td>-0.44</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-0.79</td>
+      <td>-0.66</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.8</td>
+      <td>0.86</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.47</td>
+      <td>0.56</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
-      <td>0.3</td>
+      <td>0.47</td>
     </tr>
     <tr>
       <th>CPC Index</th>
-      <td>0.14</td>
+      <td>0.19</td>
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>0.64</td>
+      <td>0.84</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>5.69</td>
+      <td>5.0</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>2.57</td>
+      <td>2.55</td>
     </tr>
     <tr>
       <th>MTD</th>
-      <td>0.05</td>
+      <td>0.08</td>
     </tr>
     <tr>
       <th>3M</th>
-      <td>-0.18</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>6M</th>
-      <td>-0.18</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>YTD</th>
-      <td>0.05</td>
+      <td>0.08</td>
     </tr>
     <tr>
       <th>1Y</th>
-      <td>-0.18</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>-0.63</td>
+      <td>-0.56</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>-0.63</td>
+      <td>-0.56</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>-0.63</td>
+      <td>-0.56</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>-0.63</td>
+      <td>-0.56</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -183,11 +183,11 @@ created in basebot
     </tr>
     <tr>
       <th>Avg. Drawdown Days</th>
-      <td>50</td>
+      <td>51</td>
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.79</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -195,7 +195,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.08</td>
+      <td>-0.07</td>
     </tr>
   </tbody>
 </table>
@@ -235,6 +235,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>6970.39€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>6755.4€</td>

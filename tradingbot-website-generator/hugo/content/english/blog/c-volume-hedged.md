@@ -1,5 +1,5 @@
 ---
-date: "2024-01-03" # 2021-07-14
+date: "2024-01-04" # 2021-07-14
 title: "c-volume-hedged"
 image: "images/plots/c-volume-hedged.png"
 author: "justin-guese"
@@ -18,9 +18,9 @@ created in basebot
 | Metric | Value |
 | --- | --- |
 | Return % p.a. | -23 |
-| Days active | 53 |
+| Days active | 54 |
 | Starting capital | 9921.35 |
-| Current capital | 9589.67€ |
+| Current capital | 9575.83€ |
 
 ## Current portfolio
     
@@ -37,20 +37,20 @@ created in basebot
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/UUP'>UUP</a></td>
       <td>156.473845</td>
-      <td>27.42</td>
-      <td>4290.51</td>
+      <td>27.36</td>
+      <td>4281.12</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/DBMF'>DBMF</a></td>
       <td>105.545476</td>
-      <td>25.84</td>
-      <td>2727.30</td>
+      <td>25.92</td>
+      <td>2735.74</td>
     </tr>
     <tr>
       <td><a target='_blank' href='https://finance.yahoo.com/quote/GLD'>GLD</a></td>
       <td>13.578113</td>
-      <td>188.55</td>
-      <td>2560.15</td>
+      <td>189.40</td>
+      <td>2571.69</td>
     </tr>
   </tbody>
 </table>
@@ -71,7 +71,7 @@ created in basebot
     </tr>
     <tr>
       <th>End Period</th>
-      <td>2024-01-02</td>
+      <td>2024-01-03</td>
     </tr>
     <tr>
       <th>Risk-Free Rate</th>
@@ -79,7 +79,7 @@ created in basebot
     </tr>
     <tr>
       <th>Time in Market</th>
-      <td>0.72</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>Cumulative Return</th>
@@ -87,27 +87,27 @@ created in basebot
     </tr>
     <tr>
       <th>CAGR﹪</th>
-      <td>-0.15</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>Sharpe</th>
-      <td>-2.25</td>
+      <td>-2.31</td>
     </tr>
     <tr>
       <th>Prob. Sharpe Ratio</th>
-      <td>0.16</td>
+      <td>0.15</td>
     </tr>
     <tr>
       <th>Sortino</th>
-      <td>-2.61</td>
+      <td>-2.68</td>
     </tr>
     <tr>
       <th>Sortino/√2</th>
-      <td>-1.84</td>
+      <td>-1.9</td>
     </tr>
     <tr>
       <th>Omega</th>
-      <td>0.55</td>
+      <td>0.54</td>
     </tr>
     <tr>
       <th>Max Drawdown</th>
@@ -115,23 +115,23 @@ created in basebot
     </tr>
     <tr>
       <th>Longest DD Days</th>
-      <td>42</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>Gain/Pain Ratio</th>
-      <td>-0.46</td>
+      <td>-0.47</td>
     </tr>
     <tr>
       <th>Gain/Pain (1M)</th>
-      <td>-0.71</td>
+      <td>-0.74</td>
     </tr>
     <tr>
       <th>Payoff Ratio</th>
-      <td>0.73</td>
+      <td>0.76</td>
     </tr>
     <tr>
       <th>Profit Factor</th>
-      <td>0.55</td>
+      <td>0.54</td>
     </tr>
     <tr>
       <th>Common Sense Ratio</th>
@@ -143,15 +143,15 @@ created in basebot
     </tr>
     <tr>
       <th>Tail Ratio</th>
-      <td>0.65</td>
+      <td>0.66</td>
     </tr>
     <tr>
       <th>Outlier Win Ratio</th>
-      <td>7.08</td>
+      <td>7.03</td>
     </tr>
     <tr>
       <th>Outlier Loss Ratio</th>
-      <td>4.72</td>
+      <td>4.89</td>
     </tr>
     <tr>
       <th>MTD</th>
@@ -175,19 +175,19 @@ created in basebot
     </tr>
     <tr>
       <th>3Y (ann.)</th>
-      <td>-0.15</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>5Y (ann.)</th>
-      <td>-0.15</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>10Y (ann.)</th>
-      <td>-0.15</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>All-time (ann.)</th>
-      <td>-0.15</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>Avg. Drawdown</th>
@@ -199,7 +199,7 @@ created in basebot
     </tr>
     <tr>
       <th>Recovery Factor</th>
-      <td>0.72</td>
+      <td>0.75</td>
     </tr>
     <tr>
       <th>Ulcer Index</th>
@@ -207,7 +207,7 @@ created in basebot
     </tr>
     <tr>
       <th>Serenity Index</th>
-      <td>-0.14</td>
+      <td>-0.13</td>
     </tr>
   </tbody>
 </table>
@@ -279,6 +279,10 @@ created in basebot
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2024-01-03</td>
+      <td>9575.83€</td>
+    </tr>
     <tr>
       <td>2024-01-02</td>
       <td>9589.67€</td>

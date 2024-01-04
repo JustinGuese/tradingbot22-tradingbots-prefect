@@ -9,7 +9,7 @@ banner:
   subtitle: "Our Team"
   title: "Data Engineering, Data Science, Quant"
   description: "Our well experienced team of Quant scientists develop new strategies daily, whilst our data engineers make sure that the code runs reliably.
-
+  <br><br>
   This service is a product of [DataFortress.cloud,
   head over to our main website (datafortress.cloud) for more information](https://datafortress.cloud)
   "
@@ -41,19 +41,19 @@ about_info:
 
 # features_box
 features_box:
-  enable: false
+  enable: true
   features_box_item:
-    - icon: "fas fa-file-signature"
-      title: "Ultimate Guide"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Praesent sapien madssa, convallis a pellentesque nec, egestas in faucibus orci luctus et ultrices"
+    - icon: "fa-solid fa-magnifying-glass"
+      title: "Free informational performance statistics and trades"
+      content: "You can access our free website and see how our AI bots are performing in the market. You can also view the details of each trade, such as the entry and exit prices, the profit and loss, and the risk and reward ratios. You can learn from our bots and improve your own trading skills."
 
-    - icon: "fas fa-signature"
-      title: "How-to Webinars"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Praesent sapien madssa, convallis a pellentesque nec, egestas in faucibus orci luctus et ultrices"
+    - icon: "fas fa-robot"
+      title: "API and/or WhatsApp channel"
+      content: "You can subscribe to our API and/or WhatsApp channel and get access to our real-time trading signals. You can query the last trades or be notified whenever a new trade is executed by our bots. You can also customize your preferences, such as the frequency, the asset class, and the risk level of the signals. You can use our signals to trade on your own platform or broker of choice."
       
-    - icon: "fas fa-bullhorn"
-      title: "workshops & FAQ"
-      content: "Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Praesent sapien madssa, convallis a pellentesque nec, egestas in faucibus orci luctus et ultrices"
+    - icon: "fas fa-piggy-bank"
+      title: "Fully managed “fund” like experience 'OptiVest'"
+      content: "You can join our exclusive club and enjoy a fully managed “fund” like experience. You can either let us run our bots on your Interactive Brokers account, or invest in our traditional fund. You can sit back and relax, while our bots do all the work for you. You can also monitor your portfolio performance and withdraw your funds anytime you want."
 
 # image_and_content_block
 image_and_content_block:

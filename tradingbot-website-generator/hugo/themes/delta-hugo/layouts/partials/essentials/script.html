@@ -45,5 +45,16 @@
 <!-- google adsense -->
 {{ partialCached "adsense-script.html" . }}
 
+<!-- google analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EDT4F38M0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3EDT4F38M0');
+</script>
+
 <!-- datatable -->
 <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>

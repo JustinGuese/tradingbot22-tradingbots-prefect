@@ -1,6 +1,6 @@
 ---
 title: "Justin Guese"
-image: "images/avatar/03.jpg"
+image: "images/avatar/fotojustinguese.webp"
 social:
   - icon : "fab fa-facebook"
     name: "facebook"

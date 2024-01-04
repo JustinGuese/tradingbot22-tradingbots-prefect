@@ -61,6 +61,8 @@ def getBotData():
     # for each bot get the portfolioworths
     allBotNames = [bot.name for bot in allBots]
 
+    bigDiagram = []
+
     allBotStats = dict()
     for botname in allBotNames:
         nicename = allBots[allBotNames.index(botname)].nicename
@@ -72,6 +74,10 @@ def getBotData():
             .all()
         )
         df = pd.DataFrame(portfolioWorths, columns=["Date", "Portfolio Worth"])
+
+        # for the big diagram later
+        bigDiagram.append(df, nicename if nicename else botname)
+
         if len(df) == 0:
             print("no data for bot", botname)
             continue
@@ -189,7 +195,7 @@ def getBotData():
         )
     # then finally create the summary
     allBotStats = pd.DataFrame(allBotStats).T
-    createTopHugo(allBotStats)
+    createTopHugo(allBotStats, bigDiagram)
 
 
 if __name__ == "__main__":

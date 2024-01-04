@@ -10,6 +10,8 @@ Welcome to our extensive resource dedicated to the fascinating world of trading 
 
 n today's fast-paced trading environment, staying ahead of the curve is essential. Our website serves as your one-stop destination for gaining a deep understanding of the strategies and tools that consistently deliver outstanding results. With a commitment to providing comprehensive information, we've meticulously curated a wealth of insights spanning thousands of words to ensure that you have access to the latest and most relevant statistics.
 
+![All bots and strategies](images/plots/top10plot.png)
+
 ## best strategies according to profit
 
 {{topRevenueTable}}

@@ -10,6 +10,7 @@ import comp_notboring
 import databaseBackup
 import finnhub_recommendations
 import headShoulderPrefect
+import momentum_pvo_signal_msft
 import msftDecisionTree
 
 # import pairtrade_glri_vstm
@@ -54,6 +55,11 @@ FLOWS = [
     # (pairtrade_glri_vstm.pairTradeGLRIVSTM, "pairtrade-glri-vstm", "0 17 * * *"), # deactivated, shorting not implemented
     # (pairtrade_uboh_glri.pairTradeUBOHGLRI, "pairtrade-uboh-glri", "5 17 * * *"), # deactivated, shorting not implemented
     (randombot.randomBot, "randombot", "0 20 * * *"),
+    (
+        momentum_pvo_signal_msft.momentumPVOSignalMSFT,
+        "momentum-pvo-signal-msft",
+        "0 17 */5 * *",
+    )
     # ai investing website
     (
         ai_investing_website.runAiInvestWebsiteUpdate,

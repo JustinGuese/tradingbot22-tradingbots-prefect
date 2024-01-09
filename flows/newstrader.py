@@ -8,7 +8,7 @@ from prefect import flow, task, variables
 
 
 # PSQL_URL
-# @task
+@task
 def getCurrentNewsWinners():
     URI = environ["PSQL_URL"]
     user = URI.split(":")[0]
@@ -40,7 +40,7 @@ def getCurrentNewsWinners():
     return df
 
 
-# @task
+@task
 def investOnInfo(df, bot, portfolio):
     # only keep first entry of each
     negatives = df[df.article_sentiment_score < -0.3]
@@ -70,7 +70,7 @@ def investOnInfo(df, bot, portfolio):
             bot.buy(row["ticker"], cash / len(df))
 
 
-# @flow(log_prints=True)
+@flow(log_prints=True)
 def newsTrader():
     print("starting")
     bot = BaseBot(

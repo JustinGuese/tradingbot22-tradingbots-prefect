@@ -5,7 +5,7 @@ title: "Li Auto Chooses NVIDIA DRIVE Thor™ for Next-Gen EV Fleets"
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
+tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
 source: [Benzinga](<a href='https://investor.nvidia.com/news/press-release-details/2024/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving/default.aspx' target='_blank'>https://investor.nvidia.com/news/press-release-details/2024/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving/default.aspx</a>)
 
@@ -17,7 +17,7 @@ source: [Benzinga](<a href='https://investor.nvidia.com/news/press-release-detai
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

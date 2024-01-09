@@ -5,7 +5,7 @@ title: "Bitcoin Miner Core Scientific Raises $55M in Oversubscribed Equity Offer
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/CORZQ' target='_blank'>CORZQ</a> 
+tickers: <a href='https://finance.yahoo.com/quote/CORZQ' target='_blank'>CORZQ</a> 
 
 source: [Cointelegraph](<a href='https://cointelegraph.com/news/bitcoin-miner-core-scientific-completes-55-million-equity-offering' target='_blank'>https://cointelegraph.com/news/bitcoin-miner-core-scientific-completes-55-million-equity-offering</a>)
 

@@ -5,7 +5,7 @@ title: "Moodys (MCO) Investment: How $100 Grew to [Insert Final Amount] in Just 
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/MCO' target='_blank'>MCO</a> 
+tickers: <a href='https://finance.yahoo.com/quote/MCO' target='_blank'>MCO</a> 
 
 source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36538090/100-invested-in-moodys-15-years-ago-would-be-worth-this-much-today' target='_blank'>https://www.benzinga.com/news/24/01/36538090/100-invested-in-moodys-15-years-ago-would-be-worth-this-much-today</a>)
 

@@ -5,7 +5,7 @@ title: "Whales Bearish Stance on Humana Prompts High-Volume Options Trading: A D
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/HUM' target='_blank'>HUM</a> 
+tickers: <a href='https://finance.yahoo.com/quote/HUM' target='_blank'>HUM</a> 
 
 source: [Benzinga](<a href='https://www.moomoo.com/jp/stock/HUM231215C507500-US/news/changes-in-ownership' target='_blank'>https://www.moomoo.com/jp/stock/HUM231215C507500-US/news/changes-in-ownership</a>)
 

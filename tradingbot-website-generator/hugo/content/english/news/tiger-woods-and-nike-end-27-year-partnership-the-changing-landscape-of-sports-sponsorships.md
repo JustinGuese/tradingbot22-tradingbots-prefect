@@ -5,7 +5,7 @@ title: "Tiger Woods and Nike End 27-Year Partnership: The Changing Landscape of 
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a>, <a href='https://finance.yahoo.com/quote/ICNB' target='_blank'>ICNB</a> 
+tickers: <a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a>, <a href='https://finance.yahoo.com/quote/ICNB' target='_blank'>ICNB</a> 
 
 source: [Fox Business News](<a href='https://www.foxbusiness.com/sports/tiger-woods-nike-part-ways-27-years' target='_blank'>https://www.foxbusiness.com/sports/tiger-woods-nike-part-ways-27-years</a>)
 

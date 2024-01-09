@@ -5,7 +5,7 @@ title: "Nvidia Unveils Cutting-Edge Chips for Home AI: Revolutionizing the Power
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a>, <a href='https://finance.yahoo.com/quote/MSFT' target='_blank'>MSFT</a>, <a href='https://finance.yahoo.com/quote/LNVGF' target='_blank'>LNVGF</a> 
+tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a>, <a href='https://finance.yahoo.com/quote/MSFT' target='_blank'>MSFT</a>, <a href='https://finance.yahoo.com/quote/LNVGF' target='_blank'>LNVGF</a> 
 
 source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/nvidia-rtx-4060-super-rtx-4070-ti-super-rtx-4080-super-announced.html' target='_blank'>https://www.cnbc.com/2024/01/08/nvidia-rtx-4060-super-rtx-4070-ti-super-rtx-4080-super-announced.html</a>)
 
@@ -17,7 +17,7 @@ source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/nvidia-rtx-4060-super-rt
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree)
 
 ## summary
 

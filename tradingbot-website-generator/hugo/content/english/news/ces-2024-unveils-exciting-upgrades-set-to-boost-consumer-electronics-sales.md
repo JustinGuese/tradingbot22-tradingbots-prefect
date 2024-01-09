@@ -5,7 +5,7 @@ title: "CES 2024 Unveils Exciting Upgrades Set to Boost Consumer Electronics Sal
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a> 
+tickers: <a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a> 
 
 source: [Investors Business Daily](<a href='https://www.investors.com/news/technology/ces-2024-upgrades-to-drive-consumer-electronics-sales/' target='_blank'>https://www.investors.com/news/technology/ces-2024-upgrades-to-drive-consumer-electronics-sales/</a>)
 
@@ -17,7 +17,7 @@ source: [Investors Business Daily](<a href='https://www.investors.com/news/techn
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL)
 
 ## summary
 

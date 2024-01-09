@@ -5,7 +5,7 @@ title: "Getty Images and iStock Introduce Affordable Generative AI Solution for 
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/GETY' target='_blank'>GETY</a> 
+tickers: <a href='https://finance.yahoo.com/quote/GETY' target='_blank'>GETY</a> 
 
 source: [Benzinga](<a href='https://newsroom.gettyimages.com/en/istock/getty-images-launches-generative-ai-by-istock-for-small-businesses-designers-and-marketers' target='_blank'>https://newsroom.gettyimages.com/en/istock/getty-images-launches-generative-ai-by-istock-for-small-businesses-designers-and-marketers</a>)
 

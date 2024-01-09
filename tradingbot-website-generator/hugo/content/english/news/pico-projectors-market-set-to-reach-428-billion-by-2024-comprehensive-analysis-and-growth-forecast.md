@@ -5,7 +5,7 @@ title: "Pico Projectors Market Set to Reach $4.28 Billion by 2024: Comprehensive
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/LNVGF' target='_blank'>LNVGF</a>, <a href='https://finance.yahoo.com/quote/SNEJF' target='_blank'>SNEJF</a>, <a href='https://finance.yahoo.com/quote/TXN' target='_blank'>TXN</a>, <a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a> 
+tickers: <a href='https://finance.yahoo.com/quote/LNVGF' target='_blank'>LNVGF</a>, <a href='https://finance.yahoo.com/quote/SNEJF' target='_blank'>SNEJF</a>, <a href='https://finance.yahoo.com/quote/TXN' target='_blank'>TXN</a>, <a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a> 
 
 source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805669/0/en/Pico-Projectors-Market-Analysis-2024-2033-Expected-Growth-Rate-Major-Drivers-And-Leading-Regions-As-Per-The-Business-Research-Company-s-Pico-Projectors-Global-Market-Report-2024.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805669/0/en/Pico-Projectors-Market-Analysis-2024-2033-Expected-Growth-Rate-Major-Drivers-And-Leading-Regions-As-Per-The-Business-Research-Company-s-Pico-Projectors-Global-Market-Report-2024.html</a>)
 

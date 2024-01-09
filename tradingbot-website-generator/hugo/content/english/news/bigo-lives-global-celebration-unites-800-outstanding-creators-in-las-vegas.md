@@ -5,7 +5,7 @@ title: "Bigo Lives Global Celebration Unites 800+ Outstanding Creators in Las Ve
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/META' target='_blank'>META</a> 
+tickers: <a href='https://finance.yahoo.com/quote/META' target='_blank'>META</a> 
 
 source: [Benzinga](<a href='https://finance.yahoo.com/news/bigo-live-honors-outstanding-broadcasters-170000723.html' target='_blank'>https://finance.yahoo.com/news/bigo-live-honors-outstanding-broadcasters-170000723.html</a>)
 

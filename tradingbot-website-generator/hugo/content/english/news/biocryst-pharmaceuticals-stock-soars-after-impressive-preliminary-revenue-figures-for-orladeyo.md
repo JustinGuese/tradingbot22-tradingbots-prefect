@@ -5,7 +5,7 @@ title: "BioCryst Pharmaceuticals Stock Soars After Impressive Preliminary Revenu
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/BCRX' target='_blank'>BCRX</a> 
+tickers: <a href='https://finance.yahoo.com/quote/BCRX' target='_blank'>BCRX</a> 
 
 source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36537602/whats-going-on-with-biocryst-pharmaceuticals-stock' target='_blank'>https://www.benzinga.com/news/24/01/36537602/whats-going-on-with-biocryst-pharmaceuticals-stock</a>)
 

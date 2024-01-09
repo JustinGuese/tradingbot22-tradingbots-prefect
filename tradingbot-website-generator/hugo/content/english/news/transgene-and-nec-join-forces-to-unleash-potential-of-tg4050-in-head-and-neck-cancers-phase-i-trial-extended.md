@@ -5,7 +5,7 @@ title: "Transgene and NEC Join Forces to Unleash Potential of TG4050 in Head and
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/NIPNF' target='_blank'>NIPNF</a>, <a href='https://finance.yahoo.com/quote/TRGNF' target='_blank'>TRGNF</a> 
+tickers: <a href='https://finance.yahoo.com/quote/NIPNF' target='_blank'>NIPNF</a>, <a href='https://finance.yahoo.com/quote/TRGNF' target='_blank'>TRGNF</a> 
 
 source: [GlobeNewswire](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805681/0/en/Transgene-and-NEC-Extend-their-Collaboration-to-Continue-Joint-Clinical-Development-of-Neoantigen-Cancer-Vaccine-TG4050.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805681/0/en/Transgene-and-NEC-Extend-their-Collaboration-to-Continue-Joint-Clinical-Development-of-Neoantigen-Cancer-Vaccine-TG4050.html</a>)
 

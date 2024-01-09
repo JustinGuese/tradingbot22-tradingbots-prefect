@@ -5,7 +5,7 @@ title: "STAR Expands Empire with Grand Opening of Las Vegas Office"
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/SGU' target='_blank'>SGU</a> 
+tickers: <a href='https://finance.yahoo.com/quote/SGU' target='_blank'>SGU</a> 
 
 source: [PR Newswire](<a href='https://www.prnewswire.com/news-releases/star-opens-las-vegas-location-takes-next-step-in-planned-nationwide-expansion-302026662.html' target='_blank'>https://www.prnewswire.com/news-releases/star-opens-las-vegas-location-takes-next-step-in-planned-nationwide-expansion-302026662.html</a>)
 

@@ -5,7 +5,7 @@ title: "Dells Ascending Stock: Up 87% in 2023 with More Growth Ahead"
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a>, <a href='https://finance.yahoo.com/quote/JPM' target='_blank'>JPM</a> 
+tickers: <a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a>, <a href='https://finance.yahoo.com/quote/JPM' target='_blank'>JPM</a> 
 
 source: [Benzinga](<a href='https://www.benzinga.com/analyst-ratings/analyst-color/24/01/36534728/dell-stock-gained-87-in-2023-and-theres-further-upside-thanks-to-ai-analyst-says' target='_blank'>https://www.benzinga.com/analyst-ratings/analyst-color/24/01/36534728/dell-stock-gained-87-in-2023-and-theres-further-upside-thanks-to-ai-analyst-says</a>)
 

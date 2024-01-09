@@ -5,7 +5,7 @@ title: "Home Depot Ventures into Tech Territory: Unveiling New Products and Offe
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/HD' target='_blank'>HD</a>, <a href='https://finance.yahoo.com/quote/GOOG' target='_blank'>GOOG</a> 
+tickers: <a href='https://finance.yahoo.com/quote/HD' target='_blank'>HD</a>, <a href='https://finance.yahoo.com/quote/GOOG' target='_blank'>GOOG</a> 
 
 source: [Benzinga](<a href='https://www.owler.com/reports/home-depot--inc./home-depot-goes-from-home-repair--appliances-to-ma/1704737049071' target='_blank'>https://www.owler.com/reports/home-depot--inc./home-depot-goes-from-home-repair--appliances-to-ma/1704737049071</a>)
 

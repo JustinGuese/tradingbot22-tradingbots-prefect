@@ -5,7 +5,7 @@ title: "Whales Go Bearish: Unveiling ASML Holdings Latest Options Trends"
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/ASML' target='_blank'>ASML</a> 
+tickers: <a href='https://finance.yahoo.com/quote/ASML' target='_blank'>ASML</a> 
 
 source: [Benzinga](<a href='https://www.benzinga.com/markets/options/24/01/36538433/behind-the-scenes-of-asml-holdings-latest-options-trends' target='_blank'>https://www.benzinga.com/markets/options/24/01/36538433/behind-the-scenes-of-asml-holdings-latest-options-trends</a>)
 

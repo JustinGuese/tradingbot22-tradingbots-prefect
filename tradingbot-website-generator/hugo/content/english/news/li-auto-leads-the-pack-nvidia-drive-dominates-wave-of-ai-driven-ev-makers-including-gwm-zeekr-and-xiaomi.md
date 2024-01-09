@@ -5,7 +5,7 @@ title: "Li Auto Leads the Pack: NVIDIA DRIVE Dominates Wave of AI-Driven EV Make
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
+tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
 source: [GlobeNewswire](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805666/0/en/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805666/0/en/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving.html</a>)
 
@@ -17,7 +17,7 @@ source: [GlobeNewswire](<a href='https://www.globenewswire.com/news-release/2024
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

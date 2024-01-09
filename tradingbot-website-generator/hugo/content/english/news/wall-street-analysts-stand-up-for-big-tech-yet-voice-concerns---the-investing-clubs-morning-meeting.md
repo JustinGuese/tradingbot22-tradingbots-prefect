@@ -5,7 +5,7 @@ title: "Wall Street Analysts Stand Up for Big Tech, Yet Voice Concerns - The Inv
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a>, <a href='https://finance.yahoo.com/quote/WFC' target='_blank'>WFC</a>, <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a>, <a href='https://finance.yahoo.com/quote/AMZN' target='_blank'>AMZN</a> 
+tickers: <a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a>, <a href='https://finance.yahoo.com/quote/WFC' target='_blank'>WFC</a>, <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a>, <a href='https://finance.yahoo.com/quote/AMZN' target='_blank'>AMZN</a> 
 
 source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/wall-street-defends-this-big-tech-name-but-expresses-caution-on-banks.html' target='_blank'>https://www.cnbc.com/2024/01/08/wall-street-defends-this-big-tech-name-but-expresses-caution-on-banks.html</a>)
 
@@ -17,7 +17,7 @@ source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/wall-street-defends-this
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL)
 
 ## summary
 

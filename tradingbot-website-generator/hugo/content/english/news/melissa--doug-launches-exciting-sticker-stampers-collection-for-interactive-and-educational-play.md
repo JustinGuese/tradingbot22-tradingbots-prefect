@@ -5,7 +5,7 @@ title: "Melissa & Doug Launches Exciting Sticker Stampers Collection for Interac
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/WMT' target='_blank'>WMT</a>, <a href='https://finance.yahoo.com/quote/SNMSF' target='_blank'>SNMSF</a> 
+tickers: <a href='https://finance.yahoo.com/quote/WMT' target='_blank'>WMT</a>, <a href='https://finance.yahoo.com/quote/SNMSF' target='_blank'>SNMSF</a> 
 
 source: [Benzinga](<a href='https://www.prnewswire.com/news-releases/melissa--doug-a-brand-trusted-in-early-childhood-play-revolutionizes-stickers-with-the-national-launch-of-sticker-wow-302028720.html' target='_blank'>https://www.prnewswire.com/news-releases/melissa--doug-a-brand-trusted-in-early-childhood-play-revolutionizes-stickers-with-the-national-launch-of-sticker-wow-302028720.html</a>)
 

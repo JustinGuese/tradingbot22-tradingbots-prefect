@@ -5,7 +5,7 @@ title: "VIPS: Uncovering 3 China Stocks Poised for 2024 Growth Amid Economic Res
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/VIPS' target='_blank'>VIPS</a> 
+tickers: <a href='https://finance.yahoo.com/quote/VIPS' target='_blank'>VIPS</a> 
 
 source: [Stocknews.com](<a href='https://stocknews.com/news/vips-athm-tour-3-china-stocks-with-2024-gain-potential/' target='_blank'>https://stocknews.com/news/vips-athm-tour-3-china-stocks-with-2024-gain-potential/</a>)
 

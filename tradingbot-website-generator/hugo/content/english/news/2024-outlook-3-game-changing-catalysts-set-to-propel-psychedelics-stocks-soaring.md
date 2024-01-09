@@ -5,7 +5,7 @@ title: "2024 Outlook: 3 Game-Changing Catalysts Set to Propel Psychedelics Stock
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/CMPS' target='_blank'>CMPS</a> 
+tickers: <a href='https://finance.yahoo.com/quote/CMPS' target='_blank'>CMPS</a> 
 
 source: [Motley Fool](<a href='https://www.fool.com/investing/2024/01/08/3-big-new-catalysts-for-psychedelics-stocks-2024/' target='_blank'>https://www.fool.com/investing/2024/01/08/3-big-new-catalysts-for-psychedelics-stocks-2024/</a>)
 

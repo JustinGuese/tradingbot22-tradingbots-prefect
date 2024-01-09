@@ -5,7 +5,7 @@ title: "Abercrombie & Fitch Shares Soar as Q4 and FY2023 Outlook Exceed Expectat
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/ANF' target='_blank'>ANF</a> 
+tickers: <a href='https://finance.yahoo.com/quote/ANF' target='_blank'>ANF</a> 
 
 source: [Benzinga](<a href='https://www.tradingview.com/news/benzinga:0fc0cc1f2094b:0-why-retailer-abercrombie-fitch-shares-are-shooting-higher-today/' target='_blank'>https://www.tradingview.com/news/benzinga:0fc0cc1f2094b:0-why-retailer-abercrombie-fitch-shares-are-shooting-higher-today/</a>)
 

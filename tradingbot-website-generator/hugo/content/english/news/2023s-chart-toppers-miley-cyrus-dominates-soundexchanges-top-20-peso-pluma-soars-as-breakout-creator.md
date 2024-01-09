@@ -5,7 +5,7 @@ title: "2023s Chart-Toppers: Miley Cyrus Dominates SoundExchanges Top 20, Peso P
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/UYU-USD' target='_blank'>UYU-USD</a> 
+tickers: <a href='https://finance.yahoo.com/quote/UYU-USD' target='_blank'>UYU-USD</a> 
 
 source: [Benzinga](<a href='https://www.prnewswire.com/news-releases/soundexchange-releases-top-20-lists-of-2023-302028744.html' target='_blank'>https://www.prnewswire.com/news-releases/soundexchange-releases-top-20-lists-of-2023-302028744.html</a>)
 

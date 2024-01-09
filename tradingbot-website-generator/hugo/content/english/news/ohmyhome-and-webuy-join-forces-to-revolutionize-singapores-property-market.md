@@ -5,7 +5,7 @@ title: "Ohmyhome and Webuy Join Forces to Revolutionize Singapores Property Mark
 author: "justin-guese"
 draft: false
 ---
-<a href='https://finance.yahoo.com/quote/OMH' target='_blank'>OMH</a>, <a href='https://finance.yahoo.com/quote/WBUY' target='_blank'>WBUY</a> 
+tickers: <a href='https://finance.yahoo.com/quote/OMH' target='_blank'>OMH</a>, <a href='https://finance.yahoo.com/quote/WBUY' target='_blank'>WBUY</a> 
 
 source: [Benzinga](<a href='https://www.benzinga.com/markets/equities/24/01/36535022/ohmyhome-webuy-forge-partnership-to-elevate-property-and-e-commerce-services-in-singapore' target='_blank'>https://www.benzinga.com/markets/equities/24/01/36535022/ohmyhome-webuy-forge-partnership-to-elevate-property-and-e-commerce-services-in-singapore</a>)
 

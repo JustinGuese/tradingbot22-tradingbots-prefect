@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/GETY' target='_blank'>GETY</a> 
 
-source: [Benzinga](<a href='https://newsroom.gettyimages.com/en/istock/getty-images-launches-generative-ai-by-istock-for-small-businesses-designers-and-marketers' target='_blank'>https://newsroom.gettyimages.com/en/istock/getty-images-launches-generative-ai-by-istock-for-small-businesses-designers-and-marketers</a>)
+source: <a href='https://newsroom.gettyimages.com/en/istock/getty-images-launches-generative-ai-by-istock-for-small-businesses-designers-and-marketers' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

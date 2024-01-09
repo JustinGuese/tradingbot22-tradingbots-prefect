@@ -7,7 +7,7 @@ draft: false
 ---
 tickers:  <a href='https://finance.yahoo.com/quote/ASRT' target='_blank'>ASRT</a>
 
-source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html</a>)
+source: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

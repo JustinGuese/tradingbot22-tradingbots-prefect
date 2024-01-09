@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/ASML' target='_blank'>ASML</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/markets/options/24/01/36538433/behind-the-scenes-of-asml-holdings-latest-options-trends' target='_blank'>https://www.benzinga.com/markets/options/24/01/36538433/behind-the-scenes-of-asml-holdings-latest-options-trends</a>)
+source: <a href='https://www.benzinga.com/markets/options/24/01/36538433/behind-the-scenes-of-asml-holdings-latest-options-trends' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

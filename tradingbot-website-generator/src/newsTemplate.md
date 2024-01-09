@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: {{positiveTickersList}} {{negativeTickersList}}
 
-source: [{{source}}]({{url}})
+source: {{url}}
 
 #### tickers affected by this
 

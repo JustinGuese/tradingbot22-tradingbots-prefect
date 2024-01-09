@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/VIPS' target='_blank'>VIPS</a> 
 
-source: [Stocknews.com](<a href='https://stocknews.com/news/vips-athm-tour-3-china-stocks-with-2024-gain-potential/' target='_blank'>https://stocknews.com/news/vips-athm-tour-3-china-stocks-with-2024-gain-potential/</a>)
+source: <a href='https://stocknews.com/news/vips-athm-tour-3-china-stocks-with-2024-gain-potential/' target='_blank'>Stocknews.com</a>
 
 #### tickers affected by this
 

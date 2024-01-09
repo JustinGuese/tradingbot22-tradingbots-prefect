@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
-source: [Benzinga](<a href='https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series' target='_blank'>https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series</a>)
+source: <a href='https://nvidianews.nvidia.com/news/geforce-rtx-40-super-series' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

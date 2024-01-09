@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/CVX' target='_blank'>CVX</a>, <a href='https://finance.yahoo.com/quote/HES' target='_blank'>HES</a> 
 
-source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805708/0/en/SHAREHOLDER-INVESTIGATION-Halper-Sadeh-LLC-Investigates-HES-DSKE-ROVR-ESMT.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805708/0/en/SHAREHOLDER-INVESTIGATION-Halper-Sadeh-LLC-Investigates-HES-DSKE-ROVR-ESMT.html</a>)
+source: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805708/0/en/SHAREHOLDER-INVESTIGATION-Halper-Sadeh-LLC-Investigates-HES-DSKE-ROVR-ESMT.html' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

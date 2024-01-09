@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/UYU-USD' target='_blank'>UYU-USD</a> 
 
-source: [Benzinga](<a href='https://www.prnewswire.com/news-releases/soundexchange-releases-top-20-lists-of-2023-302028744.html' target='_blank'>https://www.prnewswire.com/news-releases/soundexchange-releases-top-20-lists-of-2023-302028744.html</a>)
+source: <a href='https://www.prnewswire.com/news-releases/soundexchange-releases-top-20-lists-of-2023-302028744.html' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

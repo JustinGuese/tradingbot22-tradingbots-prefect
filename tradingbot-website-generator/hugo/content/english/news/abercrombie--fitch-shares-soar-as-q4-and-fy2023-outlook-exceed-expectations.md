@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/ANF' target='_blank'>ANF</a> 
 
-source: [Benzinga](<a href='https://www.tradingview.com/news/benzinga:0fc0cc1f2094b:0-why-retailer-abercrombie-fitch-shares-are-shooting-higher-today/' target='_blank'>https://www.tradingview.com/news/benzinga:0fc0cc1f2094b:0-why-retailer-abercrombie-fitch-shares-are-shooting-higher-today/</a>)
+source: <a href='https://www.tradingview.com/news/benzinga:0fc0cc1f2094b:0-why-retailer-abercrombie-fitch-shares-are-shooting-higher-today/' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

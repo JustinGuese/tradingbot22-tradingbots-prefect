@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/BCRX' target='_blank'>BCRX</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36537602/whats-going-on-with-biocryst-pharmaceuticals-stock' target='_blank'>https://www.benzinga.com/news/24/01/36537602/whats-going-on-with-biocryst-pharmaceuticals-stock</a>)
+source: <a href='https://www.benzinga.com/news/24/01/36537602/whats-going-on-with-biocryst-pharmaceuticals-stock' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/MSFT' target='_blank'>MSFT</a>, <a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a>, <a href='https://finance.yahoo.com/quote/GOOG' target='_blank'>GOOG</a> 
 
-source: [Stocknews.com](<a href='https://stocknews.com/news/aapl-msft-googl-lly-nvs-are-aapl-msft-and-googl-solid-2024-buys/' target='_blank'>https://stocknews.com/news/aapl-msft-googl-lly-nvs-are-aapl-msft-and-googl-solid-2024-buys/</a>)
+source: <a href='https://stocknews.com/news/aapl-msft-googl-lly-nvs-are-aapl-msft-and-googl-solid-2024-buys/' target='_blank'>Stocknews.com</a>
 
 #### tickers affected by this
 
@@ -17,7 +17,7 @@ source: [Stocknews.com](<a href='https://stocknews.com/news/aapl-msft-googl-lly-
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [finnhub-recommendations](/strategies/finnhub-recommendations), [msft-decisiontree](/strategies/msft-decisiontree), [randombot](/strategies/randombot)
+[c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [randombot](/strategies/randombot), [msft-decisiontree](/strategies/msft-decisiontree), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

@@ -1,3 +1,4 @@
+import time
 from os import environ
 
 import pandas as pd
@@ -69,7 +70,7 @@ def getGPTSummary(prompt):
             },
             {
                 "role": "user",
-                "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else: "
+                "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else. remove promotional content except for yourself, and remember that you are writing for ai-investing-bots.com. content: "
                 + prompt,
             },
         ],
@@ -106,7 +107,13 @@ def getGoogleHit(source, title, timestamp):
         num_results=1,
         advanced=True,
     )
-    res = next(res)
+    try:
+        res = next(res)
+    except Exception as e:
+        if "Too Many Requests for url" in str(e):
+            print("Too Many Requests for url... wait some time")
+            time.sleep(60)
+            return getGoogleHit(source, title, timestamp)
     url, title = res.url, res.title
     content = requests.get(url, headers=HEADERS).text
     content = text_from_html(content)
@@ -218,7 +225,7 @@ def createNews():
             )
             template = template.replace("{{summary}}", news.ai_summary)
             template = template.replace(
-                "{{url}}", f"<a href='{news.ai_url}' target='_blank'>{news.ai_url}</a>"
+                "{{url}}", f"<a href='{news.ai_url}' target='_blank'>{news.source}</a>"
             )
 
             # positiveTickersList

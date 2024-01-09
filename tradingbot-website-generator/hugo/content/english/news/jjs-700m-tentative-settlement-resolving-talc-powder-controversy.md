@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/JNJ' target='_blank'>JNJ</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/large-cap/24/01/36537800/j-js-tentative-700m-agreement-to-resolve-talc-powder-related-lawsuits-across-us-states' target='_blank'>https://www.benzinga.com/news/large-cap/24/01/36537800/j-js-tentative-700m-agreement-to-resolve-talc-powder-related-lawsuits-across-us-states</a>)
+source: <a href='https://www.benzinga.com/news/large-cap/24/01/36537800/j-js-tentative-700m-agreement-to-resolve-talc-powder-related-lawsuits-across-us-states' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

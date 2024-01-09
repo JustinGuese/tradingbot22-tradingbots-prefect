@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/AAPL' target='_blank'>AAPL</a>, <a href='https://finance.yahoo.com/quote/WFC' target='_blank'>WFC</a>, <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a>, <a href='https://finance.yahoo.com/quote/AMZN' target='_blank'>AMZN</a> 
 
-source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/wall-street-defends-this-big-tech-name-but-expresses-caution-on-banks.html' target='_blank'>https://www.cnbc.com/2024/01/08/wall-street-defends-this-big-tech-name-but-expresses-caution-on-banks.html</a>)
+source: <a href='https://www.cnbc.com/2024/01/08/wall-street-defends-this-big-tech-name-but-expresses-caution-on-banks.html' target='_blank'>CNBC</a>
 
 #### tickers affected by this
 
@@ -17,7 +17,7 @@ source: [CNBC](<a href='https://www.cnbc.com/2024/01/08/wall-street-defends-this
 
 #### our strategies and bots using these tickers
 
-[finnhub-recommendations](/strategies/finnhub-recommendations), [randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [randombot](/strategies/randombot), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

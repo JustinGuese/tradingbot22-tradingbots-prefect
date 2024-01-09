@@ -7,7 +7,7 @@ draft: false
 ---
 tickers:  <a href='https://finance.yahoo.com/quote/RGNX' target='_blank'>RGNX</a>, <a href='https://finance.yahoo.com/quote/ZJYL' target='_blank'>ZJYL</a>, <a href='https://finance.yahoo.com/quote/MTC' target='_blank'>MTC</a>, <a href='https://finance.yahoo.com/quote/ZIM' target='_blank'>ZIM</a>, <a href='https://finance.yahoo.com/quote/SPR' target='_blank'>SPR</a>, <a href='https://finance.yahoo.com/quote/PACB' target='_blank'>PACB</a>, <a href='https://finance.yahoo.com/quote/FNA' target='_blank'>FNA</a>, <a href='https://finance.yahoo.com/quote/BA' target='_blank'>BA</a>, <a href='https://finance.yahoo.com/quote/PRTA' target='_blank'>PRTA</a>, <a href='https://finance.yahoo.com/quote/RVNC' target='_blank'>RVNC</a>, <a href='https://finance.yahoo.com/quote/DTC' target='_blank'>DTC</a>
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36538431/boeing-pacific-biosciences-of-california-and-other-big-stocks-moving-lower-on-monday' target='_blank'>https://www.benzinga.com/news/24/01/36538431/boeing-pacific-biosciences-of-california-and-other-big-stocks-moving-lower-on-monday</a>)
+source: <a href='https://www.benzinga.com/news/24/01/36538431/boeing-pacific-biosciences-of-california-and-other-big-stocks-moving-lower-on-monday' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

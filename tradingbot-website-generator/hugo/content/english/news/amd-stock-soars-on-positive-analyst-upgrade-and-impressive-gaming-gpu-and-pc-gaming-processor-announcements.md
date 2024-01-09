@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/AMD' target='_blank'>AMD</a>, <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36537402/why-is-amd-stock-trading-higher-monday' target='_blank'>https://www.benzinga.com/news/24/01/36537402/why-is-amd-stock-trading-higher-monday</a>)
+source: <a href='https://www.benzinga.com/news/24/01/36537402/why-is-amd-stock-trading-higher-monday' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 
@@ -17,7 +17,7 @@ source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36537402/why-is-
 
 #### our strategies and bots using these tickers
 
-[finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [randombot](/strategies/randombot)
+[finnhub-recommendations](/strategies/finnhub-recommendations), [randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

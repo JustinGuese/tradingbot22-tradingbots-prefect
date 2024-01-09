@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/CORZQ' target='_blank'>CORZQ</a> 
 
-source: [Cointelegraph](<a href='https://cointelegraph.com/news/bitcoin-miner-core-scientific-completes-55-million-equity-offering' target='_blank'>https://cointelegraph.com/news/bitcoin-miner-core-scientific-completes-55-million-equity-offering</a>)
+source: <a href='https://cointelegraph.com/news/bitcoin-miner-core-scientific-completes-55-million-equity-offering' target='_blank'>Cointelegraph</a>
 
 #### tickers affected by this
 

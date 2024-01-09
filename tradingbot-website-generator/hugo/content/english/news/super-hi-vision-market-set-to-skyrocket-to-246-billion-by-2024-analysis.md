@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/SNEJF' target='_blank'>SNEJF</a>, <a href='https://finance.yahoo.com/quote/SSNLF' target='_blank'>SSNLF</a>, <a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a> 
 
-source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html</a>)
+source: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

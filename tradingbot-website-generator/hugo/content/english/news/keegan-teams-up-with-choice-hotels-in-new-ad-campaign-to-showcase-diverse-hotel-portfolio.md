@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/CHH' target='_blank'>CHH</a> 
 
-source: [Benzinga](<a href='https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key' target='_blank'>https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key</a>)
+source: <a href='https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

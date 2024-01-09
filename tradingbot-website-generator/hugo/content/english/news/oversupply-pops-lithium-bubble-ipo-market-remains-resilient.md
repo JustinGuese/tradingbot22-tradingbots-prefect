@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/ERMAF' target='_blank'>ERMAF</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36539478/as-oversupply-deflates-lithium-bubble-ipo-market-keeps-in-high-spirits' target='_blank'>https://www.benzinga.com/news/24/01/36539478/as-oversupply-deflates-lithium-bubble-ipo-market-keeps-in-high-spirits</a>)
+source: <a href='https://www.benzinga.com/news/24/01/36539478/as-oversupply-deflates-lithium-bubble-ipo-market-keeps-in-high-spirits' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

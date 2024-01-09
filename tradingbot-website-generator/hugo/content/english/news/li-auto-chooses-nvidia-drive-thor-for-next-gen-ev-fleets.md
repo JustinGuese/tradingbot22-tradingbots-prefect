@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
-source: [Benzinga](<a href='https://investor.nvidia.com/news/press-release-details/2024/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving/default.aspx' target='_blank'>https://investor.nvidia.com/news/press-release-details/2024/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving/default.aspx</a>)
+source: <a href='https://investor.nvidia.com/news/press-release-details/2024/Wave-of-EV-Makers-Choose-NVIDIA-DRIVE-for-Automated-Driving/default.aspx' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

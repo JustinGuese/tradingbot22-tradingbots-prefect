@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/WDFC' target='_blank'>WDFC</a>, <a href='https://finance.yahoo.com/quote/HBB' target='_blank'>HBB</a>, <a href='https://finance.yahoo.com/quote/SCS' target='_blank'>SCS</a>, <a href='https://finance.yahoo.com/quote/LCUT' target='_blank'>LCUT</a> 
 
-source: [Stocknews.com](<a href='https://stocknews.com/news/wdfc-scs-hbb-lcut-wd-40-company-wdfc-earnings-watch-and-analyzing-investor-strategies/' target='_blank'>https://stocknews.com/news/wdfc-scs-hbb-lcut-wd-40-company-wdfc-earnings-watch-and-analyzing-investor-strategies/</a>)
+source: <a href='https://stocknews.com/news/wdfc-scs-hbb-lcut-wd-40-company-wdfc-earnings-watch-and-analyzing-investor-strategies/' target='_blank'>Stocknews.com</a>
 
 #### tickers affected by this
 

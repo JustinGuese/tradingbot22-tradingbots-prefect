@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/DVN' target='_blank'>DVN</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/markets/options/24/01/36538794/what-the-options-market-tells-us-about-devon-energy' target='_blank'>https://www.benzinga.com/markets/options/24/01/36538794/what-the-options-market-tells-us-about-devon-energy</a>)
+source: <a href='https://www.benzinga.com/markets/options/24/01/36538794/what-the-options-market-tells-us-about-devon-energy' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/UPST' target='_blank'>UPST</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/markets/options/24/01/36538453/behind-the-scenes-of-upstart-hldgss-latest-options-trends' target='_blank'>https://www.benzinga.com/markets/options/24/01/36538453/behind-the-scenes-of-upstart-hldgss-latest-options-trends</a>)
+source: <a href='https://www.benzinga.com/markets/options/24/01/36538453/behind-the-scenes-of-upstart-hldgss-latest-options-trends' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

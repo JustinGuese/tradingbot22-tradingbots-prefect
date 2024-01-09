@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/NVDA' target='_blank'>NVDA</a> 
 
-source: [Benzinga](<a href='https://finance.yahoo.com/news/nvidia-developers-pioneer-lifelike-digital-162100553.html' target='_blank'>https://finance.yahoo.com/news/nvidia-developers-pioneer-lifelike-digital-162100553.html</a>)
+source: <a href='https://finance.yahoo.com/news/nvidia-developers-pioneer-lifelike-digital-162100553.html' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

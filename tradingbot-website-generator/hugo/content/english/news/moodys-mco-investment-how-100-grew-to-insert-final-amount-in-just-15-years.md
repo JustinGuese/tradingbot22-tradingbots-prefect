@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/MCO' target='_blank'>MCO</a> 
 
-source: [Benzinga](<a href='https://www.benzinga.com/news/24/01/36538090/100-invested-in-moodys-15-years-ago-would-be-worth-this-much-today' target='_blank'>https://www.benzinga.com/news/24/01/36538090/100-invested-in-moodys-15-years-ago-would-be-worth-this-much-today</a>)
+source: <a href='https://www.benzinga.com/news/24/01/36538090/100-invested-in-moodys-15-years-ago-would-be-worth-this-much-today' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

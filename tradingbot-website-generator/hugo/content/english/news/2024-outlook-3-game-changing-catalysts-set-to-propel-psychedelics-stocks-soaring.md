@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/CMPS' target='_blank'>CMPS</a> 
 
-source: [Motley Fool](<a href='https://www.fool.com/investing/2024/01/08/3-big-new-catalysts-for-psychedelics-stocks-2024/' target='_blank'>https://www.fool.com/investing/2024/01/08/3-big-new-catalysts-for-psychedelics-stocks-2024/</a>)
+source: <a href='https://www.fool.com/investing/2024/01/08/3-big-new-catalysts-for-psychedelics-stocks-2024/' target='_blank'>Motley Fool</a>
 
 #### tickers affected by this
 

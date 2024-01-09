@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/FTAI' target='_blank'>FTAI</a> <a href='https://finance.yahoo.com/quote/SPR' target='_blank'>SPR</a>, <a href='https://finance.yahoo.com/quote/BA' target='_blank'>BA</a>
 
-source: [MarketWatch](<a href='https://www.marketwatch.com/story/why-spirit-aerosystems-stock-is-falling-on-the-737-max-9-news-b470dfa3' target='_blank'>https://www.marketwatch.com/story/why-spirit-aerosystems-stock-is-falling-on-the-737-max-9-news-b470dfa3</a>)
+source: <a href='https://www.marketwatch.com/story/why-spirit-aerosystems-stock-is-falling-on-the-737-max-9-news-b470dfa3' target='_blank'>MarketWatch</a>
 
 #### tickers affected by this
 

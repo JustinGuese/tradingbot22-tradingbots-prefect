@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a>, <a href='https://finance.yahoo.com/quote/ICNB' target='_blank'>ICNB</a> 
 
-source: [Fox Business News](<a href='https://www.foxbusiness.com/sports/tiger-woods-nike-part-ways-27-years' target='_blank'>https://www.foxbusiness.com/sports/tiger-woods-nike-part-ways-27-years</a>)
+source: <a href='https://www.foxbusiness.com/sports/tiger-woods-nike-part-ways-27-years' target='_blank'>Fox Business News</a>
 
 #### tickers affected by this
 

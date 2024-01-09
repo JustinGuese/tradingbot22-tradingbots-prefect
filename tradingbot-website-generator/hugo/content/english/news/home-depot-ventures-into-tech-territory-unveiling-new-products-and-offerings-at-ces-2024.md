@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/HD' target='_blank'>HD</a>, <a href='https://finance.yahoo.com/quote/GOOG' target='_blank'>GOOG</a> 
 
-source: [Benzinga](<a href='https://www.owler.com/reports/home-depot--inc./home-depot-goes-from-home-repair--appliances-to-ma/1704737049071' target='_blank'>https://www.owler.com/reports/home-depot--inc./home-depot-goes-from-home-repair--appliances-to-ma/1704737049071</a>)
+source: <a href='https://www.owler.com/reports/home-depot--inc./home-depot-goes-from-home-repair--appliances-to-ma/1704737049071' target='_blank'>Benzinga</a>
 
 #### tickers affected by this
 

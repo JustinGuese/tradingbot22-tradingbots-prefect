@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/BROS' target='_blank'>BROS</a> 
 
-source: [Motley Fool](<a href='https://www.fool.com/investing/2024/01/08/1-top-growth-stock-down-60-to-load-up-on-in-2024/' target='_blank'>https://www.fool.com/investing/2024/01/08/1-top-growth-stock-down-60-to-load-up-on-in-2024/</a>)
+source: <a href='https://www.fool.com/investing/2024/01/08/1-top-growth-stock-down-60-to-load-up-on-in-2024/' target='_blank'>Motley Fool</a>
 
 #### tickers affected by this
 

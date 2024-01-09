@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/DASH' target='_blank'>DASH</a>, <a href='https://finance.yahoo.com/quote/UBER' target='_blank'>UBER</a> 
 
-source: [Investors Business Daily](<a href='https://www.investors.com/news/technology/dash-stock-doordash-gains-after-winning-new-bull-on-wall-street/' target='_blank'>https://www.investors.com/news/technology/dash-stock-doordash-gains-after-winning-new-bull-on-wall-street/</a>)
+source: <a href='https://www.investors.com/news/technology/dash-stock-doordash-gains-after-winning-new-bull-on-wall-street/' target='_blank'>Investors Business Daily</a>
 
 #### tickers affected by this
 

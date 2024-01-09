@@ -7,7 +7,7 @@ draft: false
 ---
 tickers: <a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a> 
 
-source: [CNBC](<a href='https://www.forbes.com/sites/brettknight/2024/01/08/where-tiger-woods-may-go-next-after-ending-his-500-million-nike-partnership/' target='_blank'>https://www.forbes.com/sites/brettknight/2024/01/08/where-tiger-woods-may-go-next-after-ending-his-500-million-nike-partnership/</a>)
+source: <a href='https://www.forbes.com/sites/brettknight/2024/01/08/where-tiger-woods-may-go-next-after-ending-his-500-million-nike-partnership/' target='_blank'>CNBC</a>
 
 #### tickers affected by this
 

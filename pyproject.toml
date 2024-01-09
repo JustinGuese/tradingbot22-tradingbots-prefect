@@ -27,6 +27,9 @@ matplotlib = "^3.8.2"
 sqlalchemy = "^2.0.24"
 pydantic = "^2.5.3"
 ipython = "^8.19.0"
+openai = "^1.7.0"
+googlesearch-python = "^1.2.3"
+beautifulsoup4 = "^4.12.2"
 
 
 [build-system]

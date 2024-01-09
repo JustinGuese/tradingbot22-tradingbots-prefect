@@ -59,7 +59,7 @@ FLOWS = [
         momentum_pvo_signal_msft.momentumPVOSignalMSFT,
         "momentum-pvo-signal-msft",
         "0 17 */5 * *",
-    )
+    ),
     # ai investing website
     (
         ai_investing_website.runAiInvestWebsiteUpdate,

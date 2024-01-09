@@ -12,6 +12,7 @@ import finnhub_recommendations
 import headShoulderPrefect
 import momentum_pvo_signal_msft
 import msftDecisionTree
+import newstrader
 
 # import pairtrade_glri_vstm
 # import pairtrade_uboh_glri
@@ -59,6 +60,11 @@ FLOWS = [
         momentum_pvo_signal_msft.momentumPVOSignalMSFT,
         "momentum-pvo-signal-msft",
         "0 17 */5 * *",
+    ),
+    (
+        newstrader.newsTrader,
+        "newstrader",
+        "15 18 * * *",  # after alphavantage update
     ),
     # ai investing website
     (

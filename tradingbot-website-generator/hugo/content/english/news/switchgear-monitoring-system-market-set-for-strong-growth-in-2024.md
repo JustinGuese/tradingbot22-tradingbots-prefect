@@ -5,10 +5,9 @@ title: "Switchgear Monitoring System Market Set for Strong Growth in 2024"
 author: "justin-guese"
 draft: false
 ---
+<a href='https://finance.yahoo.com/quote/SBGSF' target='_blank'>SBGSF</a>, <a href='https://finance.yahoo.com/quote/SMAWF' target='_blank'>SMAWF</a>, <a href='https://finance.yahoo.com/quote/HTHIF' target='_blank'>HTHIF</a>, <a href='https://finance.yahoo.com/quote/USEG' target='_blank'>USEG</a> 
 
-source: Benzinga
-
-url: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805676/0/en/Switchgear-Monitoring-System-Market-Poised-For-Robust-Growth-Market-Size-To-Reach-2-35-Billion-By-2028-As-Per-The-Business-Research-Company-s.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805676/0/en/Switchgear-Monitoring-System-Market-Poised-For-Robust-Growth-Market-Size-To-Reach-2-35-Billion-By-2028-As-Per-The-Business-Research-Company-s.html</a>
+source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805676/0/en/Switchgear-Monitoring-System-Market-Poised-For-Robust-Growth-Market-Size-To-Reach-2-35-Billion-By-2028-As-Per-The-Business-Research-Company-s.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805676/0/en/Switchgear-Monitoring-System-Market-Poised-For-Robust-Growth-Market-Size-To-Reach-2-35-Billion-By-2028-As-Per-The-Business-Research-Company-s.html</a>)
 
 #### tickers affected by this
 

@@ -5,10 +5,9 @@ title: "Keegan Teams Up with Choice Hotels in New Ad Campaign to Showcase Divers
 author: "justin-guese"
 draft: false
 ---
+<a href='https://finance.yahoo.com/quote/CHH' target='_blank'>CHH</a> 
 
-source: Benzinga
-
-url: <a href='https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key' target='_blank'>https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key</a>
+source: [Benzinga](<a href='https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key' target='_blank'>https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key</a>)
 
 #### tickers affected by this
 

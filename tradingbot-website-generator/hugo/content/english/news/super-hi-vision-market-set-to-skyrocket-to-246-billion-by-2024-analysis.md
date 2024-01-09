@@ -5,10 +5,9 @@ title: "Super Hi-Vision Market Set to Skyrocket to $246 Billion by 2024: Analysi
 author: "justin-guese"
 draft: false
 ---
+<a href='https://finance.yahoo.com/quote/SNEJF' target='_blank'>SNEJF</a>, <a href='https://finance.yahoo.com/quote/SSNLF' target='_blank'>SSNLF</a>, <a href='https://finance.yahoo.com/quote/DELL' target='_blank'>DELL</a> 
 
-source: Benzinga
-
-url: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html</a>
+source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805674/0/en/Exponential-Surge-Super-Hi-Vision-Market-To-Reach-246-Billion-In-2028-With-Rising-Demand-From-Medical-Imaging-Services-As-Per-The-Business-Research-Company-s-Super-Hi-Vision-Global.html</a>)
 
 #### tickers affected by this
 

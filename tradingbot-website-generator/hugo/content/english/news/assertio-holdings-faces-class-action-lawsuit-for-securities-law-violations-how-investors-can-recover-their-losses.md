@@ -5,10 +5,9 @@ title: "Assertio Holdings Faces Class Action Lawsuit for Securities Law Violatio
 author: "justin-guese"
 draft: false
 ---
+ <a href='https://finance.yahoo.com/quote/ASRT' target='_blank'>ASRT</a>
 
-source: Benzinga
-
-url: <a href='https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html</a>
+source: [Benzinga](<a href='https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html' target='_blank'>https://www.globenewswire.com/news-release/2024/01/08/2805712/0/en/Assertio-Holdings-Sued-for-Securities-Law-Violations-Investors-Should-Contact-Block-Leviton-for-More-Information.html</a>)
 
 #### tickers affected by this
 

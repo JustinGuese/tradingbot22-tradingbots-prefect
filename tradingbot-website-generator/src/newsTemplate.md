@@ -5,10 +5,9 @@ title: "{{title}}"
 author: "justin-guese"
 draft: false
 ---
+tickers: {{positiveTickersList}} {{negativeTickersList}}
 
-source: {{source}}
-
-url: {{url}}
+source: [{{source}}]({{url}})
 
 #### tickers affected by this
 

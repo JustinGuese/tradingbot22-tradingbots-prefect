@@ -132,104 +132,115 @@ def createNews():
     )
     for news in allNews:
         # get all tickers from this article with positive sentiment score
-        positiveTickers = (
-            db.query(
-                AlphaSentiment.ticker,
-                AlphaSentiment.article_relevance_score,
-                AlphaSentiment.article_sentiment_score,
-            )
-            .filter(AlphaSentiment.article_id == news.id)
-            .filter(
-                AlphaSentiment.article_sentiment_score > 0
-            )  # Filter positive sentiment score
-            .order_by(
-                AlphaSentiment.article_sentiment_score.desc()
-            )  # Order by sentiment score descending
-            .all()
-        )
-        negativeTickers = (
-            db.query(
-                AlphaSentiment.ticker,
-                AlphaSentiment.article_relevance_score,
-                AlphaSentiment.article_sentiment_score,
-            )
-            .filter(AlphaSentiment.article_id == news.id)
-            .filter(
-                AlphaSentiment.article_sentiment_score < 0
-            )  # Filter positive sentiment score
-            .order_by(
-                AlphaSentiment.article_sentiment_score
-            )  # Order by sentiment score descending
-            .all()
-        )
-        if len(positiveTickers) == 0 and len(negativeTickers) == 0:
-            continue
-
-        # check if ai_title is already set
-        if news.ai_title is None or news.ai_title == "":
-            # need to create it
-            title, url, content = getGoogleHit(news.source, news.title, news.timestamp)
-            aisummary = getGPTSummary(news.summary + ". \n" + content)
-
-            aititle = getGPTTitle(title + " ." + news.summary)
-
-            # update news object
-            db.query(AlphaSentimentArticle).filter_by(id=news.id).update(
-                {
-                    "ai_title": aititle,
-                    "ai_summary": aisummary,
-                    "ai_url": url,
-                }
-            )
-            db.commit()
-            # refresh
-            news = db.query(AlphaSentimentArticle).filter_by(id=news.id).first()
-
-        # then get all the bots that have used these tickers
-        allUsedTickers = [ticker.ticker for ticker in positiveTickers + negativeTickers]
-        botsUsing = db.query(Trade.bot).filter(Trade.ticker.in_(allUsedTickers)).all()
-        botsUsing = list(set([bot.bot for bot in botsUsing]))
-        if len(botsUsing) > 0:
-            # then we have to get the nicename
-            for i in range(len(botsUsing)):
-                nicename = (
-                    db.query(Bot.nicename).filter_by(name=botsUsing[i]).first()[0]
+        try:
+            positiveTickers = (
+                db.query(
+                    AlphaSentiment.ticker,
+                    AlphaSentiment.article_relevance_score,
+                    AlphaSentiment.article_sentiment_score,
                 )
-                if nicename is None:
-                    nicename = botsUsing[i]
-                botsUsing[i] = nicename
-            # linkify
-            botsUsing = [f"[{bot}](/strategies/{bot})" for bot in botsUsing]
+                .filter(AlphaSentiment.article_id == news.id)
+                .filter(
+                    AlphaSentiment.article_sentiment_score > 0
+                )  # Filter positive sentiment score
+                .order_by(
+                    AlphaSentiment.article_sentiment_score.desc()
+                )  # Order by sentiment score descending
+                .all()
+            )
+            negativeTickers = (
+                db.query(
+                    AlphaSentiment.ticker,
+                    AlphaSentiment.article_relevance_score,
+                    AlphaSentiment.article_sentiment_score,
+                )
+                .filter(AlphaSentiment.article_id == news.id)
+                .filter(
+                    AlphaSentiment.article_sentiment_score < 0
+                )  # Filter positive sentiment score
+                .order_by(
+                    AlphaSentiment.article_sentiment_score
+                )  # Order by sentiment score descending
+                .all()
+            )
+            if len(positiveTickers) == 0 and len(negativeTickers) == 0:
+                continue
 
-        template = newsTemplate
-        template = template.replace(
-            "{{title}}", news.ai_title.replace('"', "").replace("'", "")
-        )
-        template = template.replace("{{source}}", news.source)
-        template = template.replace(
-            "{{crntDate}}", news.timestamp.strftime("%Y-%m-%d %H:%M:%S")
-        )
-        template = template.replace("{{summary}}", news.ai_summary)
-        template = template.replace(
-            "{{url}}", f"<a href='{news.ai_url}' target='_blank'>{news.ai_url}</a>"
-        )
+            # check if ai_title is already set
+            if news.ai_title is None or news.ai_title == "":
+                # need to create it
+                title, url, content = getGoogleHit(
+                    news.source, news.title, news.timestamp
+                )
+                aisummary = getGPTSummary(news.summary + ". \n" + content)
 
-        # positiveTickersList
-        template = template.replace(
-            "{{positiveTickersList}}", listifyTickers(positiveTickers)
-        )
-        # negativeTickersList
-        template = template.replace(
-            "{{negativeTickersList}}", listifyTickers(negativeTickers)
-        )
-        # strategis and bots
-        if len(botsUsing) > 0:
-            template = template.replace("{{strategyList}}", ", ".join(botsUsing))
-        else:
-            template = template.replace("{{strategyList}}", "None so far...")
+                aititle = getGPTTitle(title + " ." + news.summary)
 
-        with open(NEWSPATH + titlefy(news.ai_title) + ".md", "w") as file:
-            file.write(template)
+                # update news object
+                db.query(AlphaSentimentArticle).filter_by(id=news.id).update(
+                    {
+                        "ai_title": aititle,
+                        "ai_summary": aisummary,
+                        "ai_url": url,
+                    }
+                )
+                db.commit()
+                # refresh
+                news = db.query(AlphaSentimentArticle).filter_by(id=news.id).first()
+
+            # then get all the bots that have used these tickers
+            allUsedTickers = [
+                ticker.ticker for ticker in positiveTickers + negativeTickers
+            ]
+            botsUsing = (
+                db.query(Trade.bot).filter(Trade.ticker.in_(allUsedTickers)).all()
+            )
+            botsUsing = list(set([bot.bot for bot in botsUsing]))
+            if len(botsUsing) > 0:
+                # then we have to get the nicename
+                for i in range(len(botsUsing)):
+                    nicename = (
+                        db.query(Bot.nicename).filter_by(name=botsUsing[i]).first()[0]
+                    )
+                    if nicename is None:
+                        nicename = botsUsing[i]
+                    botsUsing[i] = nicename
+                # linkify
+                botsUsing = [f"[{bot}](/strategies/{bot})" for bot in botsUsing]
+
+            template = newsTemplate
+            template = template.replace(
+                "{{title}}", news.ai_title.replace('"', "").replace("'", "")
+            )
+            template = template.replace("{{source}}", news.source)
+            template = template.replace(
+                "{{crntDate}}", news.timestamp.strftime("%Y-%m-%d %H:%M:%S")
+            )
+            template = template.replace("{{summary}}", news.ai_summary)
+            template = template.replace(
+                "{{url}}", f"<a href='{news.ai_url}' target='_blank'>{news.ai_url}</a>"
+            )
+
+            # positiveTickersList
+            template = template.replace(
+                "{{positiveTickersList}}", listifyTickers(positiveTickers)
+            )
+            # negativeTickersList
+            template = template.replace(
+                "{{negativeTickersList}}", listifyTickers(negativeTickers)
+            )
+            # strategis and bots
+            if len(botsUsing) > 0:
+                template = template.replace("{{strategyList}}", ", ".join(botsUsing))
+            else:
+                template = template.replace("{{strategyList}}", "None so far...")
+
+            with open(NEWSPATH + titlefy(news.ai_title) + ".md", "w") as file:
+                file.write(template)
+        except Exception as e:
+            print("problem with. skip : ", news.title)
+            print(e)
+            continue
 
 
 if __name__ == "__main__":

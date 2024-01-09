@@ -8,7 +8,7 @@
       {{ $paginator := .Paginate (where site.RegularPages "Section" "in" site.Params.mainSectionsNews) }}
       {{ range $paginator.Pages }}
       <div class="col-lg-4 col-md-6 blog-card has-border">
-        {{ .Render "article" }}
+        {{ .Render "newsarticle" }}
       </div>
       {{ end }}
       

@@ -5,10 +5,9 @@ title: "Chevron CVX: Unveiling the Bearish Shift in Big Moneys Options Play"
 author: "justin-guese"
 draft: false
 ---
+<a href='https://finance.yahoo.com/quote/CVX' target='_blank'>CVX</a> 
 
-source: Benzinga
-
-url: <a href='https://www.benzinga.com/markets/options/24/01/36539294/chevrons-options-a-look-at-what-the-big-money-is-thinking' target='_blank'>https://www.benzinga.com/markets/options/24/01/36539294/chevrons-options-a-look-at-what-the-big-money-is-thinking</a>
+source: [Benzinga](<a href='https://www.benzinga.com/markets/options/24/01/36539294/chevrons-options-a-look-at-what-the-big-money-is-thinking' target='_blank'>https://www.benzinga.com/markets/options/24/01/36539294/chevrons-options-a-look-at-what-the-big-money-is-thinking</a>)
 
 #### tickers affected by this
 

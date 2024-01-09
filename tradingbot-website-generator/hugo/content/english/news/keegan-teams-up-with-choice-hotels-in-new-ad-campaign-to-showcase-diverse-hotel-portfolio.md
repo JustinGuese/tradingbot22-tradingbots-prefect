@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Keegan Teams Up with Choice Hotels in New Ad Campaign to Showcase Diverse Hotel Portfolio
-
 source: Benzinga
 
 url: <a href='https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key' target='_blank'>https://www.travelweekly.com/Travel-News/Hotel-News/Choice-Hotels-ad-campaign-Keegan-Michael-Key</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/CHH' target='_blank'>CHH</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

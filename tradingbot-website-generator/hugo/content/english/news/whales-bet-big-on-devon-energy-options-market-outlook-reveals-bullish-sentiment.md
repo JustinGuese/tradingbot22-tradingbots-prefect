@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Whales Bet Big on Devon Energy: Options Market Outlook Reveals Bullish Sentiment
-
 source: Benzinga
 
 url: <a href='https://www.benzinga.com/markets/options/24/01/36538794/what-the-options-market-tells-us-about-devon-energy' target='_blank'>https://www.benzinga.com/markets/options/24/01/36538794/what-the-options-market-tells-us-about-devon-energy</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/DVN' target='_blank'>DVN</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Bigo Lives Global Celebration Unites 800+ Outstanding Creators in Las Vegas
-
 source: Benzinga
 
 url: <a href='https://finance.yahoo.com/news/bigo-live-honors-outstanding-broadcasters-170000723.html' target='_blank'>https://finance.yahoo.com/news/bigo-live-honors-outstanding-broadcasters-170000723.html</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/META' target='_blank'>META</a> |  |
+
+#### our strategies and bots using these tickers
+
+[c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

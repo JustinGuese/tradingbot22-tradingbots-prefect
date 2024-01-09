@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
-from db import AlphaSentiment, AlphaSentimentArticle, SessionLocal
+from db import AlphaSentiment, AlphaSentimentArticle, Bot, SessionLocal, Trade
 from googlesearch import search
 from openai import OpenAI
 
@@ -185,6 +185,22 @@ def createNews():
             # refresh
             news = db.query(AlphaSentimentArticle).filter_by(id=news.id).first()
 
+        # then get all the bots that have used these tickers
+        allUsedTickers = [ticker.ticker for ticker in positiveTickers + negativeTickers]
+        botsUsing = db.query(Trade.bot).filter(Trade.ticker.in_(allUsedTickers)).all()
+        botsUsing = list(set([bot.bot for bot in botsUsing]))
+        if len(botsUsing) > 0:
+            # then we have to get the nicename
+            for i in range(len(botsUsing)):
+                nicename = (
+                    db.query(Bot.nicename).filter_by(name=botsUsing[i]).first()[0]
+                )
+                if nicename is None:
+                    nicename = botsUsing[i]
+                botsUsing[i] = nicename
+            # linkify
+            botsUsing = [f"[{bot}](/strategies/{bot})" for bot in botsUsing]
+
         template = newsTemplate
         template = template.replace(
             "{{title}}", news.ai_title.replace('"', "").replace("'", "")
@@ -206,6 +222,11 @@ def createNews():
         template = template.replace(
             "{{negativeTickersList}}", listifyTickers(negativeTickers)
         )
+        # strategis and bots
+        if len(botsUsing) > 0:
+            template = template.replace("{{strategyList}}", ", ".join(botsUsing))
+        else:
+            template = template.replace("{{strategyList}}", "None so far...")
 
         with open(NEWSPATH + titlefy(news.ai_title) + ".md", "w") as file:
             file.write(template)

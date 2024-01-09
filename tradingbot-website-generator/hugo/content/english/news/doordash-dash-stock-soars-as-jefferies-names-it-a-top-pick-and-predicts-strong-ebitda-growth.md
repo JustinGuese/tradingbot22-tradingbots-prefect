@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## DoorDash (DASH) Stock Soars as Jefferies Names it a Top Pick and Predicts Strong EBITDA Growth
-
 source: Investors Business Daily
 
 url: <a href='https://www.investors.com/news/technology/dash-stock-doordash-gains-after-winning-new-bull-on-wall-street/' target='_blank'>https://www.investors.com/news/technology/dash-stock-doordash-gains-after-winning-new-bull-on-wall-street/</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/DASH' target='_blank'>DASH</a>, <a href='https://finance.yahoo.com/quote/UBER' target='_blank'>UBER</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

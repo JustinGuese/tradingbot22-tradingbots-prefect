@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Whale Moves: Big Investors Go Bearish on T-Mobile US (TMUS)
-
 source: Benzinga
 
 url: <a href='https://www.benzinga.com/markets/options/24/01/36539297/check-out-what-whales-are-doing-with-tmus' target='_blank'>https://www.benzinga.com/markets/options/24/01/36539297/check-out-what-whales-are-doing-with-tmus</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/TMUS' target='_blank'>TMUS</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

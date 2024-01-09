@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Grounded Expectations: Spirit AeroSystems Stock Plunges as Investors Condemn Involvement in Boeing 737 Max 9 Crisis
-
 source: MarketWatch
 
 url: <a href='https://www.marketwatch.com/story/why-spirit-aerosystems-stock-is-falling-on-the-737-max-9-news-b470dfa3' target='_blank'>https://www.marketwatch.com/story/why-spirit-aerosystems-stock-is-falling-on-the-737-max-9-news-b470dfa3</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/FTAI' target='_blank'>FTAI</a> | <a href='https://finance.yahoo.com/quote/SPR' target='_blank'>SPR</a>, <a href='https://finance.yahoo.com/quote/BA' target='_blank'>BA</a> |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

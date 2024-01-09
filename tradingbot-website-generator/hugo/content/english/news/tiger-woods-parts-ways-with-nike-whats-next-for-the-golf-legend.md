@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Tiger Woods Parts Ways with Nike: Whats Next for the Golf Legend?
-
 source: CNBC
 
 url: <a href='https://www.forbes.com/sites/brettknight/2024/01/08/where-tiger-woods-may-go-next-after-ending-his-500-million-nike-partnership/' target='_blank'>https://www.forbes.com/sites/brettknight/2024/01/08/where-tiger-woods-may-go-next-after-ending-his-500-million-nike-partnership/</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

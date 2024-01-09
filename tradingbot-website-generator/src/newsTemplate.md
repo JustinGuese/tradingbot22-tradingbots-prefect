@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## {{title}}
-
 source: {{source}}
 
 url: {{url}}
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | {{positiveTickersList}} | {{negativeTickersList}} |
+
+#### our strategies and bots using these tickers
+
+{{strategyList}}
 
 ## summary
 

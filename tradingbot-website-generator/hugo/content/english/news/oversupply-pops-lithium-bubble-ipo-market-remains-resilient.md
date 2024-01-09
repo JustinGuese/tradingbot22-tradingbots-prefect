@@ -6,17 +6,19 @@ author: "justin-guese"
 draft: false
 ---
 
-## Oversupply Pops Lithium Bubble, IPO Market Remains Resilient
-
 source: Benzinga
 
 url: <a href='https://www.benzinga.com/news/24/01/36539478/as-oversupply-deflates-lithium-bubble-ipo-market-keeps-in-high-spirits' target='_blank'>https://www.benzinga.com/news/24/01/36539478/as-oversupply-deflates-lithium-bubble-ipo-market-keeps-in-high-spirits</a>
 
-### tickers affected by this
+#### tickers affected by this
 
 | positively | negatively |
 |------------|------------
 | <a href='https://finance.yahoo.com/quote/ERMAF' target='_blank'>ERMAF</a> |  |
+
+#### our strategies and bots using these tickers
+
+None so far...
 
 ## summary
 

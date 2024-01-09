@@ -17,7 +17,7 @@ content_gallery = true
 custom_script= "" 
 
 # Main Sections
-mainSections= ["blog"]
+mainSections= ["news","strategies"]
 
 # copyright
 theme_copyright = false

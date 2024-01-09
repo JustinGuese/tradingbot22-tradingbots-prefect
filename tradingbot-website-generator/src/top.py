@@ -17,7 +17,7 @@ def linkify(botname: str):
     if " " in botname:
         botname = botname.replace(" ", "-")
     botname = botname.lower()
-    return f"<a target='_blank' href='/blog/{botname}'>{botname}</a>"
+    return f"<a target='_blank' href='/strategies/{botname}'>{botname}</a>"
 
 
 def createTopHugo(summaryDf: pd.DataFrame):

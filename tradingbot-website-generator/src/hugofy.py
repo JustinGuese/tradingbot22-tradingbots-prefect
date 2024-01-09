@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 
 IMGPATH = "../hugo/assets/images/plots/"
-BLOGPATH = "../hugo/content/english/blog/"
+BLOGPATH = "../hugo/content/english/strategies/"
 
 
 with open("blogTemplate.md", "r") as file:

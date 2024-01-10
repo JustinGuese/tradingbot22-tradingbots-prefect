@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/short-sellers/24/01/36560716/looking-i
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PKX' target='_blank'>PKX</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PKX | positively | The decrease in short interest for POSCO Holdings (ticker PKX) suggests a more positive market sentiment towards the company, potentially leading to an increase in its stock price. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,13 @@ source: <a href='https://www.marketwatch.com/story/cannabis-company-canopy-growt
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/STZ' target='_blank'>STZ</a>, <a href='https://finance.yahoo.com/quote/CGC' target='_blank'>CGC</a>, <a href='https://finance.yahoo.com/quote/TLRY' target='_blank'>TLRY</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| STZ | positively | Constellation Brands (ticker: STZ) is likely to be positively affected by Canopy Growth's efforts to strengthen its balance sheet as it is a major backer of the marijuana company. This demonstrates Constellation's commitment to the cannabis industry and its potential for growth, which could boost investor confidence in the company. |
+| CGC | positively | The private placement and efforts to strengthen the balance sheet indicate that the company is taking proactive steps to address its financial challenges, which could instill confidence in investors and potentially lead to improved performance for CGC. |
+| TLRY | positively | The article does not mention the ticker TLRY, so we cannot speculate on how it would be affected positively in this context. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/m-a/24/01/36557715/why-is-tinder-paren
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-|  | <a href='https://finance.yahoo.com/quote/BMBL' target='_blank'>BMBL</a> |
+| ticker | polarity | why? |
+|------------|------------|------------|
+
+| BMBL | negatively | Based on the information provided in the article, it is likely that the ticker BMBL will be affected negatively due to the underperformance of Match Group, which owns various dating platforms including Tinder, one of Bumble's main competitors. The challenges faced by Match Group, such as a decline in paying users, may indicate a similar trend for Bumble and impact its stock performance. |
+
 
 #### our strategies and bots using these tickers
 

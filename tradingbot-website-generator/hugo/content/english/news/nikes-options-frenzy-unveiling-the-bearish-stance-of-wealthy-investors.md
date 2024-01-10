@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36560399/nikes-o
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/NKE' target='_blank'>NKE</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| NKE | positively | The bullish sentiment in the options trades for NKE suggests that investors anticipate positive developments or news that will benefit the company, potentially leading to an increase in its stock price. |
+
+
 
 #### our strategies and bots using these tickers
 

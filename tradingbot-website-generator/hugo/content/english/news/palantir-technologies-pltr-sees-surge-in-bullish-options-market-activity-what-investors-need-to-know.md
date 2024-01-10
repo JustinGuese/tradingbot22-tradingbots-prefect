@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36560140/a-close
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PLTR' target='_blank'>PLTR</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PLTR | positively | The bullish stance of deep-pocketed investors on PLTR suggests that they anticipate positive developments or news that could drive the stock price higher in the near future. |
+
+
 
 #### our strategies and bots using these tickers
 

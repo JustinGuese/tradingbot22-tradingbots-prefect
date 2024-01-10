@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806572/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/BKR' target='_blank'>BKR</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| BKR | positively | Based on the article, the pressure relief valve market's steady growth and increased demand from various industries, including oil and gas, suggests that companies like BKR, which provide pressure relief valve solutions, could benefit from this positive market trend. |
+
+
 
 #### our strategies and bots using these tickers
 

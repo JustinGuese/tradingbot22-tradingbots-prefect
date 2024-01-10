@@ -11,9 +11,11 @@ source: <a href='https://www.fool.com/investing/2024/01/09/why-century-aluminum-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/CENX' target='_blank'>CENX</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| CENX | positively | Century Aluminum stock (ticker: CENX) could be positively affected by the potential tax credits offered by the Inflation Reduction Act, which could provide a cash infusion and help the company return to profitability. |
+
+
 
 #### our strategies and bots using these tickers
 

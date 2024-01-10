@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/news/24/01/36559781/why-precision-bios
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/DTIL' target='_blank'>DTIL</a>, <a href='https://finance.yahoo.com/quote/TGTX' target='_blank'>TGTX</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| DTIL | positively | The licensing agreement with TG Therapeutics provides Precision BioSciences with a significant upfront payment and potential future milestone payments, which could positively impact the company's financial position. Additionally, the collaboration expands the utility of Precision BioSciences' allogeneic CAR T assets into the immunology field, potentially opening up new opportunities for growth and development. |
+| TGTX | positively | The licensing agreement with Precision BioSciences provides TG Therapeutics with additional revenue potential and expands their development pipeline, which could positively impact the ticker TGTX. |
+
+
 
 #### our strategies and bots using these tickers
 

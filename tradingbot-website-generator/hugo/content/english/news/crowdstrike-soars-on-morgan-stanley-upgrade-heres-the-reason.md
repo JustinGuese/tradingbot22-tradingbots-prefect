@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/news/24/01/36560730/crowdstrike-stock-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/MS' target='_blank'>MS</a>, <a href='https://finance.yahoo.com/quote/CRWD' target='_blank'>CRWD</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| MS | positively | The positive outlook for CrowdStrike, as highlighted in the article, could potentially lead to increased demand for cybersecurity solutions, benefiting companies like Morgan Stanley that provide related services or investment opportunities in the sector. |
+| CRWD | positively | The upgrade from Morgan Stanley, citing improving demand and upcoming product cycles, suggests that CrowdStrike's stock (CRWD) will be positively affected as it is expected to drive increased revenue and free cash flow forecasts in the future. |
+
+
 
 #### our strategies and bots using these tickers
 

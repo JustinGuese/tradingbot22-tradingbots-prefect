@@ -11,9 +11,11 @@ source: <a href='https://www.prnewswire.com/news-releases/lg-captivates-ces-2024
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/NCBDF' target='_blank'>NCBDF</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| NCBDF | positively | Based on the article, it's not possible to determine how the ticker NCBDF would be affected positively as it is not mentioned or discussed in the context of the article. |
+
+
 
 #### our strategies and bots using these tickers
 

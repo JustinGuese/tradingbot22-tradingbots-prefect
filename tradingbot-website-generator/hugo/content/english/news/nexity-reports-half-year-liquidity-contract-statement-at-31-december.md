@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806541/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/NNXXY' target='_blank'>NNXXY</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| NNXXY | positively | Based on the information provided in the article, it is reasonable to assume that the ticker NNXXY (or Nexity) could be positively affected as the company's liquidity management efforts demonstrate a commitment to maintaining a stable and liquid market for its shares. |
+
+
 
 #### our strategies and bots using these tickers
 

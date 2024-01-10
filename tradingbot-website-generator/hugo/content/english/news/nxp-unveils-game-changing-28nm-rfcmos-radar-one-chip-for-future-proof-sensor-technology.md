@@ -11,9 +11,11 @@ source: <a href='https://www.nxp.com/company/about-nxp/nxp-extends-industry-firs
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/NXPI' target='_blank'>NXPI</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| NXPI | positively | The positive impact on the NXPI stock could be due to the extension of NXP's radar one-chip family, which enables advanced driver assistance systems (ADAS) architectures for software-defined vehicles. This innovation positions NXP as a leader in the automotive radar market, potentially increasing their market share and revenue in this sector. |
+
+
 
 #### our strategies and bots using these tickers
 

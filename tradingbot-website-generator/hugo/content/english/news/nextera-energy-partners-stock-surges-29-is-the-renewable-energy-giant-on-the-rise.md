@@ -11,9 +11,13 @@ source: <a href='https://www.fool.com/investing/2024/01/09/why-nextera-energy-pa
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/NEP' target='_blank'>NEP</a>, <a href='https://finance.yahoo.com/quote/NEE' target='_blank'>NEE</a>, <a href='https://finance.yahoo.com/quote/KMI' target='_blank'>KMI</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| NEP | positively | NextEra Energy Partners (NEP) stock is expected to be positively affected by a potential fall in interest rates in 2024, as it would help the company raise funds, refinance debt, and meet its new dividend growth goals, leading to a potential recovery in the stock. |
+| NEE | positively | The article suggests that NextEra Energy Partners (NEE) stock could be positively affected by a potential fall in interest rates in 2024, which would help the company raise funds, refinance debt, and meet its new dividend growth goal. |
+| KMI | positively | KMI will be affected positively by this because the article mentions that NextEra Energy Partners sold a portion of its natural gas assets to Kinder Morgan, which implies a beneficial financial transaction for KMI. |
+
+
 
 #### our strategies and bots using these tickers
 

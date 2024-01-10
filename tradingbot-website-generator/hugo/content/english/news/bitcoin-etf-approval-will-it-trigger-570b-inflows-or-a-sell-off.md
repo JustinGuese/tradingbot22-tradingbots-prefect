@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/cryptocurrency/24/01/36547432/
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/BTC-USD' target='_blank'>BTC-USD</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| BTC-USD | positively | The ticker BTC-USD is expected to be positively affected by the potential approval of a Bitcoin ETF due to increased accessibility for retail investors, potential institutional adoption, and the fear of missing out (FOMO) among investors. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/short-sellers/24/01/36560714/peering-i
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/TMO' target='_blank'>TMO</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| TMO | positively | The increase in short interest for TMO suggests that there is a growing bearish sentiment towards the stock, which could potentially lead to a short squeeze if positive news or events cause the stock price to rise, forcing short sellers to cover their positions and driving the stock price even higher. |
+
+
 
 #### our strategies and bots using these tickers
 

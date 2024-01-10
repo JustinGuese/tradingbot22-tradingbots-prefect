@@ -11,9 +11,13 @@ source: <a href='https://www.benzinga.com/government/24/01/36554760/eu-eyes-micr
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/IVZ' target='_blank'>IVZ</a>, <a href='https://finance.yahoo.com/quote/GOOG' target='_blank'>GOOG</a>, <a href='https://finance.yahoo.com/quote/MSFT' target='_blank'>MSFT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| IVZ | positively | In this context, it is not mentioned how the ticker IVZ will be affected positively by the EU's scrutiny of Microsoft's investment in OpenAI. |
+| GOOG | positively | The ticker GOOG may be positively affected by this news as it indicates that Microsoft's growing dominance in the AI market is prompting rivals like Google to intensify their efforts in the sector, potentially leading to increased competition and innovation in the AI space. |
+| MSFT | positively | The article suggests that Microsoft's integration of OpenAI's products and its leading position in the AI market could potentially benefit the company, leading to positive effects on the ticker MSFT. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36561453/behind-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/CCJ' target='_blank'>CCJ</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| CCJ | positively | The high-rolling investors positioning themselves bullish on CCJ suggest that they have insider information or a positive outlook on the company's future prospects, which could lead to a positive impact on the stock price. |
+
+
 
 #### our strategies and bots using these tickers
 

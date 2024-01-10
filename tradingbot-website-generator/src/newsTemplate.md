@@ -11,9 +11,8 @@ source: {{url}}
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| {{positiveTickersList}} | {{negativeTickersList}} |
+{{positiveTickersMDTable}}
+{{negativeTickersMDTable}}
 
 #### our strategies and bots using these tickers
 

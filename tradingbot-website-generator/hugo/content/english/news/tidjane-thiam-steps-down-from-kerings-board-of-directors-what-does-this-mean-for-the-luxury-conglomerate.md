@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806542/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PPRUF' target='_blank'>PPRUF</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PPRUF | positively | The departure of Tidjane Thiam from Kering's Board of Directors could potentially have a positive impact on the ticker PPRUF as it signifies a smooth transition in the company's governance and allows for the opportunity to bring in a new director with fresh perspectives and expertise. |
+
+
 
 #### our strategies and bots using these tickers
 

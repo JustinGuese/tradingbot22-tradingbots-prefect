@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/equities/24/01/36551604/indias
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-|  | <a href='https://finance.yahoo.com/quote/SNEJF' target='_blank'>SNEJF</a> |
+| ticker | polarity | why? |
+|------------|------------|------------|
+
+| SNEJF | negatively | The ticker SNEJF may be affected negatively by this news as the potential collapse of Zee's merger with Sony Group Corp could impact Sony's plans for expansion and growth in the Indian market, leading to uncertainty and potential financial losses for the company. |
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36561058/booking
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/BKNG' target='_blank'>BKNG</a>, <a href='https://finance.yahoo.com/quote/WFC' target='_blank'>WFC</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| BKNG | positively | The bearish stance of investors on BKNG suggests that there may be potential buying opportunities for the stock, leading to increased demand and a positive impact on its price. |
+| WFC | positively | Based on the information provided in the article, it is not possible to determine how the ticker WFC would be affected positively. |
+
+
 
 #### our strategies and bots using these tickers
 

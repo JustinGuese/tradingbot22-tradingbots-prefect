@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/trading-ideas/24/01/36560567/the-bull-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/JBL' target='_blank'>JBL</a>, <a href='https://finance.yahoo.com/quote/OUSZF' target='_blank'>OUSZF</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| JBL | positively | JBL will be affected positively by the increased holdings from hedge funds and asset managers as it indicates a bullish sentiment towards the company's prospects for future growth. |
+| OUSZF | positively | Based on the information provided in the article, it is not possible to determine how the ticker OUSZF would be affected positively. |
+
+
 
 #### our strategies and bots using these tickers
 

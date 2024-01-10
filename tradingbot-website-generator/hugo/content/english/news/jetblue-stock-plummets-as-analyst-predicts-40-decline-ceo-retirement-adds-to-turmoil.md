@@ -11,9 +11,11 @@ source: <a href='https://www.marketwatch.com/story/jetblues-stock-tumbles-after-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-|  | <a href='https://finance.yahoo.com/quote/SAVE' target='_blank'>SAVE</a> |
+| ticker | polarity | why? |
+|------------|------------|------------|
+
+| SAVE | negatively | Based on the article, it is likely that the ticker SAVE (Spirit Airlines) will be affected negatively because it operates in the same tough domestic airline industry as JetBlue, which is facing increasing supply, cost inflation, and easing travel demand. Additionally, potential manufacturing problems with Pratt & Whitney jet engines, which both airlines use, could also impact SAVE's earnings. |
+
 
 #### our strategies and bots using these tickers
 

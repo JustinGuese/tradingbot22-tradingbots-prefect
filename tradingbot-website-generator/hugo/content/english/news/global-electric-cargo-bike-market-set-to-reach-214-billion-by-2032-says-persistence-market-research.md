@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806514/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/ABAT' target='_blank'>ABAT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| ABAT | positively | Based on the information provided in the article, it is not possible to determine the specific impact on the ticker ABAT. |
+
+
 
 #### our strategies and bots using these tickers
 

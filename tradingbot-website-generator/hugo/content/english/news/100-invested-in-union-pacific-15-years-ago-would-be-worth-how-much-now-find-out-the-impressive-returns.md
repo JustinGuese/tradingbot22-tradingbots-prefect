@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/news/24/01/36560374/100-invested-in-un
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/UNP' target='_blank'>UNP</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| UNP | positively | Union Pacific (UNP) is likely to be positively affected by this article because it highlights the company's impressive performance and strong returns, indicating its potential for continued growth and attracting investor interest. |
+
+
 
 #### our strategies and bots using these tickers
 

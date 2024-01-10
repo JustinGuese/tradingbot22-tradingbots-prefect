@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/news/24/01/36558774/whats-going-on-wit
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/TGTX' target='_blank'>TGTX</a>, <a href='https://finance.yahoo.com/quote/DTIL' target='_blank'>DTIL</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| TGTX | positively | The acquisition of a worldwide license to Precision BioSciences' therapy program will allow TG Therapeutics to expand its autoimmune portfolio and explore the potential of azer-cel as a therapy for patients with various autoimmune disorders, which could lead to future revenue growth and increased investor interest in the stock. |
+| DTIL | positively | Based on the article, it is likely that the ticker DTIL will be affected positively by the agreement as it grants TG Therapeutics exclusive rights to develop and commercialize Precision BioSciences' allogeneic CD19 CAR T cell therapy program for non-oncology indications, potentially leading to increased revenue and market opportunities for DTIL. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36561059/zscaler
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/ZS' target='_blank'>ZS</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| ZS | positively | Based on the article, it can be inferred that the bearish approach taken by deep-pocketed investors towards ZS may indicate a potential upward movement in the stock price due to the higher trading volumes and open interest observed. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,12 @@ source: <a href='https://decrypt.co/212038/bitcoin-etfs-around-the-world' target
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/BTC-USD' target='_blank'>BTC-USD</a>, <a href='https://finance.yahoo.com/quote/ETH-USD' target='_blank'>ETH-USD</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| BTC-USD | positively | The approval of Bitcoin ETFs in Brazil, Chile, and Canada has brought increased liquidity and accessibility to the cryptocurrency market. This positive development is likely to have a spillover effect on the ticker BTC-USD, as it will attract more investors and potentially increase demand for Bitcoin. |
+| ETH-USD | positively | The ticker ETH-USD could be positively affected by the approval of Bitcoin ETFs in the US as it would likely bring increased attention and investment to the overall cryptocurrency market, including Ethereum, which is the second-largest cryptocurrency by market capitalization. |
+
+
 
 #### our strategies and bots using these tickers
 

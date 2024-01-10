@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806580/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/RXT' target='_blank'>RXT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| RXT | positively | The ticker RXT is expected to be positively affected by this announcement as the introduction of Rackspace Cloud Database Ops for AWS demonstrates the company's commitment to innovation and meeting the increasing demand for scalable and secure database solutions, which can drive business growth and attract more customers. |
+
+
 
 #### our strategies and bots using these tickers
 

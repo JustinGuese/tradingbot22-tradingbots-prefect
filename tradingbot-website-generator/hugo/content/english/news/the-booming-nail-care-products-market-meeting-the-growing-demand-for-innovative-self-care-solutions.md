@@ -11,9 +11,14 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806544/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/REVRQ' target='_blank'>REVRQ</a>, <a href='https://finance.yahoo.com/quote/COTY' target='_blank'>COTY</a>, <a href='https://finance.yahoo.com/quote/LRLCF' target='_blank'>LRLCF</a>, <a href='https://finance.yahoo.com/quote/PINS' target='_blank'>PINS</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| REVRQ | positively | Based on the information provided in the article, it is likely that the ticker REVRQ will be positively affected as it is mentioned as one of the key players driving innovation and product development in the nail care industry. |
+| COTY | positively | The ticker COTY is likely to be positively affected by the growth of the Nail Care Products Market as it is one of the key players driving innovation and product development in the industry. |
+| LRLCF | positively | Based on the information provided in the article, the ticker LRLCF could be positively affected as it is one of the key players driving innovation and product development in the nail care industry, catering to the diverse needs and preferences of consumers. |
+| PINS | positively | Based on the article, the ticker PINS (Pinterest) could be positively affected as the platform plays a significant role in showcasing nail art and designs, making it a go-to platform for consumers seeking nail care inspiration and trends. |
+
+
 
 #### our strategies and bots using these tickers
 

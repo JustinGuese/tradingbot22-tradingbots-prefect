@@ -11,9 +11,12 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806566/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/TRUP' target='_blank'>TRUP</a>, <a href='https://finance.yahoo.com/quote/BTSDF' target='_blank'>BTSDF</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| TRUP | positively | The positive recognition of Trupanion as one of the Best Places to Work in Seattle and Best Large Places to Work reflects a strong company culture and employee satisfaction, which can contribute to increased employee retention, productivity, and overall company success, potentially impacting the ticker TRUP positively. |
+| BTSDF | positively | Based on the article, Trupanion's recognition as one of the Best Places to Work in Seattle and Best Large Places to Work reflects a positive work environment and employee satisfaction, which could potentially contribute to the overall success and growth of the company, thus potentially positively affecting the ticker BTSDF. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -7,16 +7,13 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 from db import AlphaSentiment, AlphaSentimentArticle, Bot, SessionLocal, Trade
 from fp.fp import FreeProxy
-from googlesearch import search
 from openai import OpenAI
 from tqdm import tqdm
+from yagooglesearch import SearchClient
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
 }
-
-CRNT_PROXY = FreeProxy().get()
-
 
 client = OpenAI(
     base_url="http://10.147.17.74:33732/v1",
@@ -37,7 +34,7 @@ def yfLink(ticker):
 
 
 def listifyTickers(tickers):
-    return ", ".join(yfLink(ticker.ticker) for ticker in tickers)
+    return ", ".join(yfLink(ticker) for ticker in tickers)
 
 
 def titlefy(title):
@@ -68,21 +65,44 @@ def getGPTTitle(prompt):
 
 def getGPTSummary(prompt):
     global client
+    messages = [
+        {
+            "role": "system",
+            "content": "you are a professional finance journalist.",
+        },
+        {
+            "role": "user",
+            "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else. remove promotional content except for yourself, and remember that you are writing for ai-investing-bots.com. content: "
+            + prompt,
+        },
+    ]
     chat_completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "system",
-                "content": "you are a professional finance journalist.",
-            },
-            {
-                "role": "user",
-                "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else. remove promotional content except for yourself, and remember that you are writing for ai-investing-bots.com. content: "
-                + prompt,
-            },
-        ],
+        messages=messages,
         model="gpt-3.5-turbo",
     )
     return chat_completion.choices[0].message.content
+
+
+def getGPTTickerReasons(article, tickers):
+    global client
+
+    tickerResp = dict()
+    for ticker, polarity in tickers:
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "assistant",
+                    "content": article,
+                },
+                {
+                    "role": "user",
+                    "content": f"in this context, reply with a 1-3 sentence reply why the ticker {ticker} will be affected {polarity} by this. if the ticker is not mentioned, just guess that the article is about the ticker. never reply you do not know, or that in this context you cant say why. just guess the reason that it is affected {polarity} from the article. ",
+                },
+            ],
+            model="gpt-3.5-turbo",
+        )
+        tickerResp[ticker] = chat_completion.choices[0].message.content
+    return tickerResp
 
 
 def tag_visible(element):
@@ -108,24 +128,17 @@ def text_from_html(body):
 
 
 def getGoogleHit(source, title, timestamp):
-    global CRNT_PROXY
-    res = search(
+    client = SearchClient(
         "news " + source + " " + title + " " + timestamp.strftime("%Y-%m-%d"),
-        num_results=1,
-        advanced=True,
-        proxy=CRNT_PROXY,
+        max_search_result_urls_to_return=1,
+        # http_429_cool_off_time_in_minutes=45,
+        # http_429_cool_off_factor=1.5,
+        # proxy=FreeProxy(rand=True).get(),
+        verbose_output=True,  # False (only URLs) or True (rank, title, description, and URL)
     )
-    try:
-        res = next(res)
-    except Exception as e:
-        if "Too Many Requests for url" in str(e):
-            print("Too Many Requests for url... set new proxy")
-            CRNT_PROXY = FreeProxy().get()
-            time.sleep(2)
-            # return getGoogleHit(source, title, timestamp)
-            # skip this one
-            raise Exception("Too Many Requests for url, skip")
-    url, title = res.url, res.title
+    client.assign_random_user_agent()
+    urls = client.search()
+    url = urls[0]
     content = requests.get(url, headers=HEADERS).text
     content = text_from_html(content)
     return title, url, content
@@ -144,6 +157,7 @@ def createNews():
             AlphaSentimentArticle.ai_summary,
             AlphaSentimentArticle.ai_title,
             AlphaSentimentArticle.ai_url,
+            AlphaSentimentArticle.ai_ticker_reasons,
         )
         .order_by(AlphaSentimentArticle.timestamp.desc())
         .all()
@@ -184,15 +198,38 @@ def createNews():
             if len(positiveTickers) == 0 and len(negativeTickers) == 0:
                 continue
 
-            # check if ai_title is already set
-            if news.ai_title is None or news.ai_title == "":
-                # need to create it
-                title, url, content = getGoogleHit(
-                    news.source, news.title, news.timestamp
-                )
-                aisummary = getGPTSummary(news.summary + ". \n" + content)
+            # then get all the bots that have used these tickers
+            positiveTickers = [ticker.ticker for ticker in positiveTickers]
+            negativeTickers = [ticker.ticker for ticker in negativeTickers]
 
-                aititle = getGPTTitle(title + " ." + news.summary)
+            allUsedTickers = positiveTickers + negativeTickers
+
+            # check if ai_title is already set
+            if (
+                news.ai_title is None
+                or news.ai_title == ""
+                or news.ai_ticker_reasons is None
+            ):
+                # need to create it
+                if news.ai_title is None:
+                    title, url, content = getGoogleHit(
+                        news.source, news.title, news.timestamp
+                    )
+                    aisummary = getGPTSummary(news.summary + ". \n" + content)
+                    aititle = getGPTTitle(title + " ." + news.summary)
+                else:
+                    aisummary = news.ai_summary
+                    url = news.ai_url
+                    aititle = news.ai_title
+
+                tickerReasons = list(
+                    zip(
+                        allUsedTickers,
+                        ["positively" for _ in positiveTickers]
+                        + ["negatively" for _ in negativeTickers],
+                    )
+                )
+                tickerReasons = getGPTTickerReasons(aisummary, tickerReasons)
 
                 # update news object
                 db.query(AlphaSentimentArticle).filter_by(id=news.id).update(
@@ -200,16 +237,13 @@ def createNews():
                         "ai_title": aititle,
                         "ai_summary": aisummary,
                         "ai_url": url,
+                        "ai_ticker_reasons": tickerReasons,
                     }
                 )
                 db.commit()
                 # refresh
                 news = db.query(AlphaSentimentArticle).filter_by(id=news.id).first()
 
-            # then get all the bots that have used these tickers
-            allUsedTickers = [
-                ticker.ticker for ticker in positiveTickers + negativeTickers
-            ]
             botsUsing = (
                 db.query(Trade.bot).filter(Trade.ticker.in_(allUsedTickers)).all()
             )
@@ -247,6 +281,26 @@ def createNews():
             template = template.replace(
                 "{{negativeTickersList}}", listifyTickers(negativeTickers)
             )
+            # then add the ticker responses
+            # positiveTickersMDTable
+            positiveTickersMDTable = "| ticker | polarity | why? |\n|------------|------------|------------|\n"
+            for ticker in positiveTickers:
+                positiveTickersMDTable += (
+                    f"| {ticker} | positively | {news.ai_ticker_reasons[ticker]} |\n"
+                )
+            template = template.replace(
+                "{{positiveTickersMDTable}}", positiveTickersMDTable
+            )
+            # negativeTickersMDTable
+            negativeTickersMDTable = ""
+            for ticker in negativeTickers:
+                negativeTickersMDTable += (
+                    f"| {ticker} | negatively | {news.ai_ticker_reasons[ticker]} |\n"
+                )
+            template = template.replace(
+                "{{negativeTickersMDTable}}", negativeTickersMDTable
+            )
+
             # strategis and bots
             if len(botsUsing) > 0:
                 template = template.replace("{{strategyList}}", ", ".join(botsUsing))

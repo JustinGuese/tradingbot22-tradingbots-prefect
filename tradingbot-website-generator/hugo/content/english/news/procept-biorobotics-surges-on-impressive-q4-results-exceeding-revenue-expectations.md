@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/equities/24/01/36559947/procep
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PRCT' target='_blank'>PRCT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PRCT | positively | The positive Q4 results and strong surgeon interest in Procept BioRobotics' Aquablation Therapy are likely to drive investor confidence and increase demand for PRCT shares. |
+
+
 
 #### our strategies and bots using these tickers
 

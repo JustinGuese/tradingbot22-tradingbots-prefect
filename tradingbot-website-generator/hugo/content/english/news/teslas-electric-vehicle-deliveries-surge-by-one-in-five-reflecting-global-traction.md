@@ -11,9 +11,11 @@ source: <a href='https://www.business-standard.com/opinion/columns/the-one-in-fi
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/TSLA' target='_blank'>TSLA</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| TSLA | positively | The positive global traction of electric vehicles, as indicated by the rising number of EVs delivered by Tesla, suggests a growing market demand for electric vehicles. This could potentially result in increased sales and revenue for Tesla, positively impacting the TSLA stock. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://finance.yahoo.com/news/breast-biopsy-market-set-achieve
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/HOLX' target='_blank'>HOLX</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| HOLX | positively | The ticker HOLX may be positively affected by this article as it is a key player in the breast biopsy market, and the advancements in biopsy techniques and technologies mentioned in the article could drive increased demand for HOLX's products and solutions. |
+
+
 
 #### our strategies and bots using these tickers
 

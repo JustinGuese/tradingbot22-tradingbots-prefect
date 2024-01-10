@@ -11,9 +11,11 @@ source: <a href='https://www.msn.com/en-ca/travel/news/american-airlines-frequen
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/DAL' target='_blank'>DAL</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| DAL | positively | Based on the information provided in the article, it is likely that the ticker DAL (Delta Air Lines) would be affected positively because American Airlines' updates to its frequent flyer program may inspire other airlines, including Delta, to make similar improvements to their own loyalty programs in order to remain competitive in the market. |
+
+
 
 #### our strategies and bots using these tickers
 

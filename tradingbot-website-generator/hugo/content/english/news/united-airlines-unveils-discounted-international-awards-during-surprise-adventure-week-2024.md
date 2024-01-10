@@ -11,9 +11,11 @@ source: <a href='https://www.forbes.com/advisor/credit-cards/travel-rewards/unit
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/UAL' target='_blank'>UAL</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| UAL | positively | The ticker UAL is likely to be affected positively by this news because the discounted international awards during Surprise Adventure Week can attract more customers to book flights with United Airlines, potentially increasing their revenue and boosting their stock performance. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36561448/a-close
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PINS' target='_blank'>PINS</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PINS | positively | The bullish sentiment expressed by whales in the options trading activity suggests that there is optimism surrounding the future performance of Pinterest (PINS). This positive sentiment could lead to increased buying pressure on the stock, potentially driving its price higher. |
+
+
 
 #### our strategies and bots using these tickers
 

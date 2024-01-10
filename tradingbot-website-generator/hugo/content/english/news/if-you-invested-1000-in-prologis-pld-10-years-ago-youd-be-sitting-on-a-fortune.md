@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/news/24/01/36561025/if-you-invested-10
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/PLD' target='_blank'>PLD</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| PLD | positively | The positive performance and growth potential highlighted in the article indicate that Prologis (PLD) is likely to experience an increase in investor confidence and demand for its stock, leading to a positive impact on its ticker. |
+
+
 
 #### our strategies and bots using these tickers
 

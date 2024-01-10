@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36560143/what-th
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/BX' target='_blank'>BX</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| BX | positively | The bullish options positions taken by investors suggest that there is optimism surrounding the future performance of Blackstone (BX), which could potentially lead to a positive impact on the ticker. |
+
+
 
 #### our strategies and bots using these tickers
 

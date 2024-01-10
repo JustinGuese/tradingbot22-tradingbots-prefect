@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/markets/options/24/01/36560137/unpacki
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/WMT' target='_blank'>WMT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| WMT | positively | The positive options activity and bullish sentiment surrounding Walmart (WMT) indicate that market participants anticipate an increase in the stock's price, potentially driven by strong sales performance, efficient operations, and global expansion. |
+
+
 
 #### our strategies and bots using these tickers
 

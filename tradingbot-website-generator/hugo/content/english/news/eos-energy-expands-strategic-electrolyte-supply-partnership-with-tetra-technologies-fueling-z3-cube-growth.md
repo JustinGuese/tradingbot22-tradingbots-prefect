@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/markets/equities/24/01/36555950/eos-en
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/EOSE' target='_blank'>EOSE</a>, <a href='https://finance.yahoo.com/quote/TTI' target='_blank'>TTI</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| EOSE | positively | The expanded collaboration with TETRA Technologies will enhance the quality and supply of electrolyte solution for Eos Energy's energy storage products, which could lead to improved battery performance and increased customer demand, positively impacting the ticker EOSE. |
+| TTI | positively | The ticker TTI is likely to be affected positively by this collaboration expansion because it solidifies TETRA Technologies as the primary strategic supplier for Eos Energy's energy storage products, which could lead to increased revenue and market share for TETRA. |
+
+
 
 #### our strategies and bots using these tickers
 

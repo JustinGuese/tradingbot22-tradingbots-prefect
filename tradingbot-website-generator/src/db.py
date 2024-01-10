@@ -204,6 +204,9 @@ class AlphaSentimentArticle(Base):
     ai_summary = Column(String, default=None, nullable=True)
     ai_title = Column(String, default=None, nullable=True)
     ai_url = Column(String, default=None, nullable=True)
+    ai_ticker_reasons = Column(
+        MutableDict.as_mutable(JSON), default=None, nullable=True
+    )
     tickers: Mapped[List["AlphaSentiment"]] = relationship()
 
 

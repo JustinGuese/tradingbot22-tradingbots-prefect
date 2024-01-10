@@ -11,9 +11,12 @@ source: <a href='https://www.benzinga.com/news/earnings/24/01/36559887/illumina-
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/JNJ' target='_blank'>JNJ</a>, <a href='https://finance.yahoo.com/quote/ILMN' target='_blank'>ILMN</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| JNJ | positively | The ticker JNJ could be positively affected by this partnership as it indicates Janssen Research & Development's interest in utilizing Illumina's molecular residual disease assay, which could potentially lead to advancements in cancer research and treatment. |
+| ILMN | positively | The positive Q4 results and the partnership with Janssen Research & Development indicate strong growth potential and increased market demand for Illumina's products and services, which could lead to higher revenue and profitability for the company, positively impacting the ticker ILMN. |
+
+
 
 #### our strategies and bots using these tickers
 

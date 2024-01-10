@@ -1092,20 +1092,6 @@ reauth = ["pyu2f (>=0.1.5)"]
 requests = ["requests (>=2.20.0,<3.0.0.dev0)"]
 
 [[package]]
-name = "googlesearch-python"
-version = "1.2.3"
-description = "A Python library for scraping the Google search engine."
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "googlesearch-python-1.2.3.tar.gz", hash = "sha256:38b251121dd140439bd08cdf2a05a0b195d852908ee2bfed30e57d16aa68ae5e"},
-]
-
-[package.dependencies]
-beautifulsoup4 = ">=4.9"
-requests = ">=2.20"
-
-[[package]]
 name = "graphviz"
 version = "0.20.1"
 description = "Simple Python interface for Graphviz"
@@ -2824,6 +2810,18 @@ scipy = ">=1.3,<2.0"
 optionals = ["matplotlib (>=3.2.0,<4.0.0)", "scikit-learn (>=0.24.1,<0.25.0)"]
 
 [[package]]
+name = "pysocks"
+version = "1.7.1"
+description = "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information."
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+files = [
+    {file = "PySocks-1.7.1-py27-none-any.whl", hash = "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299"},
+    {file = "PySocks-1.7.1-py3-none-any.whl", hash = "sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5"},
+    {file = "PySocks-1.7.1.tar.gz", hash = "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
@@ -3147,6 +3145,7 @@ files = [
 certifi = ">=2017.4.17"
 charset-normalizer = ">=2,<4"
 idna = ">=2.5,<4"
+PySocks = {version = ">=1.5.6,<1.5.7 || >1.5.7", optional = true, markers = "extra == \"socks\""}
 urllib3 = ">=1.21.1,<3"
 
 [package.extras]
@@ -4102,6 +4101,24 @@ files = [
 ]
 
 [[package]]
+name = "yagooglesearch"
+version = "1.8.2"
+description = "A Python library for executing intelligent, realistic-looking, and tunable Google searches."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "yagooglesearch-1.8.2-py3-none-any.whl", hash = "sha256:7480906e559dd50186ab8b15108e1fb91c44d75f1ff2bdf07ffcef613e55ead7"},
+    {file = "yagooglesearch-1.8.2.tar.gz", hash = "sha256:5744eca2ea2ffb59a75bbedd6b48e2da4fa79eeb197ad994a95ba8c4f7ca1c37"},
+]
+
+[package.dependencies]
+beautifulsoup4 = ">=4.9.3"
+requests = [
+    {version = ">=2.31.0"},
+    {version = "*", extras = ["socks"]},
+]
+
+[[package]]
 name = "yfinance"
 version = "0.2.33"
 description = "Download market data from Yahoo! Finance API"
@@ -4128,4 +4145,4 @@ requests = ">=2.31"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.15"
-content-hash = "405b7a91601a27d800eb4b576d006b55c4c2ef99f80162a74584aa4d6914a454"
+content-hash = "b313cbd21bd805cc2212028e8d55535cde84f3d39fbaa231aac55ff566ff233e"

@@ -11,9 +11,11 @@ source: <a href='https://www.globenewswire.com/news-release/2024/01/09/2806563/0
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/VLTAF' target='_blank'>VLTAF</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| VLTAF | positively | The positive performance and exceeding of capacity targets by Voltalia in renewable energy may lead to increased investor confidence and potential growth prospects for the company, which could positively impact its stock price. |
+
+
 
 #### our strategies and bots using these tickers
 

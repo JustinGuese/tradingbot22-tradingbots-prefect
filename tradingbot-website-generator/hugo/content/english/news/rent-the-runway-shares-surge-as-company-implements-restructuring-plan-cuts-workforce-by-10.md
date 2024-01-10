@@ -11,9 +11,11 @@ source: <a href='https://www.benzinga.com/news/24/01/36559532/rent-the-runway-sh
 
 #### tickers affected by this
 
-| positively | negatively |
-|------------|------------
-| <a href='https://finance.yahoo.com/quote/RENT' target='_blank'>RENT</a> |  |
+| ticker | polarity | why? |
+|------------|------------|------------|
+| RENT | positively | The restructuring plan and workforce reduction are expected to result in significant cost savings for Rent the Runway, which could positively impact the company's financial performance. This could potentially lead to improved investor sentiment and an increase in the stock price. |
+
+
 
 #### our strategies and bots using these tickers
 

@@ -974,6 +974,20 @@ unicode = ["unicodedata2 (>=15.1.0)"]
 woff = ["brotli (>=1.0.1)", "brotlicffi (>=0.8.0)", "zopfli (>=0.1.4)"]
 
 [[package]]
+name = "free-proxy"
+version = "1.1.1"
+description = "Proxy scraper for further use"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "free_proxy-1.1.1.tar.gz", hash = "sha256:2b20eb863972b42984292cee17132f4c9ddb8fef0a9bee9bc15215a08e6899fb"},
+]
+
+[package.dependencies]
+lxml = "*"
+requests = "*"
+
+[[package]]
 name = "frozendict"
 version = "2.3.10"
 description = "A simple immutable dictionary"
@@ -4114,4 +4128,4 @@ requests = ">=2.31"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.15"
-content-hash = "3bac2f95760b1d9286ff650306bb32d7f6405d1154dc90d281597254088f2d20"
+content-hash = "405b7a91601a27d800eb4b576d006b55c4c2ef99f80162a74584aa4d6914a454"

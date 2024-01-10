@@ -6,18 +6,24 @@ import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 from db import AlphaSentiment, AlphaSentimentArticle, Bot, SessionLocal, Trade
+from fp.fp import FreeProxy
 from googlesearch import search
 from openai import OpenAI
+from tqdm import tqdm
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
 }
 
+CRNT_PROXY = FreeProxy().get()
+
 
 client = OpenAI(
+    base_url="http://10.147.17.74:33732/v1",
     # This is the default and can be omitted
-    api_key=environ["OPENAI_API_KEY"],
+    api_key=environ["OPENAI_API_KEY_DF"],
 )
+
 
 NEWSPATH = "../hugo/content/english/news/"
 
@@ -102,18 +108,23 @@ def text_from_html(body):
 
 
 def getGoogleHit(source, title, timestamp):
+    global CRNT_PROXY
     res = search(
         "news " + source + " " + title + " " + timestamp.strftime("%Y-%m-%d"),
         num_results=1,
         advanced=True,
+        proxy=CRNT_PROXY,
     )
     try:
         res = next(res)
     except Exception as e:
         if "Too Many Requests for url" in str(e):
-            print("Too Many Requests for url... wait some time")
-            time.sleep(60)
-            return getGoogleHit(source, title, timestamp)
+            print("Too Many Requests for url... set new proxy")
+            CRNT_PROXY = FreeProxy().get()
+            time.sleep(2)
+            # return getGoogleHit(source, title, timestamp)
+            # skip this one
+            raise Exception("Too Many Requests for url, skip")
     url, title = res.url, res.title
     content = requests.get(url, headers=HEADERS).text
     content = text_from_html(content)
@@ -137,7 +148,7 @@ def createNews():
         .order_by(AlphaSentimentArticle.timestamp.desc())
         .all()
     )
-    for news in allNews:
+    for news in tqdm(allNews):
         # get all tickers from this article with positive sentiment score
         try:
             positiveTickers = (

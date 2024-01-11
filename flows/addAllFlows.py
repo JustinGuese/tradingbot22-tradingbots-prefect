@@ -1,5 +1,6 @@
 import ai_investing_website
 import alphavantageUpdate
+import bt_headandshouldersAAPLMaxRet
 import comp_bigtechmom
 import comp_bondtqqq
 import comp_buydips_adapted
@@ -65,6 +66,11 @@ FLOWS = [
         newstrader.newsTrader,
         "newstrader",
         "15 18 * * *",  # after alphavantage update
+    ),
+    (
+        bt_headandshouldersAAPLMaxRet.btHeadAndShouldersAAPLMaxReturn,
+        bt_headandshouldersAAPLMaxRet.BOTNAME,
+        "2 17 * * *",
     ),
     # ai investing website
     (

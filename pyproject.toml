@@ -31,6 +31,7 @@ openai = "^1.7.0"
 beautifulsoup4 = "^4.12.2"
 free-proxy = "^1.1.1"
 yagooglesearch = "^1.8.2"
+backtesting = "^0.3.3"
 
 
 [build-system]

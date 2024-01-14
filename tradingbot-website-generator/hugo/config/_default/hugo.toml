@@ -11,7 +11,7 @@ summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 googleAnalytics = "G-3EDT4F38M0" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+disqusShortname = "ai-investing-bots" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
 disableLanguages = ["de"
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/

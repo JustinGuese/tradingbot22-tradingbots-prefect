@@ -61,6 +61,6 @@ Professional Analyst Ratings for Pinterest
 
 In the last 30 days, four professional analysts have provided their outlook on Pinterest. The average price target is $39.5. RBC Capital has upgraded its stance to Outperform with a price target of $46. Stifel maintains its Buy rating with a target of $32. Wedbush maintains a Neutral rating with a price target of $35. BMO Capital has downgraded its rating to Outperform and set a new price target of $45.
 
-Options trading carries higher risks and potential rewards. Traders should stay informed about the latest Pinterest options trades with real-time alerts from Benzinga Pro.
+Options trading carries higher risks and potential rewards. Traders should stay informed about the latest Pinterest options trades with real-time alerts from our pro subscription.
 
 Disclaimer: This article is for informational purposes only and does not constitute investment advice.

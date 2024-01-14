@@ -7,18 +7,18 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 from db import AlphaSentiment, AlphaSentimentArticle, Bot, SessionLocal, Trade
 from fp.fp import FreeProxy
+from googlesearch import search
 from openai import OpenAI
 from tqdm import tqdm
-from yagooglesearch import SearchClient
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
 }
 
 client = OpenAI(
-    base_url="http://10.147.17.74:33732/v1",
+    # base_url="http://10.147.17.74:1337/v1",
     # This is the default and can be omitted
-    api_key=environ["OPENAI_API_KEY_DF"],
+    api_key=environ["OPENAI_API_KEY"],
 )
 
 
@@ -122,23 +122,17 @@ def tag_visible(element):
 
 def text_from_html(body):
     soup = BeautifulSoup(body, "html.parser")
-    texts = soup.findAll(text=True)
+    texts = soup.find_all(string=True)
     visible_texts = filter(tag_visible, texts)
     return " ".join(t.strip() for t in visible_texts)
 
 
 def getGoogleHit(source, title, timestamp):
-    client = SearchClient(
-        "news " + source + " " + title + " " + timestamp.strftime("%Y-%m-%d"),
-        max_search_result_urls_to_return=1,
-        # http_429_cool_off_time_in_minutes=45,
-        # http_429_cool_off_factor=1.5,
-        # proxy=FreeProxy(rand=True).get(),
-        verbose_output=True,  # False (only URLs) or True (rank, title, description, and URL)
-    )
-    client.assign_random_user_agent()
-    urls = client.search()
-    url = urls[0]
+    term = "news " + source + " " + title + " " + timestamp.strftime("%Y-%m-%d")
+    content = search(term, num_results=1, advanced=True)
+    url = next(content)
+    url = url.url
+
     content = requests.get(url, headers=HEADERS).text
     content = text_from_html(content)
     return title, url, content

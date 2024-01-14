@@ -35,4 +35,4 @@ Following our analysis of the options activities associated with Freeport-McMoRa
 
 According to two professional analysts, the average price target for Freeport-McMoRan is $42.0. UBS analyst maintains a Neutral rating on the stock with a target price of $41, while Raymond James analyst holds an Outperform rating with a target price of $43. 
 
-Options are a riskier asset compared to just trading the stock, but they have higher profit potential. Serious options traders manage this risk by educating themselves daily, scaling in and out of trades, following more than one indicator, and following the markets closely. If you want to stay updated on the latest options trades for Freeport-McMoRan, Benzinga Pro gives you real-time options trades alerts.
+Options are a riskier asset compared to just trading the stock, but they have higher profit potential. Serious options traders manage this risk by educating themselves daily, scaling in and out of trades, following more than one indicator, and following the markets closely. If you want to stay updated on the latest options trades for Freeport-McMoRan, our pro subscription gives you real-time options trades alerts.

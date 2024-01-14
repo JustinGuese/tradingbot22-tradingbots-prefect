@@ -34,7 +34,7 @@ Under the terms of the agreement, TG Therapeutics will gain exclusive worldwide 
 
 TG Therapeutics CEO, Michael S. Weiss, expressed excitement about expanding their autoimmune portfolio and leveraging their drug development and commercialization expertise through this partnership with Precision. He stated that they are looking forward to exploring the potential of azer-cel as a therapy for patients with various autoimmune disorders, with a target IND filing expected in mid-2024.
 
-According to data from Benzinga Pro, TG Therapeutics shares are currently trading above the stock's 50-day moving average of $13.90. Additionally, approximately 29.7% of shares are being sold short, which may contribute to recent price volatility.
+According to data from our pro subscription, TG Therapeutics shares are currently trading above the stock's 50-day moving average of $13.90. Additionally, approximately 29.7% of shares are being sold short, which may contribute to recent price volatility.
 
 As of the time of publication, TG Therapeutics shares are down 5.2% at $20.19.
 

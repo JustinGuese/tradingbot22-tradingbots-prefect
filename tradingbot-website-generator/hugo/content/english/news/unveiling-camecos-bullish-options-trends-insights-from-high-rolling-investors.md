@@ -103,6 +103,6 @@ After a thorough review of the options trading surrounding Cameco, we move to ex
 
 With a volume of 1,805,534, the price of CCJ is down -0.49% at $42.5. RSI indicators hint that the underlying stock is currently neutral between overbought and oversold. Next earnings are expected to be released in 30 days.
 
-Options are a riskier asset compared to just trading the stock, but they have higher profit potential. Serious options traders manage this risk by educating themselves daily, scaling in and out of trades, following more than one indicator, and following the markets closely. If you want to stay updated on the latest options trades for Cameco, Benzinga Pro gives you real-time options trade alerts.
+Options are a riskier asset compared to just trading the stock, but they have higher profit potential. Serious options traders manage this risk by educating themselves daily, scaling in and out of trades, following more than one indicator, and following the markets closely. If you want to stay updated on the latest options trades for Cameco, our pro subscription gives you real-time options trade alerts.
 
 *Disclaimer: This article is for informational purposes only and does not constitute investment advice. All rights reserved.*

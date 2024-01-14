@@ -30,8 +30,9 @@ ipython = "^8.19.0"
 openai = "^1.7.0"
 beautifulsoup4 = "^4.12.2"
 free-proxy = "^1.1.1"
-yagooglesearch = "^1.8.2"
 backtesting = "^0.3.3"
+googlesearch-python = "^1.2.3"
+g4f = "^0.2.0.2"
 
 
 [build-system]

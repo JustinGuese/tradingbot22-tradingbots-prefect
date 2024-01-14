@@ -87,6 +87,6 @@ Currently trading with a volume of 3,971,919, Devon Energy's price is down by -2
 
 Over the past month, three industry analysts have shared their insights on Devon Energy, proposing an average target price of $51.0. UBS continues to hold a Neutral rating for Devon Energy, targeting a price of $48. Raymond James maintains their Outperform rating on Devon Energy, with a price target of $53. Morgan Stanley has elevated its stance to Overweight, setting a new price target at $52.
 
-Options trading presents higher risks and potential rewards. Astute traders manage these risks by continually educating themselves, adapting their strategies, monitoring multiple indicators, and keeping a close eye on market movements. Stay informed about the latest Devon Energy options trades with real-time alerts from Benzinga Pro.
+Options trading presents higher risks and potential rewards. Astute traders manage these risks by continually educating themselves, adapting their strategies, monitoring multiple indicators, and keeping a close eye on market movements. Stay informed about the latest Devon Energy options trades with real-time alerts from our pro subscription.
 
 Disclaimer: Benzinga does not provide investment advice.

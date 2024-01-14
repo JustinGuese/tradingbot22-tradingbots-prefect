@@ -29,7 +29,7 @@ Short interest is an important metric to monitor as it can indicate market senti
 
 It is worth noting that short selling involves traders selling shares they do not own with the expectation that the stock price will decline. Traders profit from short selling if the stock price falls, but they incur losses if it rises.
 
-Comparing POSCO Holdings' short interest to its peers can provide further insights into its performance. According to Benzinga Pro, the average short interest as a percentage of float for POSCO Holdings' peer group is 4.72%, indicating that the company has less short interest compared to most of its peers.
+Comparing POSCO Holdings' short interest to its peers can provide further insights into its performance. According to our pro subscription, the average short interest as a percentage of float for POSCO Holdings' peer group is 4.72%, indicating that the company has less short interest compared to most of its peers.
 
 While a decrease in short interest does not guarantee an immediate rise in the stock price, it does indicate a shift in market sentiment. Traders and investors should take note of this development when making their investment decisions.
 

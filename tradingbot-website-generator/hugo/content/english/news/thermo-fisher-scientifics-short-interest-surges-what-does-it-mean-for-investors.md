@@ -33,7 +33,7 @@ Monitoring short interest is important as it can serve as an indicator of market
 
 It is essential to note that the rise in short interest does not necessarily mean that Thermo Fisher Scientific's stock will decline in the near term. However, traders should be aware that more shares are being shorted, which could impact the stock's performance.
 
-When comparing Thermo Fisher Scientific's short interest to its peers, the company has less short interest than most of its peers. According to Benzinga Pro, the peer group average for short interest as a percentage of float is 6.01%. This indicates that Thermo Fisher Scientific is relatively less targeted by short sellers compared to its industry counterparts.
+When comparing Thermo Fisher Scientific's short interest to its peers, the company has less short interest than most of its peers. According to our pro subscription, the peer group average for short interest as a percentage of float is 6.01%. This indicates that Thermo Fisher Scientific is relatively less targeted by short sellers compared to its industry counterparts.
 
 Increasing short interest can actually be seen as a bullish sign for a stock in some cases. Benzinga Money has an informative post on how investors can profit from increasing short interest.
 

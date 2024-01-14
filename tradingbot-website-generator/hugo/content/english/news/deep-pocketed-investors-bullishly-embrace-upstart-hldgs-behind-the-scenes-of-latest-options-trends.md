@@ -99,7 +99,7 @@ In light of the recent options history for Upstart Hldgs, it's now appropriate t
 
 With a trading volume of 3,840,165, the price of UPST is up by 2.89%, reaching $34.2. Current RSI values indicate that the stock is currently neutral between overbought and oversold. The next earnings report is scheduled for 36 days from now.
 
-Trading options involves greater risks but also offers the potential for higher profits. Savvy traders mitigate these risks through ongoing education, strategic trade adjustments, utilizing various indicators, and staying attuned to market dynamics. Keep up with the latest options trades for Upstart Hldgs with Benzinga Pro for real-time alerts.
+Trading options involves greater risks but also offers the potential for higher profits. Savvy traders mitigate these risks through ongoing education, strategic trade adjustments, utilizing various indicators, and staying attuned to market dynamics. Keep up with the latest options trades for Upstart Hldgs with our pro subscription for real-time alerts.
 
 Earnings Analyst Ratings Options Dividends IPOs
 Date of Trade	▲	▼	ticker	▲	▼	Put/Call	 ▲	▼	Strike Price	 ▲	▼	DTE	 ▲	▼	Sentiment	 ▲	▼	Click to see more Options updates

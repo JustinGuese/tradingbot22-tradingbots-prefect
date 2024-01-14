@@ -20,7 +20,7 @@ source: <a href='https://www.fool.com/investing/2024/01/13/1-ai-stock-down-71-wi
 
 #### our strategies and bots using these tickers
 
-[msft-decisiontree](/strategies/msft-decisiontree), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

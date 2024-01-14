@@ -72,7 +72,7 @@ def getGPTSummary(prompt):
         },
         {
             "role": "user",
-            "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else. remove promotional content except for yourself, and remember that you are writing for ai-investing-bots.com. content: "
+            "content": "create a news article based on this information. try to create short paragraphs. reply in markdown. just reply with the article, nothing else. remove promotional content including contact information or anything about the source. you are only writing for ai-investing-bots.com and should not mention competition. content: "
             + prompt,
         },
     ]

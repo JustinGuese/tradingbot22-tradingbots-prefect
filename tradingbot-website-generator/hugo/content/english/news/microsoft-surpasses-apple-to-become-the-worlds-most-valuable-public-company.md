@@ -20,7 +20,7 @@ source: <a href='https://www.businessinsider.in/tech/news/microsofts-market-cap-
 
 #### our strategies and bots using these tickers
 
-[msft-decisiontree](/strategies/msft-decisiontree), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

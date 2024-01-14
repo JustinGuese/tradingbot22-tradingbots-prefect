@@ -20,7 +20,7 @@ source: <a href='https://www.fool.com/investing/2024/01/13/the-3-best-warren-buf
 
 #### our strategies and bots using these tickers
 
-[c-bigtech-momentum](/strategies/c-bigtech-momentum), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[randombot](/strategies/randombot), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

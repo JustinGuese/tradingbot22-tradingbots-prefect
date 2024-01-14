@@ -19,7 +19,7 @@ source: <a href='https://twitter.com/TheWeek/status/1746230706437493141' target=
 
 #### our strategies and bots using these tickers
 
-[newstrader](/strategies/newstrader), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[randombot](/strategies/randombot), [newstrader](/strategies/newstrader), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

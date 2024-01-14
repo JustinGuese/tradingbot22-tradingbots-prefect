@@ -29,7 +29,7 @@ source: <a href='https://www.benzinga.com/news/large-cap/24/01/36622567/benzinga
 
 #### our strategies and bots using these tickers
 
-[randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations), [msft-decisiontree](/strategies/msft-decisiontree), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [bt_headshoulder_aapl_returnopt](/strategies/bt_headshoulder_aapl_returnopt), [newstrader](/strategies/newstrader)
+[head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [randombot](/strategies/randombot), [bt_headshoulder_aapl_returnopt](/strategies/bt_headshoulder_aapl_returnopt), [newstrader](/strategies/newstrader), [finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree)
 
 ## summary
 

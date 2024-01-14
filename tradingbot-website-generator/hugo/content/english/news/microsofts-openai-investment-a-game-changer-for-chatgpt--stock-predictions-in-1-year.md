@@ -19,7 +19,7 @@ source: <a href='https://www.fool.com/investing/2024/01/13/where-will-microsoft-
 
 #### our strategies and bots using these tickers
 
-[msft-decisiontree](/strategies/msft-decisiontree), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[c-bigtech-momentum](/strategies/c-bigtech-momentum), [msft-decisiontree](/strategies/msft-decisiontree), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

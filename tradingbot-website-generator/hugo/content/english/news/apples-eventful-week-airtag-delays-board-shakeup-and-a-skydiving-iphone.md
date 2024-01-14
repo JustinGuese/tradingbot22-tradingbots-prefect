@@ -20,7 +20,7 @@ source: <a href='https://www.benzinga.com/news/24/01/36622046/appleverse-in-news
 
 #### our strategies and bots using these tickers
 
-[randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations), [head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [c-bigtech-momentum](/strategies/c-bigtech-momentum), [bt_headshoulder_aapl_returnopt](/strategies/bt_headshoulder_aapl_returnopt)
+[head-and-shoulders-AAPL](/strategies/head-and-shoulders-AAPL), [randombot](/strategies/randombot), [bt_headshoulder_aapl_returnopt](/strategies/bt_headshoulder_aapl_returnopt), [finnhub-recommendations](/strategies/finnhub-recommendations), [c-bigtech-momentum](/strategies/c-bigtech-momentum)
 
 ## summary
 

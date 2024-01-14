@@ -19,7 +19,7 @@ source: <a href='https://www.benzinga.com/markets/equities/24/01/36623333/cathie
 
 #### our strategies and bots using these tickers
 
-[newstrader](/strategies/newstrader), [randombot](/strategies/randombot), [finnhub-recommendations](/strategies/finnhub-recommendations)
+[randombot](/strategies/randombot), [newstrader](/strategies/newstrader), [finnhub-recommendations](/strategies/finnhub-recommendations)
 
 ## summary
 

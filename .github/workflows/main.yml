@@ -17,6 +17,10 @@ jobs:
       - name: Install prefect pip package
         run: pip install prefect
 
+      - name: install every other dependency
+        # apparently to just deploy a flow, you need to install every dependency -> again the superb efficient egineering of prefect in action
+        run: pip install -r requirements.txt
+
       - name: Prefect Auth Login
         uses: PrefectHQ/actions-prefect-auth@v1
         with:

@@ -18,7 +18,7 @@ jobs:
         run: pip install prefect
 
       - name: Prefect Auth
-        run: prefect cloud login -k ${{ secrets.PREFECT_API_KEY }} -w ${{ secrets.PREFECT_WORKSPACE }}
+        run: prefect cloud login -k ${{ secrets.PREFECT_API_KEY }} -w justin-df/default
 
       - name: Prefect Deploy Script
         run: ./prefectAddDeployment.sh

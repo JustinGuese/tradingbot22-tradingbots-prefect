@@ -1,23 +1,13 @@
-implementing my tradingbot ideas as prefect flows, being executed in a docker container running on my caprover server, connecting to the tradingbot backend via internal network routing
+# introduction
 
-ci/cd done with caprover
+my tradingbot ideas, basically being published at https://ai-investing-bots.com
 
-schedule and names in [flows/addAllFlows.py](flows/addAllFlows.py)
+## deployment & ci/cd
 
-needs little persistence at /app/persistent/
+- flows are executed using the prefect scheduler
+- flows are added to prefect cloud using github actions and the prefectAddDeployment.sh script
+- flows contain the cron execution time at the top of the file for easier deployment
+- the agent will later pull the flow storage from github
 
-
-## database backup function
-
-[flows/databaseBackup.py](flows/databaseBackup.py) backs up postfres databases to a minio destination. it deletes files older than 30 d.
-restore is possible with
-
-```bash
-tar -xvf pg_tradingbot-2023-12-28T14_04_58.128214.sql.tar.gz
-psql -h 10.1x.x.x -p 5432 -U postgres < pg_tradingbot.sql
-```
-
-## ai investing bots website
-
-builds html files into /app/flows/tradingbot-website-generator/hugo/public
-path on server: /mnt/hdd/nginx-aiinvest/
+- the dockerfile contains everything to run a prefect docker agent in docker
+- the ci/cd of the docker agent is handled by my caprover instance, it needs access to the docker socket in order to spawn new containers /var/run/docker.sock:/var/run/docker.sock

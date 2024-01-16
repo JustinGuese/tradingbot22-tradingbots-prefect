@@ -1,3 +1,4 @@
+CRON = "5 4 * * 3"  # this doesnt do anything in the script, but is used by the prefect deployment script
 # jupyternotebooks/taestimator.ipynb
 import pickle
 from os import environ
@@ -11,7 +12,7 @@ from ta import add_all_ta_features
 
 
 @flow(log_prints=True)
-def msftDecisionTree():
+def mainFlow():
     bot = BaseBot(
         "msft-decisiontree",
         backendurl=variables.get("backend_url"),

@@ -1,3 +1,4 @@
+CRON = "5 16 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from os import environ
 
 import yfinance as yf
@@ -81,7 +82,7 @@ def act(signal, bot: BaseBot, portfolio):
 
 
 @flow(log_prints=True)
-def headAndShoulderFlow():
+def mainFlow():
     print("ich starte digga")
     bot, df, portfolio = setup()
     signal = get_signal(df)

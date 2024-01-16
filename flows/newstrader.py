@@ -1,3 +1,4 @@
+CRON = "15 18 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime, timedelta
 from os import environ
 
@@ -71,7 +72,7 @@ def investOnInfo(df, bot, portfolio):
 
 
 @flow(log_prints=True)
-def newsTrader():
+def mainFlow():
     print("starting")
     bot = BaseBot(
         "newstrader",
@@ -80,7 +81,3 @@ def newsTrader():
     portfolio = bot.getPortfolio()
     df = getCurrentNewsWinners()
     investOnInfo(df, bot, portfolio)
-
-
-if __name__ == "__main__":
-    newsTrader()

@@ -1,3 +1,4 @@
+CRON = "0 20 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from os import environ
 from random import randint, random
 
@@ -8,7 +9,7 @@ from prefect import flow, task, variables
 
 
 @flow(log_prints=True)
-def randomBot():
+def mainFlow():
     TRADEABLE = [
         "AAPL",
         "MSFT",
@@ -61,7 +62,3 @@ def randomBot():
             print(f"buying {amount}$ of {ticker}")
             bot.buy(ticker, amount)
             usd -= amount
-
-
-if __name__ == "__main__":
-    randomBot()

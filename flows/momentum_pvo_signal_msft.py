@@ -1,3 +1,4 @@
+CRON = "0 17 */5 * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from os import environ
 
 import yfinance as yf
@@ -9,7 +10,7 @@ from ta.momentum import PercentageVolumeOscillator
 
 
 @flow(log_prints=True)
-def momentumPVOSignalMSFT():
+def mainFlow():
     print("connecting to backend...")
     bot = BaseBot(
         "momentum_pvo_signal_msft",

@@ -1,3 +1,4 @@
+CRON = "0 16 * * 3"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from os import environ
 
 import finnhub
@@ -16,7 +17,7 @@ def numberRating(rating: dict):
 
 
 @flow(log_prints=True)
-def finnhubRecomm():
+def mainFlow():
     TRADEABLE = [
         "AAPL",
         "MSFT",

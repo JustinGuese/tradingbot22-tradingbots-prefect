@@ -1,3 +1,4 @@
+CRON = "2 17 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime
 from os import environ
 
@@ -86,6 +87,6 @@ def actOnDecision(lastTrade, df):
 
 
 @flow(log_prints=True)
-def btHeadAndShouldersAAPLMaxReturn():
+def mainFlow():
     lastTrade, df = runBacktest()
     actOnDecision(lastTrade, df)

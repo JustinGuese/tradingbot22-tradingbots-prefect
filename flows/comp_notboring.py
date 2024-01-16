@@ -1,3 +1,4 @@
+CRON = "20 1 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime, timedelta
 from os import environ
 from pathlib import Path
@@ -91,7 +92,7 @@ def buyAccordingToWeights(weights, bot):
 
 
 @flow(log_prints=True)
-def compNotBoring():
+def mainFlow():
     bot, currentMode = basicSetup()
     #### trade logic
     qqqCrntMaxDailyDrawdown = get10DayMaxDrawdown("QQQ", bot)

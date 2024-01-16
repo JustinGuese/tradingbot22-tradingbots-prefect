@@ -1,3 +1,4 @@
+CRON = "15 22 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime, timedelta
 from os import environ
 
@@ -21,7 +22,7 @@ def calculateCumRet(stocks: list, days: int = 20):
 
 
 @flow(log_prints=True)
-def compBondTQQQ():
+def mainFlow():
     bot = BaseBot(
         "composer-bondtqqq-v1",
         backendurl=variables.get("backend_url"),

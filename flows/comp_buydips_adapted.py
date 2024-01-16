@@ -1,3 +1,4 @@
+CRON = "35 1 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 # see: tradingbot22-tradingbots/jupyternotebooks/composer.ipynb
 from datetime import datetime, timedelta
 from os import environ
@@ -34,7 +35,7 @@ def switchPair(tickerWanted, bot):
 
 
 @flow(log_prints=True)
-def compBuydipsAdapted():
+def mainFlow():
     # basic setup
     bot = BaseBot(
         environ.get("BOTNAME", "composer-buydipsqqq-shorting-adapted"),

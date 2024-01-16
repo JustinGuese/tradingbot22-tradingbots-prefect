@@ -1,3 +1,4 @@
+CRON = "42 3 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime, timedelta
 from os import environ
 
@@ -73,7 +74,7 @@ def invest(biggestTwo: list, portfolio: dict, usd: float, bot: BaseBot):
 
 
 @flow(log_prints=True)
-def bigTechMomFlow():
+def mainFlow():
     STOCKS = ["META", "AMZN", "AAPL", "MSFT", "GOOG", "PYPL", "ADBE", "NVDA"]
     # get 20d cumulative return
     bot = BaseBot(

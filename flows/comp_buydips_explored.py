@@ -1,3 +1,4 @@
+CRON = "30 1 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 from datetime import datetime, timedelta
 from os import environ
 
@@ -33,7 +34,7 @@ def switchPair(tickerWanted, bot):
 
 
 @flow(log_prints=True)
-def buydipsExplored():
+def mainFlow():
     bot = BaseBot(
         "composer-buydipsqqq-shorting-explored",
         backendurl=variables.get("backend_url"),

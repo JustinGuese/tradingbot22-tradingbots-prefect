@@ -7,17 +7,18 @@ jobs:
   deploy_flow:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
+      
+      - name: Install prefect pip package
+        run: pip install prefect
 
       - name: Prefect Auth
-        uses: PrefectHQ/actions-prefect-auth@v1
-        with:
-          prefect-api-key: ${{ secrets.PREFECT_API_KEY }}
-          prefect-workspace: ${{ secrets.PREFECT_WORKSPACE }}
+        run: prefect cloud login -k ${{ secrets.PREFECT_API_KEY }} -w ${{ secrets.PREFECT_WORKSPACE }}
 
-      - name: Prefect Deploy Scrit
+      - name: Prefect Deploy Script
         run: ./prefectAddDeployment.sh

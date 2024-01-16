@@ -17,7 +17,7 @@ jobs:
         uses: PrefectHQ/actions-prefect-auth@v1
         with:
           prefect-api-key: ${{ secrets.PREFECT_API_KEY }}
-          prefect-workspace: ${{ secrets.PREFECT_WORKSPACE }}
+          prefect-workspace: default
 
       - name: Prefect Deploy Scrit
         run: ./prefectAddDeployment.sh

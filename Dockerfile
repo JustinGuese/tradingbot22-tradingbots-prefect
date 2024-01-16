@@ -5,7 +5,5 @@ WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
     && poetry install --only main --no-interaction --no-ansi --no-root
-COPY ./flows/ /app/flows/
-COPY tradingbot-website-generator/ /app/flows/tradingbot-website-generator/ 
-WORKDIR /app/flows/
-CMD ["./deployAndRun.sh" ]
+CMD ["prefect", "agent", "start", "--pool", "docker-caprover-container-sb"]
+# remember that this one needs docker socket access!

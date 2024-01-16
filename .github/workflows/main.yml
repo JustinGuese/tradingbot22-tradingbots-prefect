@@ -17,7 +17,7 @@ jobs:
       - name: Install prefect pip package
         run: pip install prefect
 
-      - name: install every other dependency
+      - name: install every other unused dependency due to bad coding of prefect
         # apparently to just deploy a flow, you need to install every dependency -> again the superb efficient egineering of prefect in action
         run: pip install -r requirements.txt
 

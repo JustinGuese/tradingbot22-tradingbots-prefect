@@ -1,5 +1,6 @@
 CRON = "6 17 * * *"  # this doesnt do anything in the script, but is used by the prefect deployment script
 import json
+import logging
 from datetime import datetime
 from os import environ
 
@@ -7,7 +8,7 @@ import yfinance as yf
 from backtesting import Backtest
 from backtesting.lib import TrailingStrategy
 from basebot22.basebot import BaseBot
-from prefect import flow, task, variables
+from prefect import flow, get_run_logger, task, variables
 from tqdm import tqdm
 from tradingpatterns.tradingpatterns import detect_head_shoulder
 
@@ -93,6 +94,7 @@ def actOnDecision(stock, usdamount, lastTrade, df, bot, portfolio):
 
 @flow(log_prints=True)
 def mainFlow():
+    logger = get_run_logger()
     bot = BaseBot(
         BOTNAME,
         backendurl=environ.get("BACKEND_URL", variables.get("backend_url")),
@@ -103,29 +105,32 @@ def mainFlow():
         if ticker == "USD":
             continue
         if ticker not in RESULTS.keys():
-            print("selling ticker bc not in results anymore: ", ticker)
+            logger.info("selling ticker bc not in results anymore: ", ticker)
             bot.sell(ticker)
     portfolio = bot.getPortfolio()
     cash = portfolio["USD"]
     for ticker, stats in tqdm(RESULTS.items()):
-        cashForStock = stats["weight"] * cash
-        if cashForStock < 50:
-            print(
-                f"not enough cash for {ticker}, skipping. would have assigned: {cashForStock}"
+        try:
+            cashForStock = stats["weight"] * cash
+            if cashForStock < 50:
+                logger.warning(
+                    f"not enough cash for {ticker}, skipping. would have assigned: {cashForStock}"
+                )
+                continue
+            if stats["hs_lookback"] > 80:
+                yflookback = "1y"
+            else:
+                yflookback = "3mo"
+            lastTrade, df = runBacktest(
+                ticker,
+                stats["hs_lookback"],
+                stats["hs_how_many_positive_needed"],
+                stats["hs_how_many_negative_needed"],
+                yflookback,
             )
-            continue
-        if stats["hs_lookback"] > 80:
-            yflookback = "1y"
-        else:
-            yflookback = "3mo"
-        lastTrade, df = runBacktest(
-            ticker,
-            stats["hs_lookback"],
-            stats["hs_how_many_positive_needed"],
-            stats["hs_how_many_negative_needed"],
-            yflookback,
-        )
-        actOnDecision(ticker, cashForStock, lastTrade, df, bot, portfolio)
+            actOnDecision(ticker, cashForStock, lastTrade, df, bot, portfolio)
+        except Exception as e:
+            logger.error(f"error in {ticker}. skip: {e}")
     lastTrade, df = runBacktest()
     actOnDecision(lastTrade, df)
 

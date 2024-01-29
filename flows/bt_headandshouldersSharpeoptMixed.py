@@ -80,9 +80,16 @@ def runBacktest(
         logger.warning(
             "could not get a trade in the last 3 months, increasing yf lookback to 1y"
         )
-        return runBacktest(
-            stock, lookback, howManyPositive, howManyNegative, logger, "1y"
+        # no recursion allowed
+        df = yf.download(stock, period="1y", progress=False)
+        df = detect_head_shoulder(df)
+        bt = Backtest(df, HeadShoulderStrategy, cash=10000, commission=0.002)
+        stats = bt.run(
+            hs_lookback=lookback,
+            hs_how_many_positive_needed=howManyPositive,
+            hs_how_many_negative_needed=howManyNegative,
         )
+        lastTrade = stats._trades.iloc[-1]
     return lastTrade, df
 
 

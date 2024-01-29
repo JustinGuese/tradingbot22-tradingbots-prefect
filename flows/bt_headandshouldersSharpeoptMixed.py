@@ -12,7 +12,7 @@ from tqdm import tqdm
 from tradingpatterns.tradingpatterns import detect_head_shoulder
 
 # based on backtest/backtest_headAndShoulders-Sharpeopt.ipynb
-with open("backtest_headshoulder_sharpemix_results.json", "r") as f:
+with open("./flows/backtest_headshoulder_sharpemix_results.json", "r") as f:
     RESULTS = json.load(f)
 
 BOTNAME = "bt_headshoulder_sharpeopt_mixed"

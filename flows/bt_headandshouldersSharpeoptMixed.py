@@ -130,7 +130,9 @@ def mainFlow():
             )
             actOnDecision(ticker, cashForStock, lastTrade, df, bot, portfolio)
         except Exception as e:
-            logger.error(f"error in {ticker}. skip: {e}")
+            logger.error(
+                f"error in {ticker}. with settings {stats} and yflookback {yflookback} skip: {e}"
+            )
     lastTrade, df = runBacktest()
     actOnDecision(lastTrade, df)
 

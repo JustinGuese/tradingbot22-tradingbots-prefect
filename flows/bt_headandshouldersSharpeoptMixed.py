@@ -60,7 +60,9 @@ class HeadShoulderStrategy(TrailingStrategy):
 
 
 @task
-def runBacktest(stock, lookback, howManyPositive, howManyNegative, LOOKBACKYF="3mo"):
+def runBacktest(
+    stock, lookback, howManyPositive, howManyNegative, logger, LOOKBACKYF="3mo"
+):
     df = yf.download(stock, period=LOOKBACKYF, progress=False)
     df = detect_head_shoulder(df)
     bt = Backtest(df, HeadShoulderStrategy, cash=10000, commission=0.002)
@@ -69,7 +71,18 @@ def runBacktest(stock, lookback, howManyPositive, howManyNegative, LOOKBACKYF="3
         hs_how_many_positive_needed=howManyPositive,
         hs_how_many_negative_needed=howManyNegative,
     )
-    lastTrade = stats._trades.iloc[-1]
+    try:
+        lastTrade = stats._trades.iloc[-1]
+    except Exception as e:
+        # no trade, increase yflookback
+        if LOOKBACKYF == "1y":
+            raise Exception("no trade in 1y retry: " + str(e))
+        logger.warning(
+            "could not get a trade in the last 3 months, increasing yf lookback to 1y"
+        )
+        return runBacktest(
+            stock, lookback, howManyPositive, howManyNegative, logger, "1y"
+        )
     return lastTrade, df
 
 
@@ -126,6 +139,7 @@ def mainFlow():
                 stats["hs_lookback"],
                 stats["hs_how_many_positive_needed"],
                 stats["hs_how_many_negative_needed"],
+                logger,
                 yflookback,
             )
             actOnDecision(ticker, cashForStock, lastTrade, df, bot, portfolio)

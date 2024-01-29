@@ -1,0 +1,100 @@
+{
+    "ORLY": {
+        "weight": 0.09999999976243487,
+        "hs_lookback": 26,
+        "hs_how_many_positive_needed": 3,
+        "hs_how_many_negative_needed": 5,
+        "Return [%]": 31.77623298339846
+    },
+    "AMGN": {
+        "weight": 0.09999999963649316,
+        "hs_lookback": 41,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 6,
+        "Return [%]": 37.96737902679439
+    },
+    "REGN": {
+        "weight": 0.09999999953360764,
+        "hs_lookback": 11,
+        "hs_how_many_positive_needed": 3,
+        "hs_how_many_negative_needed": 5,
+        "Return [%]": 36.4868
+    },
+    "COST": {
+        "weight": 0.09999999932210508,
+        "hs_lookback": 21,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 5,
+        "Return [%]": 43.808642011718746
+    },
+    "MDLZ": {
+        "weight": 0.09999999877433748,
+        "hs_lookback": 71,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 11,
+        "Return [%]": 22.064513048095705
+    },
+    "NVDA": {
+        "weight": 0.08402198772895411,
+        "hs_lookback": 61,
+        "hs_how_many_positive_needed": 1,
+        "hs_how_many_negative_needed": 9,
+        "Return [%]": 176.8792654431152
+    },
+    "MSFT": {
+        "weight": 0.0823113655405676,
+        "hs_lookback": 76,
+        "hs_how_many_positive_needed": 3,
+        "hs_how_many_negative_needed": 9,
+        "Return [%]": 78.18350909484863
+    },
+    "AVGO": {
+        "weight": 0.07204709197726755,
+        "hs_lookback": 96,
+        "hs_how_many_positive_needed": 1,
+        "hs_how_many_negative_needed": 11,
+        "Return [%]": 126.88299754272457
+    },
+    "TMUS": {
+        "weight": 0.06280102106805102,
+        "hs_lookback": 16,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 5,
+        "Return [%]": 15.446603320312496
+    },
+    "META": {
+        "weight": 0.05931961392949919,
+        "hs_lookback": 96,
+        "hs_how_many_positive_needed": 2,
+        "hs_how_many_negative_needed": 14,
+        "Return [%]": 133.51479400024405
+    },
+    "PANW": {
+        "weight": 0.05603777481378104,
+        "hs_lookback": 36,
+        "hs_how_many_positive_needed": 1,
+        "hs_how_many_negative_needed": 6,
+        "Return [%]": 106.56923245697021
+    },
+    "VRTX": {
+        "weight": 0.05546736410491425,
+        "hs_lookback": 56,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 10,
+        "Return [%]": 57.00893561584471
+    },
+    "MAR": {
+        "weight": 0.01688134778654144,
+        "hs_lookback": 76,
+        "hs_how_many_positive_needed": 4,
+        "hs_how_many_negative_needed": 9,
+        "Return [%]": 70.99803389099114
+    },
+    "AMD": {
+        "weight": 0.011112420992052143,
+        "hs_lookback": 96,
+        "hs_how_many_positive_needed": 2,
+        "hs_how_many_negative_needed": 12,
+        "Return [%]": 163.0463331143188
+    }
+}

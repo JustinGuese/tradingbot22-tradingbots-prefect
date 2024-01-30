@@ -4,8 +4,6 @@ metadata:
   name: prefectagent-deployment
   namespace: tradingbot
 spec:
-  imagePullSecrets:
-    - name: regcred
   replicas: 1
   selector:
     matchLabels:
@@ -15,6 +13,8 @@ spec:
       labels:
         app: tradingbot
     spec:
+      imagePullSecrets:
+      - name: regcred
       containers:
         - name: tradingbot-prefect
           image: registry.k8s.datafortress.cloud/tradingbot22-tradingbots-prefect:latest

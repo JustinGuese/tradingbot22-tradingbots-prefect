@@ -22,11 +22,11 @@ spec:
             - containerPort: 8000
           resources:
             limits:
-              memory: "512Mi"
-              cpu: "500m"
+              memory: "2Gi"
+              cpu: "2"
             requests:
-              memory: "5Mi"
-              cpu: "5m"
+              memory: "250Mi"
+              cpu: "250m"
           env:
             - name: PREFECT_API_URL
               valueFrom:

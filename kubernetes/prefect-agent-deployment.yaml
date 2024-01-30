@@ -48,3 +48,11 @@ spec:
                 secretKeyRef:
                   name: prefectagent
                   key: PSQL_URL
+          volumeMounts:
+            - name: aiinvestwebsite
+              mountPath: /app/aiinvest/public/
+      volumes:
+        - name: aiinvestwebsite
+          hostPath:
+            path: /mnt/hdd/nginx-aiinvest/
+            type: Directory

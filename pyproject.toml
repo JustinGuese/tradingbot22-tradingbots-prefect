@@ -32,7 +32,7 @@ free-proxy = "^1.1.1"
 backtesting = "^0.3.3"
 googlesearch-python = "^1.2.3"
 g4f = "^0.2.0.2"
-basebot22-basebot-JustinGuese = "^0.3.42"
+basebot22-basebot-JustinGuese = "^0.3.43"
 
 [build-system]
 requires = ["poetry-core"]

@@ -51,8 +51,15 @@ spec:
           volumeMounts:
             - name: aiinvestwebsite
               mountPath: /app/aiinvest/public/
+            - name: sshkeys
+              mountPath: /root/.ssh/
+              readOnly: true
       volumes:
         - name: aiinvestwebsite
           hostPath:
             path: /mnt/hdd/nginx-aiinvest/
+            type: Directory
+        - name: sshkeys
+          hostPath:
+            path: /root/.ssh/
             type: Directory

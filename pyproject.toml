@@ -33,6 +33,9 @@ backtesting = "^0.3.3"
 googlesearch-python = "^1.2.3"
 g4f = "^0.2.0.2"
 basebot22-basebot-JustinGuese = "^0.3.43"
+diffusers = "^0.26.1"
+transformers = "^4.37.2"
+accelerate = "^0.26.1"
 
 [build-system]
 requires = ["poetry-core"]

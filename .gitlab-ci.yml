@@ -1,3 +1,11 @@
+variables:
+  DOCKER_HOST: tcp://localhost:2375
+  DOCKER_TLS_CERTDIR: ''
+
+stages:
+  - build
+  - deploy
+
 build-job:
   stage: build
   image: gitlab/dind

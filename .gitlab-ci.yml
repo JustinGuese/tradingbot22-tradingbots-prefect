@@ -1,7 +1,8 @@
 default:
   image: docker:24.0.5
   services:
-    - docker:24.0.5-dind
+    - name: docker:24.0.5-dind
+      command: ["--insecure-registry", "registry.kube-system.svc.cluster.local:5000"]
   before_script:
     - docker info
 

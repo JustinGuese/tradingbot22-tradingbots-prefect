@@ -4,11 +4,13 @@ build-job:
   services:
     - docker:dind
   script:
-    - docker build -t . registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
+    - docker build -t registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest .
 
 build-push:
   stage: build
   image: gitlab/dind
+  dependencies:
+    - build-job
   services:
     - docker:dind
   script:
@@ -16,6 +18,11 @@ build-push:
 
 apply-kubectl:
   stage: deploy
+  image:
+    name: bitnami/kubectl:latest
+    entrypoint: ['']
+  dependencies:
+    - build-push
   script:
     - kubectl apply -f kubernetes/
   environment: production

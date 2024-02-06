@@ -23,7 +23,8 @@ build-docker:
   tags:
     - contabo
   script:
-    - docker build -t $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH .
+    - docker pull $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH || true
+    - docker build --cache-from $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH -t $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH .
     - docker push $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH
 
 apply-kubectl:

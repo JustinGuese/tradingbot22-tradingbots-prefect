@@ -1,0 +1,15 @@
+build-job:
+  stage: build
+  script:
+    - docker build -t . registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
+
+build-push:
+  stage: build
+  script:
+    - docker push registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
+
+apply-kubectl:
+  stage: deploy
+  script:
+    - kubectl apply -f kubernetes/
+  environment: production

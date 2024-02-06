@@ -10,6 +10,7 @@ variables:
   DOCKER_TLS_CERTDIR: "/certs"
   DOCKER_TLS_VERIFY: 1
   DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
+  REGISTRY: registry.kube-system.svc.cluster.local:5000
 # before_script:
   # - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
 
@@ -23,8 +24,8 @@ build-docker:
   tags:
     - contabo
   script:
-    - docker build -t registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest .
-    - docker push registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
+    - docker build -t $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH .
+    - docker push $REGISTRY/$CI_PROJECT_NAME:$CI_COMMIT_BRANCH
 
 apply-kubectl:
   stage: deploy

@@ -1,0 +1,62 @@
+###
+### A complete description of a Prefect Deployment for flow 'mainFlow'
+###
+name: portoflioworthUpdate
+description: null
+version: 1b28ef6291e0b8df1d1c99d5364585cd
+# The work queue that will handle this deployment's runs
+work_queue_name: docker-caprover-container-sb
+work_pool_name: docker-caprover-container-sb
+tags: []
+parameters: {}
+schedule:
+  cron: 10 22 * * *
+  timezone: null
+  day_or: true
+is_schedule_active: true
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: mainFlow
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: 5b59bc0b-4674-4865-83cc-98b288ddd66e
+  _block_document_name: anonymous-3b30d1f2-de7d-429d-993e-57df397078c1
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage:
+  repository: https://gitlab.com/guese-justin/tradingbot22-tradingbots-prefect.git
+  reference: null
+  credentials:
+    token: '**********'
+    url: null
+    _block_document_id: 1f9c259e-a93c-4bec-b0b1-db763949f1b8
+    _block_document_name: gitlabjustin
+    _is_anonymous: false
+    block_type_slug: gitlab-credentials
+  _block_document_id: 2ba36bfb-8fd1-4c6a-8a95-de0092388f73
+  _block_document_name: tradingbot22-tradingbots-prefect
+  _is_anonymous: false
+  block_type_slug: gitlab-repository
+  _block_type_slug: gitlab-repository
+path: ''
+entrypoint: flows/portoflioworthUpdate.py:mainFlow
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2024-02-06T12:39:09.411726+00:00'
+triggers: []
+enforce_parameter_schema: null

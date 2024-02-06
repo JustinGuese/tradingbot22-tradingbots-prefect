@@ -1,4 +1,5 @@
 #!/bin/bash
+alias prefect="poetry run prefect"
 # get all .py files in "flows" folder
 ALLFILES=$(find ./flows -name "*.py")
 for file in $ALLFILES; do

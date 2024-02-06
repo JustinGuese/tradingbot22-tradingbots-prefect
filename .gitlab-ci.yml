@@ -3,8 +3,6 @@ default:
   services:
     - name: docker:24.0.5-dind
       command: ["--insecure-registry", "registry.kube-system.svc.cluster.local:5000"]
-  before_script:
-    - docker info
 
 variables:
   DOCKER_HOST: tcp://docker:2376

@@ -1,10 +1,16 @@
 build-job:
   stage: build
+  image: gitlab/dind
+  services:
+    - docker:dind
   script:
     - docker build -t . registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
 
 build-push:
   stage: build
+  image: gitlab/dind
+  services:
+    - docker:dind
   script:
     - docker push registry.kube-system.svc.cluster.local/tradingbot22-tradingbots-prefect:latest
 

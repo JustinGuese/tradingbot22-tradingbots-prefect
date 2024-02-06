@@ -36,5 +36,8 @@ apply-kubectl:
   dependencies:
     - build-docker
   script:
+    # for every .yaml file in kubernetes/, replace "latest" with $CI_COMMIT_BRANCH
+    - sed -i "s/:latest/:$CI_COMMIT_BRANCH/g" kubernetes/*.yaml
     - kubectl apply -f kubernetes/
+    - kubectl rollout restart -f kubernetes/
   environment: production

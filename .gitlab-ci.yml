@@ -8,9 +8,9 @@ default:
 variables:
   DOCKER_HOST: tcp://docker:2376
   DOCKER_TLS_CERTDIR: "/certs"
-  DOCKER_TLS_VERIFY: 1
+  DOCKER_TLS_VERIFY: 0
   DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
-  REGISTRY: registry.kube-system.svc.cluster.local:5000
+  REGISTRY: http://registry.kube-system.svc.cluster.local:5000
 # before_script:
   # - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
 

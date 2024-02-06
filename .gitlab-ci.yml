@@ -34,7 +34,7 @@ apply-kubectl:
     name: bitnami/kubectl:latest
     entrypoint: ['']
   dependencies:
-    - build-push
+    - build-docker
   script:
     - kubectl apply -f kubernetes/
   environment: production

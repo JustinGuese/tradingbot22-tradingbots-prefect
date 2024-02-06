@@ -1,6 +1,8 @@
 build-job:
   stage: build
   image: gitlab/dind
+  tags:
+    - contabo
   services:
     - docker:dind
   script:
@@ -9,6 +11,8 @@ build-job:
 build-push:
   stage: build
   image: gitlab/dind
+  tags:
+    - contabo
   dependencies:
     - build-job
   services:
@@ -18,6 +22,8 @@ build-push:
 
 apply-kubectl:
   stage: deploy
+  tags:
+    - contabo
   image:
     name: bitnami/kubectl:latest
     entrypoint: ['']

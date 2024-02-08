@@ -1,5 +1,5 @@
 FROM prefecthq/prefect:2-python3.11
-RUN apt update && apt install postgresql-client hugo -y
+RUN apt update && apt install postgresql-client -y
 RUN pip install poetry
 WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/

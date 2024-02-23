@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.15"
-requests = "^2.31.0"
 prefect = "^2.14.12"
 pandas = "^2.1.4"
 tradingpattern = "^0.0.5"
@@ -26,6 +25,9 @@ pydantic = "^2.5.3"
 backtesting = "^0.3.3"
 basebot22-basebot-JustinGuese = "^0.3.43"
 prefect-gitlab = "^0.2.1"
+requests = "^2.31.0"
+trendet = "^0.7"
+xgboost = "^2.0.3"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.21.0"

@@ -154,7 +154,14 @@ def mainFlow():
             logger.error(
                 f"error in {ticker}. with settings {stats} and yflookback {yflookback} skip: {e}"
             )
-    lastTrade, df = runBacktest()
+    lastTrade, df = runBacktest(
+        ticker,
+        stats["hs_lookback"],
+        stats["hs_how_many_positive_needed"],
+        stats["hs_how_many_negative_needed"],
+        logger,
+        yflookback,
+    )
     actOnDecision(lastTrade, df)
 
 

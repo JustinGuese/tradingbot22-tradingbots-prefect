@@ -17,7 +17,7 @@ spec:
       - name: regcred
       containers:
         - name: tradingbot-prefect
-          image: registry.k8s.datafortress.cloud/tradingbot22-tradingbots-prefect:latest
+          image: registry.k8s.datafortress.cloud/tradingbot22-tradingbots-prefect:main
           ports:
             - containerPort: 8000
           resources:

@@ -1,0 +1,324 @@
+# Welcome to your prefect.yaml file! You can use this file for storing and managing
+# configuration for deploying your flows. We recommend committing this file to source
+# control along with your flow code.
+
+# Generic metadata about this project
+name: tradingbots
+prefect-version: 2.19.7
+
+# build section allows you to manage and build docker images
+build: null # build is done by pipeline itself
+# build:
+# - prefect_docker.deployments.steps.build_docker_image:
+#     requires: prefect-docker>=0.3.1
+#     id: build-image
+#     dockerfile: Dockerfile
+#     image_name: img-captain-aiinvest-prefect-agent
+#     tag: latest
+
+# push section allows you to manage if and how this project is uploaded to remote locations
+push: null # actually done by build-process itself
+# push:
+# - prefect_docker.deployments.steps.push_docker_image:
+#     requires: prefect-docker>=0.3.1
+#     image_name: '{{ build-image.image_name }}'
+#     tag: '{{ build-image.tag }}'
+#     credentials: "{{ prefect.blocks.docker-registry-credentials.dfregistry }}"
+
+# pull section allows you to provide instructions for cloning this project in remote locations
+pull:
+  - prefect.deployments.steps.set_working_directory:
+    directory: /app
+
+
+# the deployments section allows you to provide configuration for deploying flows
+deployments:
+- name: brieftech_portoflioworthUpdate
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/portoflioworthUpdate.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 10 22 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_momentum_pvo_signal_msft
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/momentum_pvo_signal_msft.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 0 17 */5 * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_buydips_explored
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_buydips_explored.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 30 1 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_buydips_adapted
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_buydips_adapted.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 35 1 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_msftDecisionTree
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/msftDecisionTree.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 5 4 * * 3
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_bt_headandshouldersSharpeoptMixed
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/bt_headandshouldersSharpeoptMixed.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 6 17 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_bondtqqq
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_bondtqqq.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 15 22 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_notboring
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_notboring.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 20 1 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_buydips_orig
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_buydips_orig.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 40 1 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_headShoulderPrefect
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/headShoulderPrefect.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 5 16 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_finnhub_recommendations
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/finnhub_recommendations.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 0 16 * * 3
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_newstrader
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/newstrader.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 15 18 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_bt_headandshouldersAAPLMaxRet
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/bt_headandshouldersAAPLMaxRet.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 2 17 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_bigtechmom
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_bigtechmom.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 42 3 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_xgb_sharpeopt_trenddet
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/xgb_sharpeopt_trenddet.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 30 17 1,5,9,13,17,21,25,29 * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_comp_buydips_shorting
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/comp_buydips_shorting.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 55 1 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
+- name: brieftech_randombot
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/randombot.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+    job_variables:
+      image: '{{ build-image.image }}'
+  schedules:
+  - cron: 0 20 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+

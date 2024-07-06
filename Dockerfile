@@ -1,9 +1,9 @@
-FROM prefecthq/prefect:2-python3.11
+FROM python:3.11-slim
 RUN apt update && apt install postgresql-client -y
-RUN pip install poetry
+RUN pip install poetry prefect
 WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/
 RUN poetry config virtualenvs.create false \
     && poetry install --only main --no-interaction --no-ansi --no-root
-CMD ["prefect", "agent", "start", "--pool", "docker-caprover-container-sb"]
-# remember that this one needs docker socket access!
+COPY ./flows/ /app/flows/
+CMD ["prefect", "worker", "start", "--pool", "docker-tradingbot-worker"]

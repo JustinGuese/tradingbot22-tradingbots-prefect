@@ -33,7 +33,7 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: brieftech_portoflioworthUpdate
+- name: tb_portoflioworthUpdate
   version: null
   tags: []
   description: null
@@ -50,7 +50,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_momentum_pvo_signal_msft
+- name: tb_momentum_pvo_signal_msft
   version: null
   tags: []
   description: null
@@ -67,7 +67,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_buydips_explored
+- name: tb_comp_buydips_explored
   version: null
   tags: []
   description: null
@@ -84,7 +84,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_buydips_adapted
+- name: tb_comp_buydips_adapted
   version: null
   tags: []
   description: null
@@ -101,7 +101,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_msftDecisionTree
+- name: tb_msftDecisionTree
   version: null
   tags: []
   description: null
@@ -118,7 +118,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_bt_headandshouldersSharpeoptMixed
+- name: tb_bt_headandshouldersSharpeoptMixed
   version: null
   tags: []
   description: null
@@ -135,7 +135,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_bondtqqq
+- name: tb_comp_bondtqqq
   version: null
   tags: []
   description: null
@@ -152,7 +152,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_notboring
+- name: tb_comp_notboring
   version: null
   tags: []
   description: null
@@ -169,7 +169,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_buydips_orig
+- name: tb_comp_buydips_orig
   version: null
   tags: []
   description: null
@@ -186,7 +186,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_headShoulderPrefect
+- name: tb_headShoulderPrefect
   version: null
   tags: []
   description: null
@@ -203,7 +203,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_finnhub_recommendations
+- name: tb_finnhub_recommendations
   version: null
   tags: []
   description: null
@@ -220,7 +220,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_newstrader
+- name: tb_newstrader
   version: null
   tags: []
   description: null
@@ -237,7 +237,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_bt_headandshouldersAAPLMaxRet
+- name: tb_bt_headandshouldersAAPLMaxRet
   version: null
   tags: []
   description: null
@@ -254,7 +254,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_bigtechmom
+- name: tb_comp_bigtechmom
   version: null
   tags: []
   description: null
@@ -271,7 +271,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_xgb_sharpeopt_trenddet
+- name: tb_xgb_sharpeopt_trenddet
   version: null
   tags: []
   description: null
@@ -288,7 +288,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_comp_buydips_shorting
+- name: tb_comp_buydips_shorting
   version: null
   tags: []
   description: null
@@ -305,7 +305,7 @@ deployments:
     day_or: true
     active: true
 
-- name: brieftech_randombot
+- name: tb_randombot
   version: null
   tags: []
   description: null
@@ -321,4 +321,3 @@ deployments:
     timezone: UTC
     day_or: true
     active: true
-

@@ -1,5 +1,4 @@
 FROM python:3.11-slim
-RUN apt update && apt install postgresql-client -y
 RUN pip install poetry prefect
 WORKDIR /app/
 COPY poetry.lock pyproject.toml /app/

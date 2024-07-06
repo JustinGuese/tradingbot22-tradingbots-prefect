@@ -6,7 +6,7 @@ authors = ["Justin Guese <guese.justin@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.15"
+python = ">=3.11,<3.12"
 prefect = "^2.14.12"
 pandas = "^2.1.4"
 tradingpattern = "^0.0.5"

@@ -27,7 +27,7 @@ push: null # actually done by build-process itself
 
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
-  - prefect.deployments.steps.set_working_directory:
+- prefect.deployments.steps.set_working_directory:
     directory: /app
 
 

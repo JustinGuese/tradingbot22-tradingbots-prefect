@@ -49,6 +49,22 @@ deployments:
     day_or: true
     active: true
 
+- name: tb_alphavantageUpdate
+  version: null
+  tags: []
+  description: null
+  entrypoint: flows/alphavantageUpdate.py:mainFlow
+  parameters: {}
+  work_pool:
+    name: docker-tradingbot-worker
+    work_queue_name: docker-tradingbot-worker
+
+  schedules:
+  - cron: 0 18 * * *
+    timezone: UTC
+    day_or: true
+    active: true
+
 - name: tb_momentum_pvo_signal_msft
   version: null
   tags: []
